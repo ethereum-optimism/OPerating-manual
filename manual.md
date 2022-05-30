@@ -71,6 +71,12 @@ Depending on the Proposal Type, exact quorum and approval threshold requirements
 
 Proposals that are rejected due to invalidity or insufficient support can be resubmitted. Approved proposals are routed to the Optimism Foundation for implementation, as more fully described in the “Implementation and Administration” section below.
 
+### **Proposal Process – Lifecycle**
+
+While the details of a particular Token House governance proposal may vary by Proposal Type, a proposal’s lifecycle will generally look something like this:
+
+![Proposal Process Lifecycle](/images/lifecycle.png)
+
 ### **Proposal Process  – By Proposal Type**
 
 The different requirements for submission and approval of each Proposal Type are summarized below.

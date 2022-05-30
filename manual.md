@@ -1,4 +1,4 @@
-This document describes the current governance proposal process of the Optimism Collective. It will evolve, with the Collective, over time.
+This document describes the current governance proposal process of the Optimism Collective. It will evolve, with the Collective, over time, and is maintained [here](https://github.com/ethereum-optimism/OPerating-manual) on the Optimism Foundation Github.
 
 ### **OPerating Manual v0.1.0:  The Token House and OP Holders**
 

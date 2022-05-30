@@ -91,7 +91,7 @@ In all cases, Optimism Collective governance is intended to be carried out consi
 
 **Administration**
 
-The Optimism Foundation will facilitate the administration of the governance procedures described in this OPerating Manual with the aim of ensuring that OP holders may participate efficiently and effectively in Token House governance. Such administrative services may include:
+The Optimism Foundation will facilitate the administration of the governance procedures described in this OPerating Manual with the aim of ensuring that OP holders may participate thoughtfully in Token House governance. Such administrative services may include:
 
 - Moderation of governance proposals to ensure they are validly submitted and voted upon;
 - Removal of proposals that reasonably appear to be fraudulent, spam-oriented, defamatory, hateful, or otherwise inappropriate or inconsistent with the values of the Collective;

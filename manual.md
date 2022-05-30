@@ -1,6 +1,6 @@
 This document describes the current governance proposal process of the Optimism Collective. It will evolve, with the Collective, over time, and is maintained [here](https://github.com/ethereum-optimism/OPerating-manual) on the Optimism Foundation Github.
 
-### **OPerating Manual v0.1.0:  The Token House and OP Holders**
+### **OPerating Manual v0.1.1:  The Token House and OP Holders**
 
 Governance in the Optimism Collective begins with the launch of the Token House and its members, the OP holders.
 

@@ -19,9 +19,18 @@ The two primary tools for Optimism Collective governance are:
 
 ### **Proposal Process – Components of a Valid Proposal**
 
-The lifecycle of a Token House governance proposal involves three phases:  (1) submission; (2) voting; and (3) implementation. Each phase, and its associated requirements, are described below.
+The lifecycle of a Token House governance proposal involves three phases:  (1) feedback; (2) submission; (3) voting; and (4) implementation. Each phase, and its associated requirements, are described below.
 
-1 . **Submission**
+1 . **Feedback**
+
+Anyone submitting a proposal should make an effort to gather feedback from the community and from Delegates prior to submitting a proposal for vote. There are two primary avenues for feedback:
+    a. For lightweight or early feedback, authors may post a proposal (or an abbreviated version of your proposal) in the #proposal-discussion channel on Discord. This channel is open to the entire Optimism community and can be used as an easy way to get a quick temperature check.
+    b. For formal feedback from governance participants, authors may post a proposal in the Forum with a `[DRAFT]` label in the title. This signals your proposal is ready for feedback from Token House delegates.
+All feedback from these two forums is non-binding, but proposers are expected to engage in good faith. This step is designed to help craft thoughtful, effective proposals.
+
+After incorporating feedback, the proposal author may remove `[DRAFT]` from the proposal title and advance to proposal submission.
+
+2 . **Submission**
 
 To be eligible for voting, a Token House governance proposal must be validly submitted by an OP holder or their delegate. This means that the proposal must be:
 
@@ -42,7 +51,7 @@ Submitted proposals must satisfy all the above criteria to be considered valid. 
 
 Anyone submitting a proposal is welcome to submit a draft version of the proposal for feedback on the Optimism Forum. To do so, please include `[Draft]` in your Forum title, then update the proposal title once the proposal body is finalized.
 
-2 . **Voting**
+3 . **Voting**
 
 To minimize overhead, all votes are conducted on Snapshot at regular intervals called **voting periods**. Voting periods begin each Thursday at 7pm GMT and end 1 week and 6 days later, on the following Wednesday at 7pm GMT. Proposal types may require one or more voting periods before a resolution to the vote can be reached.
 
@@ -56,7 +65,7 @@ A Token House governance proposal will only be approved if it satisfies the foll
 
 Depending on the Proposal Type, exact quorum and approval threshold requirements may vary.
 
-3 . **Implementation**
+4 . **Implementation**
 
 Proposals that are rejected due to invalidity or insufficient support can be resubmitted. Approved proposals are routed to the Optimism Foundation for implementation, as more fully described in the “Implementation and Administration” section below.
 

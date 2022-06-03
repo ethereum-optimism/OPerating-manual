@@ -24,8 +24,8 @@ The lifecycle of a Token House governance proposal involves four phases:  (1) fe
 1 . **Feedback**
 
 Anyone submitting a proposal should make an effort to gather feedback from the community and from Delegates prior to submitting a proposal for vote. There are two primary avenues for feedback:
-    a. For lightweight or early feedback, authors may post a proposal (or an abbreviated version of your proposal) in the #gov-proposals channel on [Discord](https://discord-gateway.optimism.io/). This channel is open to the entire Optimism community and can be used as an easy way to get a quick temperature check.
-    b. For formal feedback from governance participants, authors may post a proposal in the Forum with a `[DRAFT]` label in the title. This signals your proposal is ready for feedback from Token House delegates.
+    a. For lightweight or early feedback, authors may post a proposal (or an abbreviated version of your proposal) in the **#gov-temp-check channel on [Discord](https://discord-gateway.optimism.io/)**. This channel is open to the entire Optimism community and can be used as an easy way to get a quick temperature check.
+    b. For formal feedback from governance participants, authors may **post a proposal in the Forum with a [DRAFT] label in the title**. This signals your proposal is ready for feedback from Token House delegates.
 All feedback from these two forums is non-binding, but proposers are expected to engage in good faith. This step is designed to help craft thoughtful, effective proposals.
 
 After incorporating feedback, the proposal author may remove `[DRAFT]` from the proposal title and advance to proposal submission.
@@ -45,9 +45,8 @@ To be eligible for voting, a Token House governance proposal must be formally su
 For a more detailed description of each Proposal Type, see “Proposal Process – By Proposal Type” below.
 
 - **Properly formatted to the applicable Template.** Each Proposal Type will have a specific Template associated with it in the Forum. Prior to submission, a proposal author must conform their proposal to the format of the applicable Template in all material respects. This will include, for the time being, a requirement that all submissions be made in English.
-- **Submitted to the correct Forum(s).** All Token House governance proposals must be submitted to Snapshot for voting. While use of the Optimism Forum is mostly optional, all Governance Fund (Phase 1) proposals must be submitted to *both* the Forum and Snapshot. Finally, to the extent a governance proposal is posted on both the Forum and Snapshot, the content of that proposal should be identical on both platforms.
 - **Approved by at least one Delegate.** Over the course of discussion and feedback, at least one Delegate with more than 0.0005% of voting power must signal that they believe the proposal is ready for vote. In the spirit of governance minimization, this document will not codify an explicit approval mechanism but will expect community members to interpret this appropriately.
-- **Submitted to the Voting Cycle Submission thread on the Forum.** One week before the start of each voting cycle, the Foundation will start a Voting Period Submission thread on the Forum. To formally submit a proposal for voting, the proposal author must add a link to this thread that points to their proposal on the Forum. At the start of the next Voting Period, the Optimism Foundation will submit all valid proposals on the Submission thread to Snapshot for voting.
+- **Formally submitted to voting**. One week before the start of each voting cycle, the Foundation will start a Voting Period Submission thread on the Forum. To formally submit a proposal for voting, the proposal author must either (a) update their proposal title to start with `[READY]` or (b) add a link to this Voting Period Submission thread that points to their proposal on the Forum. At the start of the next Voting Period, the Optimism Foundation will submit all valid proposals marked as ready to Snapshot for voting.
 
 Submitted proposals must satisfy all the above criteria to be considered valid. Invalid proposals will be thrown out.
 

@@ -45,10 +45,14 @@ To be eligible for voting, a Token House governance proposal must be formally su
 For a more detailed description of each Proposal Type, see “Proposal Process – By Proposal Type” below.
 
 - **Properly formatted to the applicable template.** Each Proposal Type will have a specific Template associated with it in the Forum. Prior to submission, a proposal author must conform their proposal to the format of the applicable Template in all material respects. This will include, for the time being, a requirement that all submissions be made in English.
-- **Approved by at least one delegate.** Over the course of discussion and feedback, at least one Delegate with more than 0.0005% of voting power must signal that they believe the proposal is ready for vote. In the spirit of governance minimization, this document will not codify an explicit approval mechanism but will expect community members to interpret this appropriately.
-- **Formally submitted to voting**. One week before the start of each voting cycle, the Foundation will start a Voting Period Submission thread on the Forum. To formally submit a proposal for voting, the proposal author must either (a) update their proposal title to start with `[READY]` or (b) add a link to this Voting Period Submission thread that points to their proposal on the Forum. At the start of the next Voting Period, the Optimism Foundation will submit all valid proposals marked as ready to Snapshot for voting.
+- **Approved by at least one delegate.** Over the course of discussion and feedback, at least one Delegate with more than 0.0005% of voting power must signal that they believe the proposal is ready for vote, by explicitly commenting that they believe the proposal is ready to vote.
+- **Formally submitted to voting**. One week before the start of each voting cycle, the Foundation will start a Voting Period Submission thread on the Forum. This will include an official cutoff time for the thread (usually, 24 hours before the start of the cycle), at which point the thread will be locked. To formally submit a proposal for voting, the proposal author must both:
+    - update their proposal title to start with `[READY]`.
+    - add a link to this Voting Period Submission thread that both:
+       - links to their proposal on the Forum
+       - links to a valid delegate approval (as defined above)
 
-Submitted proposals must satisfy all the above criteria to be considered valid. Invalid proposals will be thrown out.
+At the start of the next Voting Period, the Optimism Foundation will submit all valid proposals marked as ready to Snapshot for voting. Submitted proposals must satisfy all the above criteria to be considered valid. Invalid proposals will be thrown out.
 
 Anyone submitting a proposal is welcome to submit a draft version of the proposal for feedback on the Optimism Forum. To do so, please include `[Draft]` in your Forum title, then update the proposal title once the proposal body is finalized.
 

@@ -6,7 +6,7 @@ Governance in the Optimism Collective begins with the launch of the Token House 
 
 As Token House members, OP holders are responsible for submitting, deliberating, and voting on various types of Optimism Collective governance proposals.
 
-In carrying out these functions, OP holders may either vote their OP directly, or delegate their OP voting power to an eligible third party.
+In carrying out these functions, OP holders may either vote their OP directly (by delegating their OP voting power to their own address), or delegate their OP voting power to an eligible third party. Addresses with delegated OP voting power are called “delegates.” Delegates are expected to exercise their authority responsibly and in accordance with community standards.
 
 The Token House is just the first part of the Optimism Collective [governance structure](https://community.optimism.io/docs/governance/). Launch of the Citizens’ House will soon follow and this OPerating Manual will be updated accordingly.
 

@@ -17,24 +17,61 @@ The two primary tools for Optimism Collective governance are:
 - [**Snapshot**](https://snapshot.org/#/opcollective.eth): Where all Token House governance proposals are submitted for vote.
 - [**The Optimism Forum**](http://gov.optimism.io): A platform for discussion and deliberation about governance proposals.
 
-### **Proposal Process – Components of a Valid Proposal**
+### **Proposal Process**
 
-The lifecycle of a Token House governance proposal involves four phases:  (1) feedback; (2) submission; (3) voting; and (4) implementation. Each phase, and its associated requirements, are described below.
+The Optimism Collective makes decisions through governance proposals. Proposals are accepted or rejected using a voting process. Anyone can submit a proposal to Optimism governance. The proposal must be one of the **valid proposal types** listed below, and it must follow the **voting process** described here.
 
-1 . **Feedback**
+### **Voting Process**
 
-Anyone submitting a proposal should make an effort to gather feedback from the community and from Delegates prior to submitting a proposal for vote. There are two primary avenues for feedback:
-    a. For lightweight or early feedback, authors may post a proposal (or an abbreviated version of your proposal) in the **#gov-temp-check channel on [Discord](https://discord-gateway.optimism.io/)**. This channel is open to the entire Optimism community and can be used as an easy way to get a quick temperature check.
-    b. For formal feedback from governance participants, authors may **post a proposal in the Forum with a [DRAFT] label in the title**. This signals your proposal is ready for feedback from Token House delegates.
-All feedback from these two forums is non-binding, but proposers are expected to engage in good faith. This step is designed to help craft thoughtful, effective proposals.
+The proposal Voting Cycle takes place in three one-week stages.
 
-After incorporating feedback, the proposal author may remove `[DRAFT]` from the proposal title and advance to proposal submission.
+Each “week” runs from Wednesday at 19:00p GMT (12p PST) until Tuesday at 19:00 GMT (12p PST).
 
-2 . **Submission**
+#### **Week 1: Community feedback (`[Draft]`)**
 
-To be eligible for voting, a Token House governance proposal must be formally submitted by an OP holder or their delegate. This means that the proposal must be:
+In the first week, draft proposals are open for review by anyone in the Optimism community as a form of temperature check. Proposal authors are expected to be responsive to community feedback and use this period of time to prepare their proposal for more formal review.
 
-- **A valid Proposal Type.** All v0.1 governance proposals must fall within one of the following categories:
+Proposals should be:
+
+- Submitted as a new discussion thread on the [Governance Forum](http://gov.optimism.io/) in the appropriate category.
+- Marked with [Draft] in the title.
+
+For a proposal to proceed to Week 2 (delegate feedback), the author must update [Draft] to [Review] by Tuesday at 19:00 GMT (12:00p PST). Authors should also include a summary of incorporated feedback as a comment on their proposal thread so future reviewers can understand the proposal’s progress. If feedback was gathered outside of the Forum (e.g. on Discord), proposal authors should include relevant links.
+
+#### **Week 2: Delegate feedback (`[Review]`)**
+
+In the second week, Token House delegates are expected to provide feedback on proposals that (a) meet the requirements outlined in the proposal template, and (b) that have received feedback from the temperature check. Proposal authors are expected to engage in good faith and update their proposal based on what they believe makes sense for their project and the Optimism community.
+
+At the start of the Review Week, a governance administrator will create a Voting Cycle Roundup thread to collect all proposals that are ready for voting in Week 3.
+
+For a proposal to proceed to Week 3 (voting), two delegates with >0.5% of the current votable token supply must give explicit approval on the discussion thread. Delegates may signal this approval by pasting the comment on the proposal discussion thread: *”I am an Optimism delegate [link to your [delegate commitment](https://gov.optimism.io/t/delegate-commitments/235)] with sufficient voting power and I believe this proposal is ready to move to a vote."*
+
+After a proposal has received two delegate approvals, the proposal author should add a link to their proposal in the Voting Cycle Roundup thread.
+
+If a proposal author does not get explicit delegate approval or wants more time for feedback, they should return the proposal to the `[Draft]` stage and continue to seek feedback from the community.
+
+#### **Week 3: Voting**
+
+In the third week, all delegates (including OP token holders who have self-delegated) are invited to vote on proposals on Snapshot. Proposals will be included in Snapshot only if they are (a) added to the Voting Cycle Roundup thread, and (b) have two approval comments from two delegates with >0.5% voting power.
+
+A Token House governance proposal is **approved** if it satisfies the following minimum vote thresholds:
+
+- **Quorum:** The minimum number of total OP votes required to be cast in connection with a proposal. Here, a quorum is measured as *a % of the total votable OP supply*. “Votable supply” is the total amount of OP that has been delegated, and therefore can participate in voting. The total votable OP supply will be determined based on a reasonable estimate provided by the Optimism Foundation prior to each Voting Cycle.
+- **Approval threshold:** The minimum number of OP votes required to be cast in favor of approving a proposal. The approval threshold for each proposal is measured as *% of votes cast to approve relative to the total number of votes cast in connection with a proposal*.
+
+**A snapshot to determine voting power** for each delegate will be taken at the commencement of a given voting period.
+
+Depending on the Proposal Type, exact quorum and approval threshold requirements may vary. For more information, refer to the proposal types below.
+
+If a proposal is submitted for a vote and does not pass, the proposal will not be executed. If a proposal author wishes to iterate on a proposal that has been rejected, they should:
+
+1. Create a **new proposal thread** on the Forum.
+2. Include a link to the first proposal that did not pass.
+3. Clearly identify what has changed in the new proposal.
+
+#### **Valid Proposal Types**
+
+All v0.1 governance proposals must fall within one of the following categories:
     - Governance Fund (Phase 0 or Phase 1)
     - Protocol Upgrade
     - Inflation Adjustment
@@ -42,48 +79,11 @@ To be eligible for voting, a Token House governance proposal must be formally su
     - Treasury Appropriations
     - Rights Protections
 
-For a more detailed description of each Proposal Type, see “Proposal Process – By Proposal Type” below.
-
-- **Properly formatted to the applicable template.** Each Proposal Type will have a specific Template associated with it in the Forum. Prior to submission, a proposal author must conform their proposal to the format of the applicable Template in all material respects. This will include, for the time being, a requirement that all submissions be made in English.
-- **Approved by at least one delegate.** Over the course of discussion and feedback, at least one Delegate with more than 0.0005% of voting power must signal that they believe the proposal is ready for vote. In the spirit of governance minimization, this document will not codify an explicit approval mechanism but will expect community members to interpret this appropriately.
-- **Formally submitted to voting**. One week before the start of each voting cycle, the Foundation will start a Voting Period Submission thread on the Forum. To formally submit a proposal for voting, the proposal author must either (a) update their proposal title to start with `[READY]` or (b) add a link to this Voting Period Submission thread that points to their proposal on the Forum. At the start of the next Voting Period, the Optimism Foundation will submit all valid proposals marked as ready to Snapshot for voting.
-
-Submitted proposals must satisfy all the above criteria to be considered valid. Invalid proposals will be thrown out.
-
-Anyone submitting a proposal is welcome to submit a draft version of the proposal for feedback on the Optimism Forum. To do so, please include `[Draft]` in your Forum title, then update the proposal title once the proposal body is finalized.
-
-3 . **Voting**
-
-To minimize overhead, all votes are conducted on Snapshot at regular intervals called **voting periods**. Voting periods begin each Thursday at 7pm GMT and end 1 week and 6 days later, on the following Wednesday at 7pm GMT. Proposal types may require one or more voting periods before a resolution to the vote can be reached.
-
-A Token House governance proposal will only be approved if it satisfies the following minimum vote thresholds:
-
-- **Quorum:** The minimum number of total OP votes required to be cast in connection with a proposal. Here, a quorum is measured as *a % of the total votable OP supply*.
-    - The total votable OP supply will be determined based on a reasonable estimate provided by the Optimism Foundation prior to each voting period.
-- **Approval threshold:**  The minimum number of OP votes required to be cast in favor of approving a proposal. The approval threshold for each proposal is measured as *% of votes cast to approve relative to the total number of votes cast in connection with a proposal*.
-
-**A snapshot to determine voting power** for each delegate or OP holder will be taken at the commencement of a given voting period.
-
-Depending on the Proposal Type, exact quorum and approval threshold requirements may vary.
-
-4 . **Implementation**
-
-Proposals that are rejected due to invalidity or insufficient support can be resubmitted. Approved proposals are routed to the Optimism Foundation for implementation, as more fully described in the “Implementation and Administration” section below.
-
-### **Proposal Process – Lifecycle**
-
-While the details of a particular Token House governance proposal may vary by Proposal Type, a proposal’s lifecycle will generally look something like this:
-
-![Proposal Process Lifecycle](/images/lifecycle.png)
-
-### **Proposal Process  – By Proposal Type**
-
 The different requirements for submission and approval of each Proposal Type are summarized below.
 
 |Proposal Type                   |Description                                                                                                                                                                                                                                                                                            |Submission Requirements                                                                                                                                                                                                                                                                                                                                                      |Vote Duration (# of voting periods)|Quorum (minimum % of votable OP supply actually voted)|Approval Threshold(minimum % of votes cast to approve relative to total **non-abstaining** votes cast)|
 |--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|------------------------------------------------------|-----------------------------------------------------------------------------------|
-|Governance Fund  (Phase 0 Batch)|OP distributions to proactively incentivize future growth of projects and communities in the Optimism ecosystem. [Phase 0](https://community.optimism.io/docs/governance/gov-fund/#:~:text=%23-,Phase%200,-Phase%200%20) specifically rewards existing projects that drove growth to Optimism before Airdrop #1|Eligibility requirements described [here](https://community.optimism.io/docs/governance/gov-fund/#:~:text=%23-,Phase%200,-Phase%200%20).   The Optimism Foundation will assist eligible Phase 0 candidates to structure submissions. Snapshot proposal for batch to be initiated by the Foundation.|1 (~2 weeks)                       | 10%                                                   | 51%                                                                               |
-|Governance Fund  (Phase 1)      |OP distributions to proactively incentivize future growth of projects and communities in the Optimism ecosystem. [Phase 1](https://community.optimism.io/docs/governance/gov-fund/#:~:text=%23-,Phase%201,-Phase%201%20) begins after Airdrop #1                                                              |Forum + Snapshot                                                                                                                                                                                                                                                                          |1 (~2 weeks)                       | 10%                                                   |51%                                                                               |
+|Governance Fund  (Phase 1)      |OP distributions to proactively incentivize future growth of projects and communities in the Optimism ecosystem. Proposals should follow [this template](https://gov.optimism.io/t/governance-fund-phase-1-how-to-create-a-proposal/216).                                                             |Forum + Snapshot                                                                                                                                                                                                                                                                          |1 (~2 weeks)                       | 10%                                                   |51%                                                                               |
 |Protocol Upgrade                |Scheduled changes to the on-chain smart contracts comprising the mainnet Optimism protocol                                                                                                                                                                                                             |Snapshot                                                                                                                                                                                                                                                                                                                                                          |2 (~4 weeks)                       | 10%                                                   | 51%                                                                               |
 |Inflation Adjustment            |Changes to the inflation rate of newly minted OP (currently capped at 2% annually)                                                                                                                                                                                                                     |Snapshot                                                                                                                                                                                                                                                                                                                                                         |2 (~4 weeks)                       |10%                                                   |76%                                                                               |
 |Director Removal                |Removal of a director of the Optimism Foundation                                                                                                                                                                                                                                                       |Snapshot                                                                                                                                                                                                                                                                                                                                                         |2 (~4 weeks)                       |10%                                                   |76%                                                                               |

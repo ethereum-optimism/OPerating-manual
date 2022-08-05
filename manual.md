@@ -119,3 +119,13 @@ The Optimism Foundation will undertake this ministerial work with a view towards
 ### **Amendments**
 
 The procedures described in this OPerating Manual will go into effect as releases are cut on github. Major releases to the manual will be made in connection with a series of governance experiments (“seasons”). These changes include but are not limited to introducing the Citizens’ House, and adding, removing, and modifying Proposal Types and rules relating to voting processes. Any non-clerical updates to the OPerating Manual will be reflected with a new version number at the top of this document, at which point the updated version will go into effect.
+
+## Process TLDR
+- Optimism has a three-week proposal review cycle.
+- Before getting started: gut-check your idea in the #gov-temp-check channel in Discord.
+- When you’re ready, draft a proposal and post it on the Forum with `[Draft]` in the title for feedback from the community.
+- When you’re ready for formal review from Token House delegates, update `[Draft]` to `[Review]`. You are expected to have made an effort to get community feedback before submitting for formal review.
+During the next Review Week (every three weeks), delegates will provide feedback on your proposal. Use your judgment to incorporate feedback.
+- Once your proposal has been approved for a vote by two delegates with >0.5% of voting supply, you may add a link to your proposal to the Voting Cycle Roundup thread. The proposal will be automatically added to Snapshot during the next one-week voting window.
+- If your proposal is passed, the Optimism Foundation will facilitate its administration, including by distributing any approved OP grants. Note the Foundation may be in touch to collect additional information from your project in order to execute the grant.
+- If your proposal fails, you can make a new proposal in the next cycle specifying how you have incorporated significant changes from your first proposal.

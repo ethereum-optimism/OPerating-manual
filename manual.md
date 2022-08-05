@@ -92,7 +92,7 @@ The different requirements for submission and approval of each Proposal Type are
 
 ### **Implementation and Administration**
 
-In all cases, Optimism Collective governance is intended to be carried out consistent with the terms of its [Working Constitution](https://gov.optimism.io/t/working-constitution-of-the-optimism-collective/55), the spirit of its [Code of Conduct](https://gov.optimism.io/t/code-of-conduct/5/3), and the pursuit of its [Optimistic Vision](https://www.optimism.io/vision). The Optimism Foundation will steward this process as described below.
+In all cases, Optimism Collective governance is intended to be carried out consistent with the terms of its [Working Constitution](https://gov.optimism.io/t/working-constitution-of-the-optimism-collective/55), the spirit of its [Contributor Code of Conduct](https://gov.optimism.io/t/code-of-conduct/5/3) and [Delegate Code of Conduct](TODO), and the pursuit of its [Optimistic Vision](https://www.optimism.io/vision). The Optimism Foundation will steward this process as described below.
 
 **Administration**
 

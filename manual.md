@@ -1,6 +1,6 @@
-This document describes the current governance proposal process of the Optimism Collective. It will evolve, with the Collective, over time. The authoritative version is maintained [here](https://github.com/ethereum-optimism/OPerating-manual) on the Optimism Foundation Github.
+This document describes the current governance proposal process of the Optimism Collective. It will evolve, with the Collective, over time. The authoritative version is maintained [here](https://github.com/ethereum-optimism/Operating-manual) on the Optimism Foundation Github.
 
-### **OPerating Manual v0.1.2:  The Token House and OP Holders**
+### **Operating Manual v0.1.2:  The Token House and OP Holders**
 
 Governance in the Optimism Collective begins with the launch of the Token House and its members, the OP holders.
 
@@ -8,7 +8,7 @@ As Token House members, OP holders are responsible for submitting, deliberating,
 
 In carrying out these functions, OP holders may either vote their OP directly (by delegating their OP voting power to their own address), or delegate their OP voting power to an eligible third party. Addresses with delegated OP voting power are called “delegates.” Delegates are expected to exercise their authority responsibly and in accordance with community standards.
 
-The Token House is just the first part of the Optimism Collective [governance structure](https://community.optimism.io/docs/governance/). Launch of the Citizens’ House will soon follow and this OPerating Manual will be updated accordingly.
+The Token House is just the first part of the Optimism Collective [governance structure](https://community.optimism.io/docs/governance/). Launch of the Citizens’ House will soon follow and this Operating Manual will be updated accordingly.
 
 ### **Governance Toolkit**
 
@@ -96,7 +96,7 @@ In all cases, Optimism Collective governance is intended to be carried out consi
 
 **Administration**
 
-The Optimism Foundation will facilitate the administration of the governance procedures described in this OPerating Manual with the aim of ensuring that OP holders may participate thoughtfully in Token House governance. Such administrative services may include:
+The Optimism Foundation will facilitate the administration of the governance procedures described in this Operating Manual with the aim of ensuring that OP holders may participate thoughtfully in Token House governance. Such administrative services may include:
 
 - Moderation of governance proposals to ensure they are validly submitted and voted upon;
 - Removal of proposals that reasonably appear to be fraudulent, spam-oriented, defamatory, hateful, or otherwise inappropriate or inconsistent with the values of the Collective;
@@ -118,7 +118,7 @@ The Optimism Foundation will undertake this ministerial work with a view towards
 
 ### **Amendments**
 
-The procedures described in this OPerating Manual will go into effect as releases are cut on github. Major releases to the manual will be made in connection with a series of governance experiments (“seasons”). These changes include but are not limited to introducing the Citizens’ House, and adding, removing, and modifying Proposal Types and rules relating to voting processes. Any non-clerical updates to the OPerating Manual will be reflected with a new version number at the top of this document, at which point the updated version will go into effect.
+The procedures described in this Operating Manual will go into effect as releases are cut on github. Major releases to the manual will be made in connection with a series of governance experiments (“seasons”). These changes include but are not limited to introducing the Citizens’ House, and adding, removing, and modifying Proposal Types and rules relating to voting processes. Any non-clerical updates to the Operating Manual will be reflected with a new version number at the top of this document, at which point the updated version will go into effect.
 
 ## Process TLDR
 - Optimism has a three-week proposal review cycle.

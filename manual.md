@@ -1,6 +1,6 @@
 This document describes the current governance proposal process of the Optimism Collective. It will evolve, with the Collective, over time. The authoritative version is maintained [here](https://github.com/ethereum-optimism/Operating-manual) on the Optimism Foundation Github.
 
-### **Operating Manual v0.1.2:  The Token House and OP Holders**
+### **Operating Manual v0.2.0:  The Token House and OP Holders**
 
 Governance in the Optimism Collective begins with the launch of the Token House and its members, the OP holders.
 
@@ -71,7 +71,7 @@ If a proposal is submitted for a vote and does not pass, the proposal will not b
 
 #### **Valid Proposal Types**
 
-All v0.1 governance proposals must fall within one of the following categories:
+All v0.2 governance proposals must fall within one of the following categories:
     - Governance Fund (Phase 0 or Phase 1)
     - Protocol Upgrade
     - Inflation Adjustment

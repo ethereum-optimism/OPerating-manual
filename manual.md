@@ -38,6 +38,8 @@ Proposals should be:
 - Submitted as a new discussion thread on the [Governance Forum](http://gov.optimism.io/) in the appropriate category.
 - Marked with [Draft] in the title.
 
+Once posted on the form create a discussion thread in the Optimism [Discord](https://discord-gateway.optimism.io/) in the #gov-temp-check channel. To create a thread simply click the "+ Post" button and fill in your name, your projects name, and the link to your draft proposal. 
+
 For a proposal to proceed to Week 2 (delegate feedback), the author must update [Draft] to [Review] by Tuesday at 19:00 GMT (12:00p PST). Authors should also include a summary of incorporated feedback as a comment on their proposal thread so future reviewers can understand the proposal’s progress. If feedback was gathered outside of the Forum (e.g. on Discord), proposal authors should include relevant links.
 
 #### **Week 2: Delegate feedback (`[Review]`)**
@@ -126,8 +128,7 @@ The procedures described in this Operating Manual will go into effect as release
 
 ## Process TLDR
 - Optimism has a three-week proposal review cycle.
-- Before getting started: gut-check your idea in the #gov-temp-check channel in Discord.
-- When you’re ready, draft a proposal and post it on the Forum with `[Draft]` in the title for feedback from the community.
+- When you’re ready, draft a proposal and post it on the Forum with `[Draft]` in the title for feedback from the community. Remember to post your proposal in the #gov-temp-check channel on Discord to get community feedback. 
 - When you’re ready for formal review from Token House delegates, update `[Draft]` to `[Review]`. You are expected to have made an effort to get community feedback before submitting for formal review.
 During the next Review Week (every three weeks), delegates will provide feedback on your proposal. Use your judgment to incorporate feedback.
 - Once your proposal has been approved for a vote by two delegates with >0.5% of voting supply, you may add a link to your proposal to the Voting Cycle Roundup thread. The proposal will be automatically added to Snapshot during the next one-week voting window.

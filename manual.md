@@ -12,7 +12,7 @@ The Token House is just the first part of the Optimism Collective [governance st
 
 ### **Governance Toolkit**
 
-The two primary tools for Optimism Collective governance are:
+The primary tools for Optimism Collective governance are:
 
 - [**Snapshot**](https://snapshot.org/#/opcollective.eth): Where all Token House governance proposals are submitted for vote.
 - [**The Optimism Forum**](http://gov.optimism.io): A platform for discussion and deliberation about governance proposals.

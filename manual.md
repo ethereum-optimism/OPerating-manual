@@ -50,6 +50,8 @@ At the start of the Review Week, a governance administrator will create a Voting
 
 For a proposal to proceed to Week 3 (voting), two delegates with >0.5% of the current votable token supply must give explicit approval on the discussion thread. Delegates may not approve their own proposals. Delegates may signal approval by pasting the comment on the proposal discussion thread: *”I am an Optimism delegate [link to your [delegate commitment](https://gov.optimism.io/t/delegate-commitments/235)] with sufficient voting power and I believe this proposal is ready to move to a vote."*
 
+If a committee member approves a proposal to move to a vote, it is not an endorsement of that proposal by the associated committee. It simply signifies that the proposal should move to the next stage of the voting cycle. 
+
 After a proposal has received two delegate approvals, the proposal author should add a link to their proposal in the Voting Cycle Roundup thread.
 
 If a proposal author does not get explicit delegate approval or wants more time for feedback, they should return the proposal to the `[Draft]` stage and continue to seek feedback from the community.

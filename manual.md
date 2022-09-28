@@ -27,11 +27,11 @@ The Optimism Collective makes decisions through governance proposals. Proposals 
 
 The proposal Voting Cycle takes place in three one-week stages.
 
-Each “week” runs from Wednesday at 19:00p GMT (12p PST) until Tuesday at 19:00 GMT (12p PST).
+Each “week” runs from Thursday at 19:00p GMT (12p PST) until Wednesday at 19:00 GMT (12p PST).
 
-#### **Week 1: Community feedback (`[Draft]`)**
+#### **Week 1: Community and delegate feedback (`[Draft]`)**
 
-In the first week, draft proposals are open for review by anyone in the Optimism community as a form of temperature check. Proposal authors are expected to be responsive to community feedback and use this period of time to prepare their proposal for more formal review.
+In the first week, draft proposals are open for review by anyone in the Optimism community as a form of temperature check. Proposal authors are expected to be responsive to community and delegate feedback and use this period of time to prepare their proposal for committee review.
 
 Proposals should be:
 
@@ -40,19 +40,19 @@ Proposals should be:
 
 Once posted on the form create a discussion thread in the Optimism [Discord](https://discord-gateway.optimism.io/) in the #gov-temp-check channel. To create a thread simply click the "+ Post" button and fill in your name, your projects name, and the link to your draft proposal. 
 
-For a proposal to proceed to Week 2 (delegate feedback), the author must update [Draft] to [Review] by Tuesday at 19:00 GMT (12:00p PST). Authors should also include a summary of incorporated feedback as a comment on their proposal thread so future reviewers can understand the proposal’s progress. If feedback was gathered outside of the Forum (e.g. on Discord), proposal authors should include relevant links.
+Delegates are expected to provide feedback on proposals that (a) meet the requirements outlined in the proposal template, and (b) that have received feedback from the temperature check. Proposal authors are expected to engage in good faith and update their proposal based on what they believe makes sense for their project and the Optimism community.
 
-#### **Week 2: Delegate feedback (`[Review]`)**
+At the start of the Review Week, a governance administrator will create a Voting Cycle Roundup thread to collect all proposals that meet the requirments for committee review in Week 2.
 
-In the second week, Token House delegates are expected to provide feedback on proposals that (a) meet the requirements outlined in the proposal template, and (b) that have received feedback from the temperature check. Proposal authors are expected to engage in good faith and update their proposal based on what they believe makes sense for their project and the Optimism community.
+For a proposal to proceed to Week 2 (committee review), two delegates with >0.5% of the current votable token supply must give explicit approval on the discussion thread. Delegates may not approve their own proposals. Delegates may signal approval by pasting the comment on the proposal discussion thread: *”I am an Optimism delegate [link to your [delegate commitment](https://gov.optimism.io/t/delegate-commitments/235)] with sufficient voting power and I believe this proposal is ready to move to a vote."*
 
-At the start of the Review Week, a governance administrator will create a Voting Cycle Roundup thread to collect all proposals that are ready for voting in Week 3.
+After a proposal has received two delegate approvals, the proposal author should add a link to their proposal in the Voting Cycle Roundup thread and update the title from [Draft] to [Review] by Wednesday at 19:00 GMT (12:00p PST). Authors should also include a summary of incorporated feedback as a comment on their proposal thread so future reviewers can understand the proposal’s progress. If feedback was gathered outside of the Forum (e.g. on Discord), proposal authors should include relevant links.
 
-For a proposal to proceed to Week 3 (voting), two delegates with >0.5% of the current votable token supply must give explicit approval on the discussion thread. Delegates may not approve their own proposals. Delegates may signal approval by pasting the comment on the proposal discussion thread: *”I am an Optimism delegate [link to your [delegate commitment](https://gov.optimism.io/t/delegate-commitments/235)] with sufficient voting power and I believe this proposal is ready to move to a vote."*
+If a proposal author does not get explicit delegate approval or wants more time for feedback, they should continue to seek feedback from the community and submit an updated proposal in the next voting cycle.
 
-After a proposal has received two delegate approvals, the proposal author should add a link to their proposal in the Voting Cycle Roundup thread.
+#### **Week 2: Committee review (`[Review]`)**
 
-If a proposal author does not get explicit delegate approval or wants more time for feedback, they should return the proposal to the `[Draft]` stage and continue to seek feedback from the community.
+In the second week, committees will review all approved proposals listed on the Voting Cycle Roundup thread and publicly post their recommendations before the last day of Week 2 at 19:00 GMT (12:00p PST). 
 
 #### **Week 3: Voting**
 
@@ -64,6 +64,8 @@ A Token House governance proposal is **approved** if it satisfies the following 
 - **Approval threshold:** The minimum number of OP votes required to be cast in favor of approving a proposal. The approval threshold for each proposal is measured as *% of votes cast to approve relative to the total number of votes cast in connection with a proposal*.
 
 **A snapshot to determine voting power** for each delegate will be taken at the commencement of a given voting period.
+
+The Foundation will only accept uncounted votes that are verifiable on-chain, but did not propagate to Snapshot.
 
 Depending on the Proposal Type, exact quorum and approval threshold requirements may vary. For more information, refer to the proposal types below.
 

@@ -27,11 +27,11 @@ The Optimism Collective makes decisions through governance proposals. Proposals 
 
 The proposal Voting Cycle takes place in three one-week stages.
 
-Each “week” runs from Wednesday at 19:00p GMT (12p PST) until Tuesday at 19:00 GMT (12p PST).
+Each “week” runs from Thursday at 19:00p GMT (12p PST) until Wednesday at 19:00 GMT (12p PST).
 
-#### **Week 1: Community feedback (`[Draft]`)**
+#### **Week 1: Community and Delegate Feedback (`[Draft]`)**
 
-In the first week, draft proposals are open for review by anyone in the Optimism community as a form of temperature check. Proposal authors are expected to be responsive to community feedback and use this period of time to prepare their proposal for more formal review.
+In the first week, draft proposals are open for review by anyone in the Optimism community as a form of temperature check. Proposal authors are expected to be responsive to community and delegate feedback and use this period of time to prepare their proposal for committee review.
 
 Proposals should be:
 
@@ -40,32 +40,31 @@ Proposals should be:
 
 Once posted on the form create a discussion thread in the Optimism [Discord](https://discord-gateway.optimism.io/) in the #gov-temp-check channel. To create a thread simply click the "+ Post" button and fill in your name, your projects name, and the link to your draft proposal. 
 
-For a proposal to proceed to Week 2 (delegate feedback), the author must update [Draft] to [Review] by Tuesday at 19:00 GMT (12:00p PST). Authors should also include a summary of incorporated feedback as a comment on their proposal thread so future reviewers can understand the proposal’s progress. If feedback was gathered outside of the Forum (e.g. on Discord), proposal authors should include relevant links.
+At the start of the Week 1, a governance administrator will create a Voting Cycle Roundup thread in the forum to collect all proposals that meet the requirements for committee review in Week 2.
 
-#### **Week 2: Delegate feedback (`[Review]`)**
+For a proposal to proceed to Week 2 (committee review), two delegates with >0.5% of the current votable token supply must give explicit approval on the discussion thread. Delegates may not approve their own proposals. Delegates may signal approval by pasting the following comment on the proposal discussion thread: *”I am an Optimism delegate [link to your [delegate commitment](https://gov.optimism.io/t/delegate-commitments/235)] with sufficient voting power and I believe this proposal is ready to move to a vote."*
 
-In the second week, Token House delegates are expected to provide feedback on proposals that (a) meet the requirements outlined in the proposal template, and (b) that have received feedback from the temperature check. Proposal authors are expected to engage in good faith and update their proposal based on what they believe makes sense for their project and the Optimism community.
+If a committee member approves a proposal to move to a vote, it is not an endorsement of that proposal by the associated committee. It simply signifies that the proposal should move to the next stage of the cycle. 
 
-At the start of the Review Week, a governance administrator will create a Voting Cycle Roundup thread to collect all proposals that are ready for voting in Week 3.
+After a proposal has received two delegate approvals, the proposal author should update the proposal title from [Draft] to [Review] and add a link to their proposal in the Voting Cycle Roundup thread by the last day of Week 1 at 7pm GMT (12:00p PST). Authors should also include a summary of incorporated feedback as a comment on their proposal thread so future reviewers can understand the proposal’s progress. If feedback was gathered outside of the Forum (e.g. on Discord), proposal authors should include relevant links.
 
-For a proposal to proceed to Week 3 (voting), two delegates with >0.5% of the current votable token supply must give explicit approval on the discussion thread. Delegates may not approve their own proposals. Delegates may signal approval by pasting the comment on the proposal discussion thread: *”I am an Optimism delegate [link to your [delegate commitment](https://gov.optimism.io/t/delegate-commitments/235)] with sufficient voting power and I believe this proposal is ready to move to a vote."*
+If a proposal author does not get explicit delegate approval or wants more time for feedback, they should continue to seek feedback from the community and submit an updated proposal in the next voting cycle.
 
-If a committee member approves a proposal to move to a vote, it is not an endorsement of that proposal by the associated committee. It simply signifies that the proposal should move to the next stage of the voting cycle. 
+#### **Week 2: Committee Review (`[Review]`)**
 
-After a proposal has received two delegate approvals, the proposal author should add a link to their proposal in the Voting Cycle Roundup thread.
+In the second week, committees will review all approved proposals listed on the Voting Cycle Roundup thread and publicly post their recommendations before the last day of Week 2 at 19:00 GMT (12:00p PST).
 
-If a proposal author does not get explicit delegate approval or wants more time for feedback, they should return the proposal to the `[Draft]` stage and continue to seek feedback from the community.
 
 #### **Week 3: Voting**
 
-In the third week, all delegates (including OP token holders who have self-delegated) are invited to vote on proposals on Snapshot. Proposals will be included in Snapshot only if they are (a) added to the Voting Cycle Roundup thread, and (b) have two approval comments from two delegates with >0.5% voting power. Without explicit delegate approval, proposals will not move to a Snapshot vote.
+In the third week, all delegates (including OP token holders who have self-delegated) are invited to vote on proposals on Snapshot. Proposals will be included in Snapshot only if they were (a) added to the Voting Cycle Roundup thread before the deadline, and (b) have two approval comments from two delegates with >0.5% voting power. Without explicit delegate approval, proposals will not move to a Snapshot vote.
 
 A Token House governance proposal is **approved** if it satisfies the following minimum vote thresholds:
 
 - **Quorum:** The minimum number of total OP votes required to be cast in connection with a proposal. Here, a quorum is measured as *a % of the total votable OP supply*. “Votable supply” is the total amount of OP that has been delegated, and therefore can participate in voting. The total votable OP supply will be determined based on a reasonable estimate provided by the Optimism Foundation prior to each Voting Cycle. OP votable supply will be included in each Voting Roundup Thread. 
 - **Approval threshold:** The minimum number of OP votes required to be cast in favor of approving a proposal. The approval threshold for each proposal is measured as *% of votes cast to approve relative to the total number of votes cast in connection with a proposal*.
 
-**A snapshot to determine voting power** for each delegate will be taken at the commencement of a given voting period.
+**A snapshot to determine voting power** for each delegate will be taken at the commencement of a given voting period. The Foundation will only accept uncounted votes that are verifiable on-chain, but did not propagate to Snapshot.
 
 Depending on the Proposal Type, exact quorum and approval threshold requirements may vary. For more information, refer to the proposal types below.
 
@@ -114,7 +113,6 @@ The Optimism Foundation will facilitate the administration of the governance pro
 - Such other things as the Foundation deems appropriate in connection with the above.
 
 **Implementation**
-
 Approved Token House governance proposals will be routed to the Optimism Foundation for implementation.
 
 Upon receipt of an approved proposal, the Optimism Foundation will determine whether the proposal is safe, secure, consistent with the purposes of the Foundation and the Collective, and capable of being implemented in a legally compliant manner.
@@ -130,8 +128,8 @@ The procedures described in this Operating Manual will go into effect as release
 
 ## Process TLDR
 - Optimism has a three-week proposal review cycle.
-- When you’re ready, draft a proposal and post it on the Forum with `[Draft]` in the title for feedback from the community and delegates. Remember to post your proposal in the #gov-temp-check channel on Discord to get community feedback. Delegates will also provide feedback on your proposal inthe forum. Use your judgment to incorporate feedback. 
-- Once your proposal has been approved by two delegates with >0.5% of voting supply, you may add a link to your proposal to the Voting Cycle Roundup thread and update `[Draft]` to `[Review]`. These proposals will move on to Week 2: Committee Review. 
-- Committees will provide recommendations to delegates by the last day of Week 2. These proposals will be automatically added to Snapshot during the next one-week voting window.
+- When you’re ready, draft a proposal and post it on the Forum with `[Draft]` in the title for feedback from the community and delegates. Remember to post your proposal in the #gov-temp-check channel on Discord to get community feedback. Delegates will also provide feedback on your proposal in the forum. Use your judgment to incorporate feedback. 
+- Once your proposal has been approved by two delegates with >0.5% of voting supply, add a link to your proposal to the Voting Cycle Roundup thread by the last day of Week 1 and update the title from `[Draft]` to `[Review]`. These proposals will move on to Week 2: Committee Review. 
+- Committees will provide recommendations on proposals by the last day of Week 2. These proposals will be automatically added to Snapshot during the next one-week voting window.
 - If your proposal is passed, the Optimism Foundation will facilitate its administration, including by distributing any approved OP grants. Note the Foundation may be in touch to collect additional information from your project in order to execute the grant.
 - If your proposal fails, you can make a new proposal in the next cycle specifying how you have incorporated significant changes from your first proposal.

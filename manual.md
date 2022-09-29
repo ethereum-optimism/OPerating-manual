@@ -1,6 +1,6 @@
 This document describes the current governance proposal process of the Optimism Collective. It will evolve, with the Collective, over time. The authoritative version is maintained [here](https://github.com/ethereum-optimism/Operating-manual) on the Optimism Foundation Github.
 
-### **Operating Manual v0.2.0:  The Token House and OP Holders**
+### **Operating Manual v0.2.1:  The Token House and OP Holders**
 
 Governance in the Optimism Collective begins with the launch of the Token House and its members, the OP holders.
 
@@ -64,7 +64,7 @@ A Token House governance proposal is **approved** if it satisfies the following 
 - **Quorum:** The minimum number of total OP votes required to be cast in connection with a proposal. Here, a quorum is measured as *a % of the total votable OP supply*. “Votable supply” is the total amount of OP that has been delegated, and therefore can participate in voting. The total votable OP supply will be determined based on a reasonable estimate provided by the Optimism Foundation prior to each Voting Cycle. OP votable supply will be included in each Voting Roundup Thread. 
 - **Approval threshold:** The minimum number of OP votes required to be cast in favor of approving a proposal. The approval threshold for each proposal is measured as *% of votes cast to approve relative to the total number of votes cast in connection with a proposal*.
 
-**A snapshot to determine voting power** for each delegate will be taken at the commencement of a given voting period. The Foundation will only accept uncounted votes that are verifiable on-chain, but did not propagate to Snapshot.
+**A snapshot to determine voting power** for each delegate will be taken at the commencement of a given voting period, and voting will be hosted on the [Optimism Collective Snapshot page](https://snapshot.org/#/opcollective.eth).
 
 Depending on the Proposal Type, exact quorum and approval threshold requirements may vary. For more information, refer to the proposal types below.
 
@@ -107,7 +107,8 @@ The Optimism Foundation will facilitate the administration of the governance pro
 
 - Moderation of governance proposals to ensure they are validly submitted and voted upon;
 - Removal of proposals that reasonably appear to be fraudulent, spam-oriented, defamatory, hateful, or otherwise inappropriate or inconsistent with the values of the Collective;
-- Monitoring of votes, the votable token supply, and voting periods for purposes of determining whether quorums and approval thresholds are met;
+- Monitoring of votes, voting power, the votable token supply, and voting periods for purposes of determining whether quorums and approval thresholds are met or accurately reflected;
+  -In the event of bugs in the Snapshot tool, the Foundation may manually count votes and override the results of a Snapshot vote -- however, it will only do so where the the expected, bug-free outcome is unambiguous (for example, votes that are verifiable on-chain, but which did not propagate to the off-chain Snapshot tool);   
 - Management of mutually contradictory proposals that are submitted simultaneously or in close proximity to one another;
 - Administration of network maintenance, such as emergency bug fixes or release rollbacks (with or without a governance vote); and
 - Such other things as the Foundation deems appropriate in connection with the above.

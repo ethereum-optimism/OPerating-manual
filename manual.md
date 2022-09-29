@@ -130,9 +130,8 @@ The procedures described in this Operating Manual will go into effect as release
 
 ## Process TLDR
 - Optimism has a three-week proposal review cycle.
-- When you’re ready, draft a proposal and post it on the Forum with `[Draft]` in the title for feedback from the community. Remember to post your proposal in the #gov-temp-check channel on Discord to get community feedback. 
-- When you’re ready for formal review from Token House delegates, update `[Draft]` to `[Review]`. You are expected to have made an effort to get community feedback before submitting for formal review.
-During the next Review Week (every three weeks), delegates will provide feedback on your proposal. Use your judgment to incorporate feedback.
-- Once your proposal has been approved for a vote by two delegates with >0.5% of voting supply, you may add a link to your proposal to the Voting Cycle Roundup thread. The proposal will be automatically added to Snapshot during the next one-week voting window.
+- When you’re ready, draft a proposal and post it on the Forum with `[Draft]` in the title for feedback from the community and delegates. Remember to post your proposal in the #gov-temp-check channel on Discord to get community feedback. Delegates will also provide feedback on your proposal inthe forum. Use your judgment to incorporate feedback. 
+- Once your proposal has been approved by two delegates with >0.5% of voting supply, you may add a link to your proposal to the Voting Cycle Roundup thread and update `[Draft]` to `[Review]`. These proposals will move on to Week 2: Committee Review. 
+- Committees will provide recommendations to delegates by the last day of Week 2. These proposals will be automatically added to Snapshot during the next one-week voting window.
 - If your proposal is passed, the Optimism Foundation will facilitate its administration, including by distributing any approved OP grants. Note the Foundation may be in touch to collect additional information from your project in order to execute the grant.
 - If your proposal fails, you can make a new proposal in the next cycle specifying how you have incorporated significant changes from your first proposal.

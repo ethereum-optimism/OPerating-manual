@@ -62,7 +62,7 @@ In the third week, all delegates (including OP token holders who have self-deleg
 A Token House governance proposal is **approved** if it satisfies the following minimum vote thresholds:
 
 - **Quorum:** The minimum number of total OP votes required to be cast in connection with a proposal. Here, a quorum is measured as *a % of the total votable OP supply*. “Votable supply” is the total amount of OP that has been delegated, and therefore can participate in voting. The total votable OP supply will be determined based on a reasonable estimate provided by the Optimism Foundation prior to each Voting Cycle. OP votable supply will be included in each Voting Roundup Thread. 
-- **Approval threshold:** The minimum number of OP votes required to be cast in favor of approving a proposal. The approval threshold for each proposal is measured as *% of votes cast to approve relative to the total number of votes cast in connection with a proposal*.
+- **Approval threshold:** The minimum number of OP votes required to be cast in favor of approving a proposal. The approval threshold for each proposal is measured as *minimum % of votes cast to approve reletave to total non-abstaining votes cast*.
 
 **A snapshot to determine voting power** for each delegate will be taken at the commencement of a given voting period, and voting will be hosted on the [Optimism Collective Snapshot page](https://snapshot.org/#/opcollective.eth).
 

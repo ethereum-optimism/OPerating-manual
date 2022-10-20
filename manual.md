@@ -54,6 +54,11 @@ If a proposal author does not get explicit delegate approval or wants more time 
 
 In the second week, committees will review all approved proposals listed on the Voting Cycle Roundup thread and publicly post their recommendations before the last day of Week 2 at 19:00 GMT (12:00p PST).
 
+If we are going forward with Committees in Season 3 then the I would recommend committee to take the decision whether to include the changed proposal or not. They must provide their reasoning. 
+Pros:- Make process more flexible. A committee has 5 delegates which is enough member to make a judgement call. 
+Cons:- For some, this means giving little too much power to Committee but I think final decision on proposal depends on Token house so that mitigate the abuse of power from committee. 
+
+
 
 #### **Week 3: Voting**
 

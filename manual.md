@@ -1,6 +1,6 @@
 This document describes the current governance proposal process of the Optimism Collective. It will evolve, with the Collective, over time. The authoritative version is maintained [here](https://github.com/ethereum-optimism/Operating-manual) on the ethereum-optimism Github.
 
-### **Operating Manual v0.3.4:  The Token House and Citizens' House**
+### **Operating Manual v0.3.5:  The Token House and Citizens' House**
 
 The Optimism Collective is governed by two houses, the Token House and the Citizens’ House. 
 
@@ -55,7 +55,7 @@ Proposals should be:
 
 At the start of Week 1, a governance administrator will create a Voting Cycle Roundup thread in the forum to collect all proposals that meet the requirements for voting in Week 4. This Roundup will not include grant proposals, which will be processed and voted on by the Grants Council. 
 
-For a non-grant proposal to proceed to Week 4, four delegates, each with >0.5% of the current votable token supply, must give explicit approval on the discussion thread. Delegates may not approve their own proposals. Delegates may signal approval by pasting the following comment on the proposal discussion thread: *”I am an Optimism delegate [link to your [delegate commitment](https://vote.optimism.io/delegate/your_address)] with sufficient voting power and I believe this proposal is ready to move to a vote."*
+For a non-grant proposal to proceed to Week 4, four delegates, each with >0.25% of the current votable token supply, must give explicit approval on the discussion thread. Delegates may not approve their own proposals. Delegates may signal approval by pasting the following comment on the proposal discussion thread: *”I am an Optimism delegate [link to your [delegate commitment](https://vote.optimism.io/delegate/your_address)] with sufficient voting power and I believe this proposal is ready to move to a vote."*
 
 If a delegate approves a proposal to move to a vote, it is not an endorsement of that proposal.  It simply signifies that the delegate believes the proposal is ready to move to a vote.
 
@@ -66,7 +66,7 @@ If a proposal author does not get explicit delegate approval or wants more time 
 
 #### **Week 4-5: Voting**
 
-In the fourth and fifth weeks, all delegates (including OP token holders who have self-delegated) are invited to vote on proposals via the Optimism Governance Portal. Non-grant proposals will be included in on-chain voting only if they were (a) added to the Voting Cycle Roundup thread before the deadline, and (b) have the required approval comments from four delegates with >0.5% voting power. Without explicit delegate approval, proposals will not move to an on-chain vote.
+In the fourth and fifth weeks, all delegates (including OP token holders who have self-delegated) are invited to vote on proposals via the Optimism Governance Portal. Non-grant proposals will be included in on-chain voting only if they were (a) added to the Voting Cycle Roundup thread before the deadline, and (b) have the required approval comments from four delegates with >0.25% voting power. Without explicit delegate approval, proposals will not move to an on-chain vote.
 
 A Token House governance proposal is **approved** if it satisfies the following minimum vote thresholds:
 
@@ -104,7 +104,7 @@ The different requirements for submission and approval of each Proposal Type are
 |Treasury  Appropriations        |The amount of OP the Optimism Foundation may spend or distribute annually, beginning in Year 2 of its existence (the Year 1 budget is 30% of the initial total OP supply)                                                                                                                              |Proposals to be initiated by the Foundation                                                                                                                                                                                                                                                                                                                                  |Three-week review cycle plus two week vote window                     |30%                                                   |51%                                                                               |
 |Rights Protections              |OP holders must consent to any changes to the founding documents of the Optimism Foundation, if those changes would materially reduce their rights                                                                                                                                                     |Proposals to be initiated by the Foundation                                                                                                                                                                                                                                                                                                                                  |Three-week review cycle plus two week vote window                     |30%                                                   |51%                                                                               |
 |Code of Conduct Violation              | The Token House may vote on violations of the [Code of Conduct](https://gov.optimism.io/t/code-of-conduct/5751)                                                                                                                                                     |Proposals to be initiated by the Foundation in response to reported violations                                                                                                                                                                                                                                                                                                                                 |Three-week review cycle plus two week vote window                     |30%                                                   |51%  
-|Grant Clawback              | A locked grant may be clawed back before distribution for failure to execute on critical milestones, as defined by proposers and documented publicly                                                                                                                                                    |Proposals to be initiated by the Grants Council                                                                                                                                                                                                                                                                                                                                  |Three-week review cycle plus two week vote window                     |30%                                                   |51%|
+|Grant Clawback              | A locked grant may be clawed back before distribution for failure to execute on critical milestones, as defined by proposers and documented publicly                                                                                                                                                    |Forum + On-Chain Voting                                                                                                                                                                                                                                                                                                                                  |Three-week review cycle plus two week vote window                     |30%                                                   |51%|
 
 
 ## **Citizens' House Governance**
@@ -118,6 +118,7 @@ RetroPGF rounds are run according to the following process:
 - Profile creation:  Projects are notified and invited to create a profile in the [RetroPGF Application Manager.](https://app.optimism.io/retropgf-manager) 
 - Voting:  Votes are collected from the citizens with the requisite [AttestationStation](https://community.optimism.io/docs/governance/attestation-station/#general-faq) entries and tallied. 
 - Disbursement:  Based on the simple weighted average of the Citizens’ House vote, the overall reward amount for the round is divided among the winning projects. 
+- Compliance: The Foundation will collect information from projects in order to distribute the grant in a legally compliant manner (including completing KYC).
 
 Additional information on the process for RetroPGF Round 2 is available [here.](https://community.optimism.io/docs/governance/retropgf-2/#) 
 
@@ -165,4 +166,5 @@ Optimism governance has two houses:  a Token House and a Citizens’ House.
 
 #### Citizens’ House Governance operates as follows: 
 - Citizenship is currently temporary, with the RetroPGF Round 2 citizenry recorded via entries in the AttestationStation. 
-- RetroPGF rounds occur in intervals and according to a predefined process, which currently includes phases for scoping, nominations, profile creation, voting, and disbursements. 
+- RetroPGF rounds occur in intervals and according to a predefined process, which currently includes phases for scoping, nominations, profile creation, voting, and disbursements. The Foundation will collect information from projects in order to distribute the grant, including information to perform KYC.
+

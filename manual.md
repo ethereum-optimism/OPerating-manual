@@ -21,7 +21,7 @@ The primary tools for Token House governance are currently:
 - [The Optimism Forum:](http://gov.optimism.io/) A platform for discussion and deliberation about governance proposals.
 - [Discord:](https://discord-gateway.optimism.io/) For informal governance discussion and feedback.
 - [Github:](https://github.com/ethereum-optimism/ecosystem-contributions/issues) Grants (Mission Requests) are managed via issues in this public github repo 
-- [Charmverse:] https://app.charmverse.io/op-grants/page-701220845245208 Home of the community-led Optimism Grants Council
+- [Charmverse:](https://app.charmverse.io/op-grants/page-701220845245208) Home of the community-led Optimism Grants Council
 
 These tools or their uses may change over time as governance evolves. For example, additional user interfaces dedicated to governance councils may be developed in the future. Likewise, while voting currently takes place on-chain through the Governance Contract, successful votes are currently administered and implemented by the Optimism Foundation (see below), which should not be the case indefinitely. 
 

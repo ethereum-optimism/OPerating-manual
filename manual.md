@@ -35,7 +35,7 @@ All governance proposals go through a three week cycle.
 
 Each “week” runs from Thursday at 19:00p GMT (12p PST) until Wednesday at 19:00 GMT (12p PST).
 
-### **Mission Applicatios**
+### **Mission Applications**
 
 Mission Applications to Delegate Mission Requests will be reviewed and selected by the Grants Council and should follow the submission process outlined on each Mission Request. Mission Applications to Foundation Mission Requests will be reviewed and selected by the Foundation and should follow the submission process outlined on each Mission Request.
 
@@ -131,7 +131,7 @@ The Proposing House column will be updated to include Citizens’ House, for rel
 
 
 ### **RetroPGF Rounds**
-Citizens’ House governance includes RetroPGF, which involves voting and disbursements occuring over a series of “rounds.” In each RetroPGF round, the Citizens’ House votes to retroactively reward public goods projects that have provided substantial impact. 
+Citizens’ House governance includes RetroPGF, which involves voting and disbursements occurring over a series of “rounds.” In each RetroPGF round, the Citizens’ House votes to retroactively reward public goods projects that have provided substantial impact. 
 
 RetroPGF rounds are run according to the following process:
 
@@ -167,7 +167,7 @@ Approved governance proposals will be routed to the Optimism Foundation for impl
 Upon receipt of an approved proposal, the Optimism Foundation will determine whether the proposal is safe, secure, consistent with the purposes of the Foundation and the Collective, and capable of being implemented in a legally compliant manner (including completing KYC).
 
 - If it is, the Foundation will act diligently and in a commercially reasonable manner to cause the proposal to be implemented.
-- If it is not, the Foundation may remove the proposal for resubmission or cause the proposal to be implemented with certain guardrails, in its discretion, and coupled with an explanation to the Collective as to why the proposal was rejected or limited.
+- If it is not, the Foundation may remove the proposal for resubmission or cause the proposal to be implemented with certain guardrails, at its discretion, and coupled with an explanation to the Collective as to why the proposal was rejected or limited.
 
 The Optimism Foundation will undertake this ministerial work with a view towards increasingly decentralizing its role over time.
 

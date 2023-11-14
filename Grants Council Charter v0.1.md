@@ -1,4 +1,4 @@
-This Charter outlines the structure and responsibilities of the Grants Council and its participants. It is authored and maintained by the Grants Council. 
+This Charter outlines the structure and responsibilities of the Grants Council and its participants. It is authored and maintained by the Optimism Grants Council. 
 
 This Charter supersedes and replaces the Season 3 and 4 Grants Council Charters.
 

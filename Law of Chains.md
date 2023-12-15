@@ -3,7 +3,7 @@ The Law of Chains is an open neutrality framework that establishes certain prote
 
 > Version note. The Law of Chains is a living document, and should evolve alongside protocol innovation across the Collective. Version 0.1 of the Law of Chains is immediately applicable to the current, single-sequencer release of the OP Stack, and establishes fundamental principles: core expectations of users and economic participants, homogenous blockspace, and universal upgrades on a shared standard. Anticipated improvements to the OP Stack that remain technologically unspecified (e.g., shared sequencing and zero-knowledge proofs) are correspondingly economically unspecified in this initial version. As the Law of Chains evolves, two critical freedoms should be preserved: (1) the freedom of Optimism Governance to introduce new protocol constructions with different technological and economic specifications, and (2) the freedom of ecosystem participants to choose, at the appropriate time, with full information, and without coercion, whether to opt into those constructions.
 
-> Finally, part of the Law of Chains is this Important Disclaimer 41. To fully understand this document, you must read the disclaimer. It clarifies that the Law of Chains is not a legal contract, provides no legally enforceable warranties, representations, indemnities, rights, or obligations, and does not commit participants to any form of legal partnership or joint venture with any others. The Law of Chains is intended to function solely as a guiding framework for participants in the Collective and Optimism Governance.
+> Finally, part of the Law of Chains is this [Important Disclaimer](https://community.optimism.io/docs/governance/law-of-chains-disclaimer/). To fully understand this document, you must read the disclaimer. It clarifies that the Law of Chains is not a legal contract, provides no legally enforceable warranties, representations, indemnities, rights, or obligations, and does not commit participants to any form of legal partnership or joint venture with any others. The Law of Chains is intended to function solely as a guiding framework for participants in the Collective and Optimism Governance.
 
 **1. Covered Participants.**
 
@@ -94,7 +94,7 @@ Finally, for the avoidance of doubt, no Covered Participant is required under th
 
 **9. Interpretation.**
 
-  1. In interpreting the scope, authority, and meaning of the Law of Chains, the guiding principles contained in the Working Constitution 10 will apply as follows:
+  1. In interpreting the scope, authority, and meaning of the Law of Chains, the guiding principles contained in the [Working Constitution](https://gov.optimism.io/t/working-constitution-of-the-optimism-collective/) will apply as follows:
      - **Governance minimization.** The OP Stack and OP Chains should be designed, operated, and governed in a manner that progressively and programmatically (a) removes the ability of ecosystem participants to violate the Law of Chains and therefore (b) removes the need for Optimism Governance to proactively enforce it. For example, future releases of the OP Stack should enable:
        - Chain Governors to exercise Chain Governor Protections via (and solely to the extent permitted by) configurable parameters that are encoded and enforced at the Protocol Contract level.
        - Anyone to act as a Proposer permissionlessly, removing the ability of any single Proposer to censor User withdrawals.
@@ -121,15 +121,15 @@ Finally, for the avoidance of doubt, no Covered Participant is required under th
 
 *“Challengers”* = the Ethereum address authorized to delete output proposals for an OP Chain.
 
-*“Collective”* = the Optimism Collective 11, including participants in the Superchain ecosystem.
+*“Collective”* = the [Optimism Collective](https://community.optimism.io/docs/governance/), including participants in the Superchain ecosystem.
 
 *“Covered Participants”* = Users, Chain Governors, and Chain Servicers.
 
 *“OP Chain”* = a production L2 blockchain running on the OP Stack and which has affirmatively opted-in and followed any relevant governance process to be committed to and covered by the Law of Chains.
 
-*“OP Stack”* = an Optimism Governance-approved, standardized, shared, and open-source development stack release that powers the Optimism L2 blockchain protocol; together with all future such releases.
+*“OP Stack”* = an Optimism Governance-approved, standardized, shared, and open-source development stack release that [powers](https://stack.optimism.io/) the Optimism L2 blockchain protocol; together with all future such releases.
 
-*“Optimism Governance”* = the governance system for the OP Stack, OP Mainnet, and the Superchain, which is currently the bicameral system of the Token House 3 and the Citizens’ House 1; and future iterations thereof.
+*“Optimism Governance”* = the governance system for the OP Stack, OP Mainnet, and the Superchain, which is currently the bicameral system of the [Token House](https://community.optimism.io/docs/governance/#:~:text=%23-,Token%20House,-Governance%20of%20the) and the [Citizens’ House](https://community.optimism.io/docs/governance/#:~:text=%23-,Citizens%27%20House,-The%20Citizens%27%20House); and future iterations thereof.
 
 *“Participant Protections”* = User Protections, Chain Governor Protections, and Chain Servicer Protections, collectively.
 
@@ -141,4 +141,4 @@ Finally, for the avoidance of doubt, no Covered Participant is required under th
 
 *“Sequencers”* = the node(s) providing block production services which produces transaction confirmations and state updates, constructs and executes L2 blocks, and submits L2 block data transactions to layer 1.
 
-*“Superchain”* = a proposed network of L2 rollups 20 that share bridging, security, data availability, and communication layers; which uses the OP Stack as a common development stack, and Optimism Governance as the common governance system.
+*“Superchain”* = [a proposed network of L2 rollups](https://app.optimism.io/superchain/) that share bridging, security, data availability, and communication layers; which uses the OP Stack as a common development stack, and Optimism Governance as the common governance system.

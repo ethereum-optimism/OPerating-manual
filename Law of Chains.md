@@ -127,7 +127,7 @@ Finally, for the avoidance of doubt, no Covered Participant is required under th
 
 *“OP Chain”* = a production L2 blockchain running on the OP Stack and which has affirmatively opted-in and followed any relevant governance process to be committed to and covered by the Law of Chains.
 
-*“OP Stack”* = an Optimism Governance-approved, standardized, shared, and open-source development stack release that [powers](https://stack.optimism.io/) the Optimism L2 blockchain protocol; together with all future such releases.
+*“OP Stack”* = an Optimism Governance-approved, standardized, shared, and open-source development stack release that [powers](https://docs.optimism.io/stack/getting-started) the Optimism L2 blockchain protocol; together with all future such releases.
 
 *“Optimism Governance”* = the governance system for the OP Stack, OP Mainnet, and the Superchain, which is currently the bicameral system of the [Token House](https://community.optimism.io/docs/governance/#:~:text=%23-,Token%20House,-Governance%20of%20the) and the [Citizens’ House](https://community.optimism.io/docs/governance/#:~:text=%23-,Citizens%27%20House,-The%20Citizens%27%20House); and future iterations thereof.
 

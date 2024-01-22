@@ -107,6 +107,7 @@ Security Council key holding participants will be responsible for developing and
 - Verifying and promptly enacting Optimism Governance-approved upgrades and permission changes;
 - Notifying the other participants of, and collaborating in good faith to promptly resolve, defined emergency situations (see “Emergency Response,” above); and
 - Proving continued access to keys via periodic liveness checks, where participants must prove they can access their keys within a set time limit.
+
 For security purposes, the details of these procedures should remain private among the Council.
 
 The Council Lead, meanwhile, is responsible for supporting the implementation and operationalization of the aforementioned procedures, including by:

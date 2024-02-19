@@ -18,7 +18,7 @@ The primary tools for Token House governance are currently:
 
 - [Token House Governance Contract:](https://optimistic.etherscan.io/address/0xcdf27f107725988f2261ce2256bdfcde8b382b10) The on-chain voting contract for Token House governance proposals. Where all Token House qualifying governance proposals are submitted for vote. 
 - [Optimism Governance Portal:](https://vote.optimism.io/) A front-end interface that enables Token House members to delegate and vote their OP on-chain.
-- [The Citizens’ House Sanpshot Space:](https://snapshot.org/#/citizenshouse.eth) A front-end interface that enables Citizens’ House members to veto Token House proposals. 
+- [The Citizens’ House Snapshot Space:](https://snapshot.org/#/citizenshouse.eth) A front-end interface that enables Citizens’ House members to veto Token House proposals. 
 - [The Optimism Forum:](http://gov.optimism.io/) A platform for discussion and deliberation about governance proposals.
 - [Discord:](https://discord-gateway.optimism.io/) For informal governance discussion and feedback.
 - [Github:](https://github.com/ethereum-optimism/ecosystem-contributions/issues) Grants (Mission Requests) are managed via issues in this public github repo 

@@ -106,6 +106,11 @@ Grants Council members will be subject to the following checks on their authorit
 A high degree of transparency will be required of Grants Council operations so that non-Council Token Holders are able to provide effective oversight on the Council
 - The Grants Council will conduct a retrospective at the end of Season 5
 
+## Grant Policies 
+- All grants must be made in accordance with the Grant Policies outlined [here](https://gov.optimism.io/t/collective-grant-policies/5833)
+- All grants for user incentives will be delivered in two batches. 40% of the grant will be distributed to the proposer upfront and the remaining 60% will be distributed upon completion of a mid-way point milestone. 
+- All grants for anything other than user incentives will be locked for one year 
+
 ## Budget
 A Proposed Budget and Charter will be made by each prospective Lead and voted on by Token House according to the Governance Calendar.
 

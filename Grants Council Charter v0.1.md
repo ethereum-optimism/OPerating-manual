@@ -2,7 +2,7 @@ This Charter outlines the structure and responsibilities of the Grants Council a
 
 This is the Season 6 Charter, which supersedes and replaces the Charters of all previous Seasons.
 
-# Season 6 Grants Council Charter v0.0
+# Season 6 Grants Council Charter v0.1
 ## Goals
 In short, the goals of the Grants Council, as outlined by the Foundation in [Season 3](https://gov.optimism.io/t/special-voting-cycle-9a-grants-council/4198), are to:
 

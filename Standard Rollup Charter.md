@@ -1,4 +1,4 @@
-# Season 6: Standard Rollup Charter
+# Standard Rollup Charter
 ---
 # Introduction
 The Standard Rollup is the Optimism Collective’s flagship, high-security blockspace product. The Standard Rollup targets the Collective’s highest bar for security, uptime, and decentralization.

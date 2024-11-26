@@ -2,7 +2,7 @@ This Charter outlines the structure and responsibilities of the Developer Adviso
 
 This is the Season 6 Charter, which supersedes and replaces the Charters of all previous Seasons.
 
-# Season 6 Devloper Advisory Board Charter v0.1
+# Season 6 Devloper Advisory Board Charter v1.1
 
 ---
 

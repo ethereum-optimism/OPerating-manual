@@ -1,90 +1,93 @@
-This Charter outlines the structure and responsibilities of the Developer Advisory Board and its participants. It is authored and maintained by the Optimism Developer Advisory Board. 
+This Charter outlines the structure and responsibilities of the Developer Advisory Board and its participants. It is authored and maintained by the Optimism Developer Advisory Board.
 
-This is the Season 6 Charter, which supersedes and replaces the Charters of all previous Seasons.
+This is the Season 7 Charter, which supersedes and replaces the Charters of all previous Seasons.
 
-# Season 6 Devloper Advisory Board Charter v1.1
+# Season 7 Devloper Advisory Board Charter v1.2
 
 ---
 
 ## Goals
 
-1. Support the Optimism community through important technical decisions.
-2. Support the Grants Council on evaluation technical Mission Requests.
-3. Bring an additional technical perspective to thinking about the vision of the OP ecosystem and what needs to happen to get there.
+The Developer Advisory Board exists to provide technical expertise across the Optimism Collective. This leads us to two overarching goals:
+
+1. Support the Optimism community through important technical decisions, such as protocol upgrades.
+2. Ensure that funding for technical projects is allocated in a way that best advances the goals of the Collective.
 
 ## Participants
 
 ### Cohorts and Election Terms
 
-- Members may be appointed by the Foundation for an initial term, but are subject to election thereafter.
-- After the initial term, all members of the Developer Advisory Board will be elected at the start of a new term. Elected members serve for the duration of their term and must be re-elected to serve in future Seasons.
-- Representatives should only serve in one elected position per term. There are no term limits for representatives, but they may be implemented in the future if the need arises.
+- The members of each Developer Advisory Board subcommittee will be elected by the Token House at the start of each Season.
+- After the election is complete, the members of the Devleoper Advisory Board will perform an internal vote to assign the additional internal roles.
+- Representatives may serve on one subcommittee and have up to two additional internal roles per Season.
+- There are no term limits for representatives, but they may be implemented in the future if the need arises.
 
 ## Responsibilities
 
-### Members
-
-- **Upgrade Czar (1)**
-    - This role did not exist last season.
-    - Specifically, the Upgrade Czar is responsible for:
-        - (a) understanding the OP Stack deeply and reviewing all upgrades,
-        - (b) leading the DAB in discussing and approving these upgrades, as one of four required delegate approvals, and
-        - (c) writing up non-technical summaries of the changes for the community
-        - (d) being available for consultation by delegates regarding important technical decisions, especially protocol upgrades
-- **Ops Lead (1)**
-    - This role did not exist last season.
-    - Specifically, the Ops Lead is responsible for ensuring that all DAB tasks are well orchestrated and happen on time, including:
-        - (a) improving the IOPs,
-        - (b) scheduling meetings,
-        - (c) interfacing with other Councils,
-        - (d) organizing spreadsheets for feedback, and
-        - (e) looking for any other opportunities to make changes that will keep the DAB’s efforts focused and effective
-- **Reviewers**
-    - This role did exist last season.
-    - At least one OP Labs representative must be a member.
-    - Reviewers are responsible for:
-        - (a) reviewing Mission Request drafts and providing guidance to the Grants Council, specifically focusing on their technical merits and whether the grant size is reasonable.
-        - (b) reviewing applications for Mission Requests and providing guidance to the applicants as well as the Grants Council, specifically focusing on the team’s detailed plan and whether they seem to be capable of executing on the mission.
-        - (c) reviewing work product delivered for milestones on existing grants to provide guidance on whether the milestones have been successfully achieved.
-        - (d) using “veto power” to keep Grants Council technically grounded (ie. a unanimous “no” vote by the DAB on any of these topics will block the Grants Council from voting “yes”).
-- Any member may:
-    - (a) be available for discussions for any core OP devs to provide an outside voice on technical and security related decisions.
-    - (b) support in finding technical talent to fill important roles at OP Labs.
-    - (c) generate ideas for the [Builders Ideas](https://contribute.optimism.io/) list to spur community contributions.
-
 ### Lead Responsibilities
 
-- All representative structures must have Leads. The Lead is always a non-voting/non-signing member, so they remain focused on procedure and operations and may be considered unbiased as they don’t participate in decision making.
-- The Council Lead’s role is procedural, communicative, and ministerial. It has no ability to influence the substantive decisioning making by members or signing by key holders.
-- The Lead may break a tie in the case that members cannot come to consensus or temporarily fill the role of a member who has resigned or been removed.
-- Specifically, the Season 6 Developer Advisory Board Lead will be responsible for:
-    - (a) leading all board meetings,
-    - (b) interfacing with other areas in OP governance to ensure the DAB is supporting where possible,
-    - (c) working with Upgrade Czar on approving protocol upgrades,
-    - (d) providing feedback for DAB members on their performance,
-    - (e) exercising decision-making authority in the event that the board cannot come to consensus, and
-    - (f) writing & sharing the retrospective after Season 6 on changes to improve the DAB going forward.
+The Lead is responsible for ensuring that the Developer Advisory Board is both meeting its current objectives and finding opportunities to further support the Collective. This includes:
+- (a) leading all board meetings and internal decisions.
+- (b) overseeing the decisions and feedback of all subcommittees.
+- (c) serving on the Foundation Mission Request subcommittee as a final vote in the case of disagreement.
+- (d) working with the Upgrade Czar to understand protocol upgrades, write technical summaries, and lead the Developer Advisory Board discussion on approving the upgrade.
+- (e) collaborating with other Council Leads to find opportunities to provide support across the collective.
+- (f) tracking KPIs and drafting the Season 7 retrospective at the end of the season.
+
+### Members
+
+Members are elected into one of three subcommittees. Each subcommittee is responsible for working on a different type of Mission Request (Foundation, Governance, Audit Request). The Token House will elect the members to each of these subcommittees based on their expertise and skills.
+
+- The Audit Mission Request subcommittee (2 members) is responsible for selecting applicants to provide subsidized audits for.
+- The Governance Misison Request subcommittee (3 members) works with the Grants Council to provide technical feedback on all Mission Request applicants.
+- The Foundation Mission Request subcommittee (2 members, plus the Lead) is responsible for selecting which teams are chosen to fulfill the Foundation Mission Requests.
+- The OP Labs Representative (1 member) floats between these teams, providing support and insight into OP Labs' roadmap and perspective.
+
+The members of these subcommittees exist with the mandate of ensuring that the best possible applicants are selected for each Mission Request. This means they are responsible for:
+- (a) providing support to potential applicants to drive more high quality applications,
+- (b) supporting the evaluation of applications as requires by their subcommittee (either making selections or providing feedback).
+
+In addition to the subcommittee responsibilities, there are additional roles that individual Developer Advisory Board members will take on. These roles will be voted on internally by the Developer Advisory Board and include: Upgrade Czar, Interop Specialist, Mission Request Scout, and Ops Lead.
+
+- The Ops Lead (1 member) is responsibile for managing the operations of the board, including:
+    - (a) improving the IOPs,
+    - (b) scheduling meetings,
+    - (c) interfacing with other Councils,
+    - (d) organizing spreadsheets and processes for applicant feedback, and
+    - (e) looking for any other opportunities to make changes that will keep the DAB’s efforts focused and effective
+- The Upgrade Czar (1 member) manages the board's responsibilities around protocol upgrades, including:
+    - (a) understanding the OP Stack deeply and reviewing all upgrades,
+    - (b) leading the DAB in discussing and approving these upgrades, and
+    - (c) writing up non-technical summaries of the changes for the community
+- The Interop Specialist (1 member) is a temporary role for S7 that exists to help ensure the board has sufficient depth of expertise in Interop, given its importance for this Season. Their responsibilities include:
+    - (a) provide support for all subcommittee teams with details Interop questions, and
+    - (b) look for missing products or opportunities, and ensure that these ideas are reflected in MRs
+- The Mission Request Scouts (2 members) fill the additional responsibility of crafting Mission Requests, which requires:
+    - (a) deeply understand the OP Labs roadmap, and thinking creatively about missing gaps that Mission requests could fill,
+    - (b) conceptualizing, getting consensus on, drafting, and posting the ongoing Foundation Mission Requests, and
+    - (c) working with the Grants Council to ensure their MR process takes into account the specific technical outcomes that would most support the Collective.
 
 ### Resignation process
 
-1. If a member wishes to resign before the end of their term, they must appoint a replacement and communicate this change to the Lead at least 7 days prior to this change taking effect.
-2. The Lead will then adjust quorum as needed and communicated the change through the structure’s Communication Thread.
+1. If a member wishes to resign before the end of their term, they must communicate this change to the Lead at least 7 days prior to this change taking effect.
+2. Their position will be offered to the non-elected candidate who received the most votes in the Token House election. If this individual is no longer available or interested, we will continue down the list of candidates in order of votes received. If no suitable candidate can be found, the Lead may appoint a replacement for the remainder of the term.
+3. The Lead will then adjust quorum as needed and communicate the change through the structure’s Communication Thread.
 
 ### Accountability
 
 - All Developer Advisory Board members are subject to Representative Removal as outlined in the Operating Manual. Removal votes will occur before the end of the next voting cycle. A contingent vote for their replacement on the Council will run in the same voting cycle. Please see [Representative Structure Framework](https://gov.optimism.io/t/collective-representative-structure-framework/5884) for additional details about edge cases related to removal.
-    - All representatives may be removed from their position for failing to uphold the responsibilities outlined in the relevant Charter or for failing to act with honesty, integrity, and transparency. If there is a vote to remove a representative, the Lead, or a simple majority of the remaining membership, may appoint a replacement for the remainder of the term.
+- All representatives may be removed from their position for failing to uphold the responsibilities outlined in the relevant Charter or for failing to act with honesty, integrity, and transparency. If there is a vote to remove a representative, the Lead, or a simple majority of the remaining membership, may appoint a replacement for the remainder of the term.
 - The Developer Advisory Board will conduct a retrospective at the end of term which will be posted to the forum by the last day of the term.
 - While persistent structures will be assumed to be renewed each Season, delegates may submit Dissolution Proposals if they believe a persistent structure is no longer fulfilling its mandate and should be discontinued.
 
 ### Budget
 
-The approved operating budget for Season 6 Developer Advisory Board can be referenced [here](https://gov.optimism.io/t/zach-obront-developer-advisory-board-operating-budget/8141#breakdown-of-board-operating-budget-3).
+A Proposed Budget, linking to this Charter, will be proposed by each prospective Lead, subject to approval by governance. The Lead may propose a budget that contains variable rewards for members, provided that the evaluation algorithm for rewards is approved by a simple majority of members by the end of the first month of the term.
 
 ### Iteration
 
-The canonical version of Charters for persistent structures will be published to GitHub. Any material updates to the Charter will be reflected with a new version number at the top of this document, at which point the updated version will go into effect. 
+The canonical version of Charters for persistent structures will be published to GitHub. Any material updates to the Charter will be reflected with a new version number at the top of this document, at which point the updated version will go into effect.
 
-This Charter must seek governance approval for changes to the mandate, scope, or budget approved by Optimism Governance. 
+This Charter must seek governance approval for changes to the mandate, scope, or budget approved by Optimism Governance.
 
 It should finally be reiterated that the role of all structures are intended to be progressively and programmatically reduced over time, as its functionalities are no longer needed or can be effectively managed by other means. Ultimately, it is the goal of the Collective to reach a state of protocol and governance reliability that allows for the full and final dissolution of any non-essential structures.

@@ -29,43 +29,44 @@ The Developer Advisory Board exists to provide technical expertise across the Op
 The Lead is responsible for ensuring that the Developer Advisory Board is both meeting its current objectives and finding opportunities to further support the Collective. This includes:
 - (a) leading all board meetings and internal decisions.
 - (b) overseeing the decisions and feedback of all subcommittees.
-- (c) serving on the Foundation Mission Request subcommittee as a final vote in the case of disagreement.
-- (d) working with the Upgrade Czar to understand protocol upgrades, write technical summaries, and lead the Developer Advisory Board discussion on approving the upgrade.
-- (e) collaborating with other Council Leads to find opportunities to provide support across the collective.
-- (f) tracking KPIs and drafting the Season 7 retrospective at the end of the season.
+- (c) working with the Upgrade Czar to understand protocol upgrades, write technical summaries, and lead the Developer Advisory Board discussion on approving the upgrade.
+- (d) collaborating with other Council Leads to find opportunities to provide support across the collective.
+- (e) tracking KPIs and drafting the Season 7 retrospective at the end of the season.
 
 ### Members
 
-Members are elected into one of three subcommittees. Each subcommittee is responsible for working on a different type of Mission Request (Foundation, Governance, Audit Request). The Token House will elect the members to each of these subcommittees based on their expertise and skills.
+Members are elected into one of three subcommittees. Each subcommittee is responsible for working on a different type of Mission (Foundation, Governance, Audit Request). The Token House will elect the members to each of these subcommittees based on their expertise and skills.
 
-- The Audit Mission Request subcommittee (2 members) is responsible for selecting applicants to provide subsidized audits for.
-- The Governance Misison Request subcommittee (3 members) works with the Grants Council to provide technical feedback on all Mission Request applicants.
-- The Foundation Mission Request subcommittee (2 members, plus the Lead) is responsible for selecting which teams are chosen to fulfill the Foundation Mission Requests.
+- The Audit Mission subcommittee (2 members) is responsible for selecting applicants to provide subsidized audits for.
+- The Governance Misison Request subcommittee (3 members) works with the Grants Council to provide technical feedback on all Mission applicants.
+- The Foundation Mission subcommittee (2 members, plus the Lead) is responsible for selecting which teams are chosen to fulfill the Foundation Missions.
 - The OP Labs Representative (1 member) floats between these teams, providing support and insight into OP Labs' roadmap and perspective.
 
-The members of these subcommittees exist with the mandate of ensuring that the best possible applicants are selected for each Mission Request. This means they are responsible for:
+The members of these subcommittees exist with the mandate of ensuring that the best possible applicants are selected for each Mission. This means they are responsible for:
 - (a) providing support to potential applicants to drive more high quality applications,
 - (b) supporting the evaluation of applications as requires by their subcommittee (either making selections or providing feedback).
 
-In addition to the subcommittee responsibilities, there are additional roles that individual Developer Advisory Board members will take on. These roles will be voted on internally by the Developer Advisory Board and include: Upgrade Czar, Interop Specialist, Mission Request Scout, and Ops Lead.
+In addition to the subcommittee responsibilities, there are additional roles that individual Developer Advisory Board members will take on. These roles will be voted on internally by the Developer Advisory Board and include: Upgrade Czar, Interop Specialist, Mission Scout, and Ops Lead.
 
 - The Ops Lead (1 member) is responsibile for managing the operations of the board, including:
-    - (a) improving the IOPs,
-    - (b) scheduling meetings,
-    - (c) interfacing with other Councils,
-    - (d) organizing spreadsheets and processes for applicant feedback, and
+    - (a) improving the IOPs
+    - (b) scheduling meetings
+    - (c) interfacing with other Councils
+    - (d) organizing tools and processes for the DAB to perform its duties
     - (e) looking for any other opportunities to make changes that will keep the DAB’s efforts focused and effective
 - The Upgrade Czar (1 member) manages the board's responsibilities around protocol upgrades, including:
     - (a) understanding the OP Stack deeply and reviewing all upgrades,
     - (b) leading the DAB in discussing and approving these upgrades, and
     - (c) writing up non-technical summaries of the changes for the community
 - The Interop Specialist (1 member) is a temporary role for S7 that exists to help ensure the board has sufficient depth of expertise in Interop, given its importance for this Season. Their responsibilities include:
-    - (a) provide support for all subcommittee teams with details Interop questions, and
-    - (b) look for missing products or opportunities, and ensure that these ideas are reflected in MRs
-- The Mission Request Scouts (2 members) fill the additional responsibility of crafting Mission Requests, which requires:
-    - (a) deeply understand the OP Labs roadmap, and thinking creatively about missing gaps that Mission requests could fill,
-    - (b) conceptualizing, getting consensus on, drafting, and posting the ongoing Foundation Mission Requests, and
-    - (c) working with the Grants Council to ensure their MR process takes into account the specific technical outcomes that would most support the Collective.
+    - (a) staying closely on top of interop developments, including protocol level changes and products being built,
+    - (b) keeping the other board members informed and up to speed on these changes,
+    - (c) providing support for all subcommittee teams (as well as members of other councils) who have detailed interop questions, and
+    - (d) looking for missing products or opportunities, and ensure that these ideas are reflected in Missions
+- The Mission Scouts (2 members) fill the additional responsibility of crafting Missions, which requires:
+    - (a) deeply understand the OP Labs roadmap, and thinking creatively about missing gaps that Missions could fill,
+    - (b) conceptualizing, getting consensus on, drafting, and posting the ongoing Foundation Missions, and
+    - (c) working with the Grants Council to ensure their Mission process takes into account the specific technical outcomes that would most support the Collective.
 
 ### Resignation process
 

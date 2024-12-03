@@ -33,11 +33,6 @@ Non-Goals:
   1. GrantNerds: Conducted by generalist reviewers to assess eligibility, alignment and guidance to applicants.
   2. Final Review: Conducted by professional DeFi reviewers to evaluate TVL-driving potential.
 
-### Emergency Circumstances
-
-* Emergency actions, such as clawbacks or fund freezes due to misuse, will be initiated by a majority vote.
-* A retrospective will be published on any emergency actions taken.
-
 ### Participants
 
 #### Cohorts and Election Terms

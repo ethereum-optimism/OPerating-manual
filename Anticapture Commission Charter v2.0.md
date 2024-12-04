@@ -1,5 +1,7 @@
 This Charter outlines the structure and responsibilities of the Anticapture Commission and its participants.
 
+Link to Charter on Governance Forum: https://gov.optimism.io/t/season-7-anticapture-commission-charter-amendment/9354
+
 # Season 7: Anticapture Commission Charter Amendment Proposal
 
 The Anticapture Commission was conceptualized and formally introduced as a Meta-governance structure in Season 5 of Governance, with a view towards preventing capture across the Optimism Collective, while simultaneously representing the interests of key individual delegates. Originally, the Anticapture Commission Charter was authorized to operate for two seasons, and carried forward into Season 6. Now at the completion of Season 6, the Anticapture Commission Charter is being proposed for renewal. If approved by the Token House, the Anticapture Commission would be delegated 10M OP from the Governance Fund in Season 7 and 8. The Anticapture Commission will not have an operating budget. 

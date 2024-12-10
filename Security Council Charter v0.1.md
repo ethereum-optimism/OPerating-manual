@@ -80,7 +80,7 @@ This section describes the expectations for Security Council participants, inclu
 
 ### **Cohorts and Election Terms**
 
-Security Council participants will serve in two cohorts, subject to recurring, staggered re-election periods. The initial Cohort 1 (at least 50% of the total number of participants) will serve for 12 months. The initial Cohort 2 (the remaining participants) will serve for 18 months. These initial cohorts of Security Council participants will be proposed by the Optimism Foundation, subject to ratification by the Token House.
+Security Council participants will serve in two cohorts, subject to recurring, staggered re-election periods. The initial Cohort 1 (at least 50% of the total number of participants) will serve for 12-months. The initial Cohort 2 (the remaining participants) will serve for 18 months. These initial cohorts of Security Council participants will be proposed by the Optimism Foundation, subject to ratification by the Token House.
 
 Six months prior to the expiration of the cohorts’ respective terms, there will be elections to replace or renew the signers in that cohort. All subsequently elected cohorts will serve a 12 month term. Elections are expected to follow the standard election format used for all Councils in the Collective.
 

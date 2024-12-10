@@ -55,7 +55,7 @@ All protocol upgrades, and designation changes for removing a sequencer from the
 
 All protocol upgrades, and the specific designation change that removes a sequencer for the sequencer allowlist, are subject to a 14-day delay period before becoming effective. This delay period applies regardless of whether the corresponding multisig action is first approved by Optimism Governance or implemented preemptively by the Security Council as an emergency response.
 
-During that 14 day period, the Optimism Foundation may veto the upgrade. The Foundation will endeavor to use this veto authority consistent with the “Emergency Response” parameters outlined above and the provisions of the Law of Chains. As with the existence of the Security Council in general, the Foundation’s role in vetoing upgrades should be reduced over time.
+During that 14-day period, the Optimism Foundation may veto the upgrade. The Foundation will endeavor to use this veto authority consistent with the “Emergency Response” parameters outlined above and the provisions of the Law of Chains. As with the existence of the Security Council in general, the Foundation’s role in vetoing upgrades should be reduced over time.
 
 ### **Challenging** 
 

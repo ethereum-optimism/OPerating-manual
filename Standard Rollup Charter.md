@@ -23,7 +23,7 @@ The onchain criteria for Standard Rollups consist of two components: a **version
 ### Version Validation
 The most important onchain criteria is that a chain be on a standard, governance-approved release of the OP Stack. This check is performed by comparing all bytecode for the chain’s L1 smart contracts to the standard bytecode corresponding to a governance-approved release of the OP Stack.
 
-Version validation is a strict, critical requirement. To securely hand over upgradability to the Collective, a chain’s L1 smart contracts must match the release tags defined by [this TOML file](https://github.com/ethereum-optimism/superchain-registry/blob/a3a7f2e1df081125e3d1fe9ff4a24ff5aaa238a8/validation/standard/standard-versions-mainnet.toml) in the Superchain Registry. At the time of writing, this corresponds to `op-contracts@v1.6.0`.
+Version validation is a strict, critical requirement. To securely hand over upgradability to the Collective, a chain’s L1 smart contracts must match the release tags defined by [this TOML file](https://github.com/ethereum-optimism/superchain-registry/blob/a3a7f2e1df081125e3d1fe9ff4a24ff5aaa238a8/validation/standard/standard-versions-mainnet.toml) in the Superchain Registry. This corresponds to `op-contracts@v1.8.0-rc.3`.
 
 For those interested, the code currently used in the Superchain Registry to perform version (and configuration) checks can be found[ here](https://github.com/ethereum-optimism/superchain-registry/blob/main/validation/validation_test.go). The Optimism Foundation may, from time to time, update this code (e.g. for quality-of-life improvements or other refactors), **so long as it does not violate the semantic interpretation of the above TOML files, which are subject to Governance approval**.
 

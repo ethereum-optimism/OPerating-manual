@@ -149,7 +149,7 @@ The Proposing House column will be updated to include Citizens’ House, for rel
 
 
 ### **Retro Funding**
-Citizens’ House governance includes  Retroactive Public Goods Funding (Retro Funding), which involves voting and disbursements occuring over a series of “rounds.” In each Retro round, the Citizens’ House votes to retroactively reward public goods projects that have provided substantial impact. 
+Citizens’ House governance includes  Retroactive Public Goods Funding (Retro Funding), which involves voting and disbursements occurring over a series of “rounds.” In each Retro round, the Citizens’ House votes to retroactively reward public goods projects that have provided substantial impact. 
 
 Retro rounds are run according to the following process:
 

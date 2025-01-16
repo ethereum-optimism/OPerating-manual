@@ -1,12 +1,13 @@
 This document describes the current governance proposal process of the Optimism Collective. It will evolve, with the Collective, over time. The authoritative version is maintained [here](https://github.com/ethereum-optimism/Operating-manual) on the ethereum-optimism Github.
 
-### **Operating Manual v0.3.9:  The Token House and Citizens' House**
+### **Operating Manual v0.4.0:  The Token House and Citizens' House**
 
 The Optimism Collective is governed by two houses, the Token House and the Citizens’ House. 
 
 In the Token House, OP holders are responsible for submitting, deliberating, and voting on various types of Optimism Collective governance proposals. They may do so by either voting their OP directly (after delegating their OP voting power to their own address), or by delegating their OP voting power to an eligible third party. Addresses with delegated OP voting power are called “delegates.” 
 
-In the Citizens’ House, Optimism Citizens are responsible for allocating rewards to builders of public goods through a process called “retroactive public goods funding” (Retro Funding). Badgeholders that participated in Retro Funding 3, demarcated via entries in the AttestationStation smart contract, are now Citizens. Citizenship is currently temporary. Citizens are also responsible for voting on vetoes to upgrade proposals. 
+In the Citizens’ House, Optimism Citizens are responsible for allocating rewards to builders of public goods through a process called “retroactive public goods funding” (Retro Funding). Citizens can be identified via the [Citizen attestation.](https://optimism.easscan.org/schema/view/0xc35634c4ca8a54dce0a2af61a9a9a5a3067398cb3916b133238c4f6ba721bc8a) Citizenship is currently temporary and regular experimentation with [Guest Voters](https://community.optimism.io/citizens-house/experimentation-with-citizenship) is being used to generate insights for future, permanent updates to Citizenship. Citizens are also responsible for voting on Retro Funding Mission scope and budget and have the ability to veto upgrade proposals.
+
 
 All Token and Citizens’ House representatives are expected to exercise their authority responsibly and in accordance with the [Rules of Engagement](https://gov.optimism.io/t/rules-of-engagement-2-0/5728) and [Optimist Expectations](https://gov.optimism.io/t/optimist-expectations/7241). 
 
@@ -14,14 +15,14 @@ All Token and Citizens’ House representatives are expected to exercise their a
 ## **Optimism Governance**
 ### **Governance Toolkit**
 
-The primary tools for Token House governance are currently:
+The primary tools for Optimism governance are currently:
 
 - [Token House Governance Contract:](https://optimistic.etherscan.io/address/0xcdf27f107725988f2261ce2256bdfcde8b382b10) The on-chain voting contract for Token House governance proposals. Where all Token House qualifying governance proposals are submitted for vote. 
 - [Optimism Governance Portal:](https://vote.optimism.io/) A front-end interface that enables Token House members to delegate and vote their OP on-chain.
-- [The Citizens’ House Snapshot Space:](https://snapshot.org/#/citizenshouse.eth) A front-end interface that enables Citizens’ House members to veto Token House proposals. 
+- [The Citizens’ House Snapshot Space:](https://snapshot.org/#/citizenshouse.eth) A front-end interface that enables Citizens’ House members to vote on proposals. 
 - [The Optimism Forum:](http://gov.optimism.io/) A platform for discussion and deliberation about governance proposals.
 - [Discord:](https://discord-gateway.optimism.io/) For informal governance discussion and feedback.
-- [Github:](https://github.com/ethereum-optimism/ecosystem-contributions/issues) Grants (Mission Requests) are managed via issues in this public github repo 
+- [Github:](https://github.com/ethereum-optimism/ecosystem-contributions/issues) Grants (Foundation Missions) are managed via issues in this public github repo 
 - [Charmverse:](https://app.charmverse.io/op-grants/page-701220845245208) Home of the community-led Optimism Grants Council
 
 These tools or their uses may change over time as governance evolves. For example, additional user interfaces dedicated to governance councils may be developed in the future. Likewise, while voting currently takes place on-chain through the Governance Contract, successful votes are currently administered and implemented by the Optimism Foundation (see below), which should not be the case indefinitely. 
@@ -32,13 +33,13 @@ Both Houses make decisions through governance proposals. Proposals are accepted 
 
 ### **Voting Process**
 
-All governance proposals go through a three week cycle.
+All voting periods last 7 days. Governance proposals typically undergo a three-week cycle, with exceptions for those during a Reflection Period or Maintenance Upgrades, which may follow an adjusted schedule. 
 
 Each “week” runs from Thursday at 19:00p GMT (12p PST) until Wednesday at 19:00 GMT (12p PST).
 
 ### **Mission Grants**
 
-Applications to Token House Mission Requests will be reviewed and selected by the Grants Council. Applications to Foundation Mission Requests will be reviewed and selected by the Foundation. All applications should follow the submission process outlined on each Mission Request in [github](https://github.com/ethereum-optimism/ecosystem-contributions/issues?q=is%3Aissue).
+Applications to Token House Missions will be reviewed and selected by the Grants Council. Applications to Foundation Missions will be reviewed and selected by the Foundation or the Developer Advisory Board. All applications should follow the submission process outlined on each Mission. 
 
 
 ### **All Other Proposal Types**
@@ -53,10 +54,11 @@ Proposals should be:
 - Submitted as a new discussion thread on the [Governance Forum](http://gov.optimism.io/) in the appropriate category.
 - Marked with [Draft] in the title.
 - Formatted and contain information consistent with the [standard proposal template.](https://gov.optimism.io/t/standard-proposal-template-optimism-token-house/5443)
-- Mission Requests drafts may only be submitted by members of the Collective Feedback Commission and Grants Council and must follow the template [here.](https://gov.optimism.io/t/season-6-mission-request-creation-guide/8123)
+- Token House Missions may only be submitted by the Grants Council and must follow the template [here.](https://gov.optimism.io/t/season-6-mission-request-creation-guide/8123)
 
 
-Before the end of Week 2, a governance administrator will create a Voting Cycle Roundup thread in the forum to collect all proposals that meet the requirements for voting in Week 3. This Roundup will not include Mission grant applications, which will be processed by the Foundation or Grants Council. 
+Before the end of Week 2, a governance administrator will create a Voting Cycle Roundup thread in the forum to collect all proposals that meet the requirements for voting in Week 3. This Roundup will not include Mission grant applications, which will be processed by the Foundation, the Developer Advisory Board, or Grants Council, as outlined in their respective Charters. 
+
 
 For a non-grant proposal proposed in the Token House to proceed to Week 3, four of the top 100 delegates must give explicit approval on the discussion thread. Proposals initiated by the Foundation do not require delegate approvals. Delegates may not approve their own proposals. Delegates may signal approval by pasting the following comment on the proposal discussion thread: *”I am an Optimism delegate [link to your [delegate commitment](https://vote.optimism.io/delegate/your_address)] with sufficient voting power and I believe this proposal is ready to move to a vote."*
 
@@ -71,7 +73,7 @@ If a proposal author does not get explicit approval or wants more time for feedb
 
 #### **Week 3: Voting**
 
-In the third week, all Citizens and delegates (including OP token holders who have self-delegated) are invited to vote on proposals. Non-grant proposals will be included in voting only if they were added to the Voting Cycle Roundup thread before the deadline and have the required approvals. Without explicit approval, proposals will not move to a vote.
+In the third week, all Citizens and delegates are invited to vote on proposals. Non-grant proposals will be included in voting only if they were added to the Voting Cycle Roundup thread before the deadline and have the required approvals. Without explicit approval, proposals will not move to a vote.
 
 A Token House governance proposal is **approved** if it satisfies the following minimum vote thresholds:
 
@@ -112,9 +114,10 @@ Casting a veto is a serious decision. If a proposal approved in the Token House 
 
 ### **Valid Proposal Types**
 
-All v0.3 governance proposals must fall within one of the following categories:
-- Governance Fund 
+All v0.4 governance proposals must fall within one of the following categories:
+- Governance Fund (Missions)
 - Protocol or Governor Upgrade
+- Maintenance Upgrade Proposals
 - Inflation Adjustment
 - Director Removal
 - Treasury Appropriations
@@ -129,38 +132,44 @@ All v0.3 governance proposals must fall within one of the following categories:
 
 The different requirements for submission and approval of each Proposal Type are summarized below.  If a specific template is not specified below, proposals should follow this [standard proposal template.](https://gov.optimism.io/t/standard-proposal-template-optimism-token-house/5443) Additional proposal types may be added in future Seasons. 
 
-All grant applications are processed by either an elected Grants Council or the Foundation. Grant  applications should follow the process outlined on each individual Mission Request in [github.](https://github.com/ethereum-optimism/ecosystem-contributions/issues?q=is%3Aissue)
+All grant applications are processed by either the Grants Council, the Developer Advisory Board, or the Foundation, as outlined in their respective Charters. Grant applications should follow the process outlined on each individual Mission.
 
 |Proposal Type|Proposing House|Description|Submission Requirements|Vote Duration|Quorum|Approval Threshold|Veto Threshold|Veto Rights|
 |--------------------------------|--------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|------------------------------------------------------|-----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-|Governance Fund (Mission Requests)     |Token House| The Governance Fund may be used to support development of the Collective and/or growth of the ecosystem via the Mission framework.|Forum + On-Chain Voting                                                                                                                                                                                                                                                                                                                 |Two-week review period plus one week voting window|30%|51%|N/A|N/A| 
-|Protocol or Governor Upgrade                |Token House| Scheduled changes to the on-chain smart contracts comprising the mainnet Optimism protocol or governance contract. Please reference the [Framework for Protocol Upgrades](https://github.com/ethereum-optimism/OPerating-manual/blob/main/Framework%20for%20Protocol%20Upgrades.md) to understand when governance approval is required.	                                                                                                                                                                                                             |Forum + On-Chain Voting                                                                                                                                                                                                                                                                                                                                                          |Two-week review period plus one week voting window                  | 30%                                                   | 76%|30%|Citizens' House|                                                                                |
+|Governance Fund (Missions)     |Token House| The Governance Fund may be used to support development of the Collective and/or growth of the ecosystem via the Mission framework.|Forum + On-Chain Voting                                                                                                                                                                                                                                                                                                                 |Two-week review period plus one week voting window|30%|51%|N/A|N/A| 
+|Protocol or Governor Upgrade                |Token House| Scheduled changes to the on-chain smart contracts comprising the mainnet Optimism protocol or governance contract.                                                                                                                                                                                                           |Forum + On-Chain Voting                                                                                                                                                                                                                                                                                                                                                          |Two-week review period plus one week voting window                  | 30%                                                   | 76%|30%|Citizens' House|                   
+|Maintenance Upgrade Proposals**| Both Houses| Protocol maintenance required to continue network operations on a shorter timescale than voting periods, e.g. to react to L1 hard forks or to perform bugfixes and maintenance on a shorter timeframe.  Must not materially change the behavior of the protocol for end users, infra providers, or chain governors.|On-Chain Voting. Proposals should follow this [template.](https://gov.optimism.io/t/maintenance-upgrade-template/9539)|One-week optimistic voting window*|N/A|N/A|12%|Each House                                                               |
 |Inflation Adjustment            |Token House|Changes to the inflation rate of newly minted OP (currently capped at 2% annually)                                                                                                                                                                                                                     |Forum + On-Chain Voting. Proposals should follow [this template](https://gov.optimism.io/t/inflation-adjustment-proposal-template/5923).                                                                                                                                                                                                                                                                                                                                                         |Two-week review period plus one week voting window                          |30%                                                   |76%|TBD|Citizens' House|                                                                                 |
 |Director Removal                |Token House| Removal of a director of the Optimism Foundation                                                                                                                                                                                                                                                       |Forum + On-Chain Voting                                                                                                                                                                                                                                                                                                                                                         |Two-week review period plus one week voting window                     |30%                                                   |76%|N/A|N/A|                                                                                |
 |Treasury  Appropriations        |Token House| The amount of OP the Optimism Foundation may spend or distribute annually, beginning in Year 2 of its existence (the Year 1 budget is 30% of the initial total OP supply)                                                                                                                              |Proposals to be initiated by the Foundation                                                                                                                                                                                                                                                                                                                                  |Two-week review period plus one week voting window                    |30%                                                   |51%|N/A|N/A|                                                                                |
 |Rights Protections              |Token House|OP holders must consent to any changes to the founding documents of the Optimism Foundation, if those changes would materially reduce their rights                                                                                                                                                     |Proposals to be initiated by the Foundation                                                                                                                                                                                                                                                                                                                                  |Two-week review period plus one week voting window                      |30%                                                   |51%|N/A|N/A|                                                                                |
-|Code of Conduct Violation              |Either House| Code of Conduct enforcement actions (including grant policy violations) will be subject to veto by the corresponding House.                                                                                                                                                  |Proposals to be initiated by the enforcing party outlining any enforcement actions.                                                                                                                                                                                                                                                                                                                             |Two-week review period plus one week voting window                     |N/A                                                  |N/A|12%|Corresponding House|   
+|Code of Conduct Violation              |Either House| Code of Conduct enforcement actions (including grant policy violations) will be subject to veto by the corresponding House.                                                                                                                                                  |Proposals to be initiated by the enforcing party outlining any enforcement actions.                                                                                                                                                                                                                                                                                                                             |Two-week review period plus one week optimistic voting window*                     |N/A                                                  |N/A|12%|Corresponding House|   
 |Representative Removal| Token House| Collective Council, Board, and Commission members may be removed from their position for failing to uphold the responsibilities outlined in the relevant Charter or to act with honesty and transparency, in accordance with the [Rules of Engagement](https://gov.optimism.io/t/rules-of-engagement-2-0/5728), including by refraining from engaging in self-dealing.| Forum + On-Chain Voting.| Two-week review period plus one week voting window|	30%|	51%|	N/A	|N/A|
-|Persistent Structure Dissolution              | Token House|A persistent structure may be dissolved if it is no longer fulfilling its Charter                                                                                                                                                    |Forum + On-Chain Voting                                                                                                                                                                                                                                                                                                                                  |Two-week review period plus one week voting window                     |30%                                                   |51|N/A|N/A| 
-|Ratification          | Token House|Ratification of governance documents                                                                                                                                                   |Proposals to be initiated by the Foundation                                                                                                                                                                                                                                                                                                                                  |Two-week review period plus one week voting window                     |30%                                                   |51|N/A|N/A| 
-|Reflection Period Proposals (Metagovernance)           | Token House|Experiments with new governance structures, programs, and/or processes                                                                                                                                                 |Proposals to be initiated by the Foundation                                                                                                                                                                                                                                                                                                                                |Two-week review period plus one week voting window                     |30%                                                   |51|N/A|N/A| 
+|Persistent Structure Dissolution              | Token House|A persistent structure may be dissolved if it is no longer fulfilling its Charter                                                                                                                                                    |Forum + On-Chain Voting                                                                                                                                                                                                                                                                                                                                  |Two-week review period plus one week voting window                     |30%                                                   |51%|N/A|N/A| 
+|Ratification          | Token House|Ratification of governance documents                                                                                                                                                   |Proposals to be initiated by the Foundation                                                                                                                                                                                                                                                                                                                                  |Two-week review period plus one week voting window                     |30%                                                   |51%|N/A|N/A| 
+|Reflection Period Proposals (Metagovernance)           | Token House|Experiments with new governance structures, programs, and/or processes                                                                                                                                                 |Proposals to be initiated by the Foundation                                                                                                                                                                                                                                                                                                                                |Two-week review period plus one week voting window                     |30%                                                   |51%|N/A|N/A| 
 
 The Proposing House column will be updated to include Citizens’ House, for relevant proposal types, when those proposal types become valid in the Citizens’ House. Veto thresholds may be adjusted iteratively. If a Veto Right is indicated but a corresponding Veto Threshold is not, that Veto right is not yet active. 
 
+*Optimistic approval means the vote is assumed to pass unless explicitly rejected during the optimistic approval window. This voting type may be used in instances where increased speed or autonomy are needed while still ensuring accountability.    
+
+** The Maintenance Upgrade Proposal Type is needed because L1 releases may not align with Optimism’s standard voting cycles. 
+
 
 ### **Retro Funding**
-Citizens’ House governance includes  Retroactive Public Goods Funding (Retro Funding), which involves voting and disbursements occuring over a series of “rounds.” In each Retro round, the Citizens’ House votes to retroactively reward public goods projects that have provided substantial impact. 
+Citizens’ House governance includes Retroactive Public Goods Funding (Retro Funding), which involves voting and disbursements occurring via several Retro Funding Missions throughout a Season. For each Retro Funding Mission, the Citizens’ House votes on the mechanism used to retroactively reward public goods projects that have provided substantial impact.
 
-Retro rounds are run according to the following process:
+Retro Funding Missions are run according to the following process:
 
-- Scoping:  The overall amount of rewards to be allocated and scope of impact are defined at the outset of the round.  
-- Application creation:  Projects are invited to create an Application in the [Retro Funding Application Manager.]((https://app.optimism.io/retropgf-signup)) 
+
+- Scoping:  The overall amount of rewards to be allocated and scope of impact are voted on at the outset of the round.  
+- Application creation:  Projects are invited to create an Application in the [OP Atlas]((https://atlas.optimism.io/)) 
 - Application Review: Applications are reviewed for adherence to the application rules
-- Voting:  Votes are collected from the Citizens with the requisite [AttestationStation](https://community.optimism.io/docs/identity/schemas/) entries and tallied. 
-- Disbursement:  Based on the simple weighted average of the Citizens’ House vote, the overall reward amount for the round is divided among the winning projects. 
+- Voting:  Relevant votes are collected from the Citizens with the requisite EAS attestations and tallied.
+- Disbursement:  Based on the Citizens’ House impact measurement, the overall reward amount for the Mission is divided among the winning projects.
 - Compliance: The Foundation will collect information from projects in order to distribute the grant in a legally compliant manner (including completing KYC).
 
-Additional information on the process for 2024 Retro Funding is available [here.](https://gov.optimism.io/t/upcoming-retro-rounds-and-their-design/7861) 
+Additional information on the process for 2025 Retro Funding is available [here.](https://gov.optimism.io/t/season-7-retro-funding-missions/9295) 
 
 
 ## **Implementation and Administration**
@@ -189,22 +198,27 @@ Upon receipt of an approved proposal, the Optimism Foundation will determine whe
 
 The Optimism Foundation will undertake this ministerial work with a view towards increasingly decentralizing its role over time.
 
+The Security Council will enact officially approved Upgrades. 
+Valid Governance Fund Mission Proposals are automatically implemented via onchain execution. 
+
 ### **Change Process**
 
 The procedures described in this Operating Manual will go into effect as releases are published on GitHub. Major releases to the manual will be made in connection with a series of governance experiments (“Seasons”). These changes include but are not limited to the expansion of the Citizens’ House, and adding, removing, and modifying Proposal Types and rules relating to voting processes. Any non-clerical updates to the Operating Manual will be reflected with a new version number at the top of this document, at which point the updated version will go into effect.
 
 ## Process TLDR
-- Proposals are reviewed over a three week voting cycle.
-- If you’re submitting a grant application, you’ll need to submit your application as outlined on each individual Mission Request in [github.](https://github.com/ethereum-optimism/ecosystem-contributions/issues?q=is%3Aissue)
-- For all other proposal types, you may draft a proposal based on [this](https://gov.optimism.io/t/standard-proposal-template-optimism-token-house/5443) template and post it on the Forum with [Draft] in the title for feedback. Delegates and/or Citizens will provide feedback on your proposal in the forum. Use your judgment to incorporate feedback.
-- Once your non-grant proposal has been approved by four top 100 delegates or four Citizens add a link to your proposal to the Voting Cycle Roundup thread by the last day of Week 2 and update the title from [Draft] to [Final]. These proposals will move on to Week 3 voting. Proposals initiated by the Foundation do not require approvals.
+- Proposals are reviewed over a three week voting cycle (some exceptions apply) 
+- If you’re submitting a grant application, you’ll need to submit your application as outlined on each Mission. 
+- For most other proposal types, you may draft a proposal based on [this](https://gov.optimism.io/t/standard-proposal-template-optimism-token-house/5443) template and post it on the Forum with [Draft] in the title for feedback. Delegates and/or Citizens will provide feedback on your proposal in the forum. Use your judgment to incorporate feedback.
+- Once your non-grant proposal has been approved by four top 100 delegates or four Citizens, add a link to your proposal to the Voting Cycle Roundup thread by the last day of Week 2 and update the title from [Draft] to [Final]. These proposals will move on to Week 3 voting. Proposals initiated by the Foundation do not require approvals.
 - Protocol or Governor Upgrades approved by the Token House, must also pass the Citizens’ House Veto Procedure, as outlined in the Veto Procedure section above, before they are considered officially approved. 
-- The Security Council will enact officially approved Protocol or Governor Upgrades. The Optimism Foundation will facilitate the administration of all other approved proposals, including by distributing any approved OP grants. The Foundation will be in touch to collect additional information from your project in order to execute the proposal or grant, including information to perform KYC. 
-- If your proposal is passed, the Optimism Foundation will facilitate its administration, including by distributing any approved OP grants. The Foundation will be in touch to collect additional information from your project in order to execute the proposal or grant, including information to perform KYC.
+- The Security Council will enact officially approved Upgrades. 
+- Governance Fund Mission Proposals are automatically implemented via onchain execution. 
+- If your proposal is passed, the Optimism Foundation will facilitate its administration. The Foundation will be in touch to collect additional information from your project in order to execute the proposal or grant, including information to perform KYC.
 - If your proposal fails, you can make a new proposal in the next cycle specifying how you have incorporated significant changes from your first proposal.
 
 
 #### The Citizens’ House also manages the allocation of Retro Funding:
-- Citizenship is currently temporary, with the Retro Funding 3 Citizens recorded via entries in the AttestationStation. 
-- Retro Funding rounds occur in intervals and according to a predefined process, which currently includes phases for scoping, application creation, application review, voting, and disbursements. The Foundation will collect information from projects in order to distribute the grant, including information to perform KYC.
+- Citizenship is currently temporary and regular experimentation with [Guest Voters](https://community.optimism.io/citizens-house/experimentation-with-citizenship) is being used to generate insights for future, permanent updates to Citizenship. Citizens can be identified via the [Citizen attestation.](https://optimism.easscan.org/schema/view/0xc35634c4ca8a54dce0a2af61a9a9a5a3067398cb3916b133238c4f6ba721bc8a) 
+- Retro Funding occurs at regular intervals and according to a predefined process, which currently includes phases for scoping, application creation, application review, voting, and disbursements. The Foundation will collect information from projects in order to distribute the grant, including information to perform KYC.
+
 

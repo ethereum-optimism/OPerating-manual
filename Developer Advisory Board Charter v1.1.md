@@ -2,7 +2,7 @@ This Charter outlines the structure and responsibilities of the Developer Adviso
 
 This is the Season 7 Charter, which supersedes and replaces the Charters of all previous Seasons.
 
-# Season 7 Devloper Advisory Board Charter v1.2
+# Season 7 Devloper Advisory Board Charter v1.3
 
 ---
 
@@ -23,6 +23,10 @@ The Developer Advisory Board exists to provide technical expertise across the Op
 - There are no term limits for representatives, but they may be implemented in the future if the need arises.
 
 ## Responsibilities
+
+### Full Board Responsibilities
+
+The entire DAB has a shared responsibility to support the community through Protocol Upgrades. Specifically, the DAB is responsible for sharing a response to each protocol upgrade that summarizes their view of the proposal. Note that the DAB _can_ provide one of the four required delegate approvals, but their approval isn’t required for the protocol upgrade to go to a vote.
 
 ### Lead Responsibilities
 

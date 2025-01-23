@@ -23,18 +23,20 @@ The onchain criteria for Standard Rollups consist of two components: a **version
 ### Version Validation
 The most important onchain criteria is that a chain be on a standard, governance-approved release of the OP Stack. This check is performed by comparing all bytecode for the chain’s L1 smart contracts to the standard bytecode corresponding to a governance-approved release of the OP Stack.
 
-Version validation is a strict, critical requirement. To securely hand over upgradability to the Collective, a chain’s L1 smart contracts must match the release tags defined by [this TOML file](https://github.com/ethereum-optimism/superchain-registry/blob/9095778d45a5066649890ee838f87b27062a0d4d/validation/standard/standard-versions-mainnet.toml) in the Superchain Registry. This corresponds to `op-contracts@v1.8.0-rc.3`.
+Version validation is a strict, critical requirement. To securely hand over upgradability to the Collective, a chain’s L1 smart contracts must be deployed by the canonical OP Contracts Manager address as identified by --insert-commit-permalink-here--. Governance will ratify versions of the OP Contracts manager to ensure that new chains are deployed using governance-approved contracts and are upgraded using governance-approved logic. (BEN TODO FIX)
 
-For those interested, the code currently used in the Superchain Registry to perform version (and configuration) checks can be found[ here](https://github.com/ethereum-optimism/superchain-registry/blob/main/validation/validation_test.go). The Optimism Foundation may, from time to time, update this code (e.g. for quality-of-life improvements or other refactors), **so long as it does not violate the semantic interpretation of the above TOML files, which are subject to Governance approval**.
+For those interested, the code currently used in the Superchain Registry to perform version (and configuration) checks can be found[ here](https://github.com/ethereum-optimism/superchain-registry/blob/main/validation/validation_test.go). The Optimism Foundation may, from time to time, update this code (e.g. for quality-of-life improvements or other refactors), **so long as it does not violate the semantic interpretation of the above TOML files, which are subject to Governance approval**. (TODO BEN DETERMINE WORDING TO REMOVE THIS)
 
 ### Configuration Check
 Beyond being on a standard version of the OP Stack, all configuration values for the chain must be within high-security, well-tested bounds, and all administrative roles must be  set correctly. There are two main components:
-* **Parameter Configuration**: A set of requirements for the “protocol parameters” of a chain — things like block time, gas metering, and other low-level variables — to either equal a certain value, or fall within a specified range. The specific requirements can be found [here](https://github.com/ethereum-optimism/superchain-registry/blob/9095778d45a5066649890ee838f87b27062a0d4d/validation/standard/standard-config-params-mainnet.toml).
+
+* **Parameter Configuration**: A set of requirements for the “protocol parameters” of a chain — things like block time, gas metering, fault proof configuration, and other low-level variables — to either equal a certain value, or fall within a specified range. The specific requirements can be found [here](https://github.com/ethereum-optimism/superchain-registry/blob/9095778d45a5066649890ee838f87b27062a0d4d/validation/standard/standard-config-params-mainnet.toml).
 * **Role Configuration**: A set of requirements for the privileged administrative roles for the chain. The specific requirements can be found [here](https://github.com/ethereum-optimism/superchain-registry/blob/9095778d45a5066649890ee838f87b27062a0d4d/validation/standard/standard-config-roles-mainnet.toml). Primarily, these checks involve ensuring that the Security Council holds authorization to perform upgrades, and other minor Stage 1 requirements (see [here](https://gov.optimism.io/t/final-protocol-upgrade-8-guardian-security-council-threshold-and-l2-proxyadmin-ownership-changes-for-stage-1-decentralization/8157)).
+* **TODO: PRESTATES**
 
-A more human-readable breakdown of these requirements, including supporting rationale choices, can be found in the[ configurability page](https://specs.optimism.io/protocol/configurability.html) of the OP Stack docs. However, the ultimate source of truth for configuration requirements are the two TOML files linked above, as modified from time to time by Optimism Governance.
+A more human-readable breakdown of these requirements, including supporting rationale choices, can be found in the [configurability page](https://specs.optimism.io/protocol/configurability.html) of the OP Stack docs. However, the ultimate source of truth for configuration requirements are the TOML files linked above, as modified from time to time by Optimism Governance.
 
-The Optimism Foundation may, from time to time, update the[ validation code](https://github.com/ethereum-optimism/superchain-registry/blob/main/validation/validation_test.go) used in the Superchain Registry to perform these checks, **so long as it does not violate the semantic interpretation of the above TOML files, which are subject to Governance approval.**
+The Optimism Foundation may, from time to time, update the [validation code](https://github.com/ethereum-optimism/superchain-registry/blob/main/validation/validation_test.go) used in the Superchain Registry to perform these checks, **so long as it does not violate the semantic interpretation of the above TOML files, which are subject to Governance approval.** (BEN TODO FIGURE THIS OUT)
 
 #### Role Configuration Exceptions
 Certain chains’ `L1ProxyAdmin` role shall satisfy the Standard Rollup Criteria, without the default address `0x5a0Aae59D09fccBdDb6C6CcEB07B7279367C3d2A`, so long as that role is a 3/3 gnosis SAFE between the Chain Governor, Optimism Foundation, and Security Council. These chains are:
@@ -58,6 +60,9 @@ In addition to the above deterministic criteria, the Optimism Foundation may per
 
 Given the fundamentally subjective nature of these checks, they are expected to be administered by the Foundation until they can be safely transitioned to Governance.
 
+### Grandfathered Chains
+All chains added to the Superchain Registry prior to March 1 2025 are considered "grandfathered" for the purposes of using OPCM for their deployment. All chains added to the SR afterwards must use OPCM.
+
 ## History Integrity Checks
 The Optimism Foundation has implemented a suite of history integrity checks, which can be used to identify historical discrepancies between chains and manually assess their impact. The Optimism Foundation will assess these discrepancies on an as-needed basis. If it believes that these discrepancies risk violating the Law of Chains (e.g., User Protections) in the future once the chain is added as a Standard Rollup, it will deny the chain’s inclusion, even if all other criteria in this document are met.
 
@@ -66,7 +71,8 @@ The importance of history integrity checks should quickly diminish over time tow
 For more information on the motivation for history integrity checks, see [this post](https://gov.optimism.io/t/9067).
 
 ### Note on Superchain Registry
-The "promotion” of a chain (i.e. setting its `superchain_level` to `1`) in the `superchain-registry` repo will be the canonical indicator of passing the offchain criteria and history integrity checks. Thus, the community can determine whether a given chain falls under the scope of this Charter by checking that:
+
+The "promotion” of a chain (i.e. setting its `superchain_level` to `2`) in the `superchain-registry` repo will be the canonical indicator of passing the offchain criteria and history integrity checks. Thus, the community can determine whether a given chain falls under the scope of this Charter by checking that:
 
 * The Chain passes all Onchain Criteria checks
 * The Chain has been included by the Foundation in the `superchain-registry` repo.

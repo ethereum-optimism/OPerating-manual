@@ -10,7 +10,7 @@ This is the Season 7 Charter, which supersedes and replaces the Charters of all 
 
 The Developer Advisory Board exists to provide technical expertise across the Optimism Collective. This leads us to two overarching goals:
 
-1. Support the Optimism community through important technical decisions.
+1. Support the Optimism community through important technical decisions, such as protocol upgrades.
 2. Ensure that funding for technical projects is allocated in a way that best advances the goals of the Collective.
 
 ## Participants

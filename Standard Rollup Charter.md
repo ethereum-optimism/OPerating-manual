@@ -23,7 +23,7 @@ The onchain criteria for Standard Rollups consist of two components: a **version
 ### Version Validation
 The most important onchain criteria is that a chain be on a standard, governance-approved release of the OP Stack. This check is performed by comparing all bytecode for the chain’s L1 smart contracts to the standard bytecode corresponding to a governance-approved release of the OP Stack.
 
-Version validation is a strict, critical requirement. To securely hand over upgradability to the Collective, a chain’s L1 smart contracts must be deployed by the canonical OP Contracts Manager address as identified in [this link](todo-commit-permalink). This corresponds to `op-contracts@v1.8.0-rc.3`.
+Version validation is a strict, critical requirement. To securely hand over upgradability to the Collective, a chain’s L1 smart contracts must be deployed by the canonical OP Contracts Manager ("OPCM") address as identified in [this link](todo-commit-permalink). This is an automated L1 deployment contract which deploys chains based on `op-contracts@v1.8.0-rc.3`.
 
 For those interested, the code currently used in the Superchain Registry to perform version (and configuration) checks can be found [here](todo-update-validation-link). These checks generate a simple-to-read "report" ([example](todo-green-link)) for easy validation. The Optimism Foundation may, from time to time, update this code (e.g. for quality-of-life improvements or other refactors), **requirement that these contracts were deployed by OPCM at the canonical address above, which is subject to Governance approval**.
 

@@ -18,7 +18,7 @@ The Developer Advisory Board exists to provide technical expertise across the Op
 ### Cohorts and Election Terms
 
 - The members of each Developer Advisory Board subcommittee will be elected by the Token House at the start of each Season.
-- After the election is complete, the members of the Devleoper Advisory Board will perform an internal vote to assign the additional internal roles.
+- After the election is complete, the members of the Developer Advisory Board will perform an internal vote to assign the additional internal roles.
 - Representatives may serve on one subcommittee and have up to two additional internal roles per Season.
 - There are no term limits for representatives, but they may be implemented in the future if the need arises.
 

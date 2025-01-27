@@ -53,9 +53,9 @@ All protocol upgrades, and designation changes for removing a sequencer from the
 
 ### **Delayed Upgrades**
 
-All protocol upgrades, and the specific designation change that removes a sequencer for the sequencer allowlist, are subject to a 14 day delay period before becoming effective. This delay period applies regardless of whether the corresponding multisig action is first approved by Optimism Governance or implemented preemptively by the Security Council as an emergency response.
+All protocol upgrades, and the specific designation change that removes a sequencer for the sequencer allowlist, are subject to a 14-day delay period before becoming effective. This delay period applies regardless of whether the corresponding multisig action is first approved by Optimism Governance or implemented preemptively by the Security Council as an emergency response.
 
-During that 14 day period, the Optimism Foundation may veto the upgrade. The Foundation will endeavor to use this veto authority consistent with the “Emergency Response” parameters outlined above and the provisions of the Law of Chains. As with the existence of the Security Council in general, the Foundation’s role in vetoing upgrades should be reduced over time.
+During that 14-day period, the Optimism Foundation may veto the upgrade. The Foundation will endeavor to use this veto authority consistent with the “Emergency Response” parameters outlined above and the provisions of the Law of Chains. As with the existence of the Security Council in general, the Foundation’s role in vetoing upgrades should be reduced over time.
 
 ### **Challenging** 
 
@@ -80,7 +80,7 @@ This section describes the expectations for Security Council participants, inclu
 
 ### **Cohorts and Election Terms**
 
-Security Council participants will serve in two cohorts, subject to recurring, staggered re-election periods. The initial Cohort 1 (at least 50% of the total number of participants) will serve for 12 months. The initial Cohort 2 (the remaining participants) will serve for 18 months. These initial cohorts of Security Council participants will be proposed by the Optimism Foundation, subject to ratification by the Token House.
+Security Council participants will serve in two cohorts, subject to recurring, staggered re-election periods. The initial Cohort 1 (at least 50% of the total number of participants) will serve for 12-months. The initial Cohort 2 (the remaining participants) will serve for 18 months. These initial cohorts of Security Council participants will be proposed by the Optimism Foundation, subject to ratification by the Token House.
 
 Six months prior to the expiration of the cohorts’ respective terms, there will be elections to replace or renew the signers in that cohort. All subsequently elected cohorts will serve a 12 month term. Elections are expected to follow the standard election format used for all Councils in the Collective.
 

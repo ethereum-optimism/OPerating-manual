@@ -29,7 +29,9 @@ For those interested, the code currently used in the Superchain Registry to perf
 
 #### "Legacy" chain grace period
 
-The OPCM is a relatively new tool, and "legacy" chains (i.e. chains deployed prior to or near its release) may not have used it during deployment despite best efforts to meet the Onchain Criteria. As such, chains merged into the Superchain Registry before March 1, 2025 will be deemed to still satisfy these Version Criteria, so long as their L1 contracts are functionally equivalent to what the OPCM would create for a new deployment. The Foundation may grant an exception to this policy for administrative convenience.
+The OPCM is a relatively new tool, and "legacy" chains (i.e. chains deployed prior to or near its release) may not have used it during deployment despite best efforts to meet the Onchain Criteria. As such, chains merged into the Superchain Registry before March 1, 2025 will be deemed to still satisfy these Version Criteria, so long as their L1 contracts are functionally equivalent to what the OPCM would create for a new deployment.
+
+If all the other requirements of the Version Criteria are satisfied, the Foundation may extend this March 1 deadline for certain chains on a case-by-case basis. 
 
 ### Configuration Check
 Beyond being on a standard version of the OP Stack, all configuration values for the chain must be within high-security, well-tested bounds, and all administrative roles must be  set correctly. There are two main components:

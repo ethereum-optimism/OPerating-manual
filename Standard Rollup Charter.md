@@ -23,15 +23,15 @@ The onchain criteria for Standard Rollups consist of two components: a **version
 ### Version Validation
 The most important onchain criteria is that a chain be on a standard, governance-approved release of the OP Stack. This check is performed by comparing all bytecode for the chain’s L1 smart contracts to the standard bytecode corresponding to a governance-approved release of the OP Stack.
 
-Version validation is a strict, critical requirement. To securely hand over upgradability to the Collective, a chain’s L1 smart contracts must be deployed by the canonical OP Contracts Manager ("OPCM") address as identified in [this link](todo-commit-permalink). This is an automated L1 deployment contract which deploys chains based on `op-contracts@v1.8.0`.
+Version validation is a strict, critical requirement. To securely hand over upgradability to the Collective, a chain’s L1 smart contracts must be deployed by the canonical OP Contracts Manager ("OPCM") address on Ethereum, [`0x5269eed89b0d04d909a0973439e2587e815ba932`](https://etherscan.io/address/0x5269eed89b0d04d909a0973439e2587e815ba932). This is an automated L1 deployment contract which deploys chains based on `op-contracts@v1.8.0`.
 
-For those interested, the code currently used in the Superchain Registry to perform version (and configuration) checks can be found [here](https://github.com/ethereum-optimism/superchain-registry/tree/main/ops/internal/report). These checks generate a simple-to-read "report" ([example](https://github.com/ethereum-optimism/superchain-registry/pull/816#issuecomment-2564153446)) for easy validation. The Optimism Foundation may, from time to time, update this code (e.g. for quality-of-life improvements or other refactors), **requirement that these contracts were deployed by OPCM at the canonical address above, which is subject to Governance approval**.
+For those interested, the code currently used in the Superchain Registry to perform version (and configuration) checks can be found [here](https://github.com/ethereum-optimism/superchain-registry/tree/main/ops/internal/report). These checks generate a simple-to-read "report" ([example](https://github.com/ethereum-optimism/superchain-registry/pull/816#issuecomment-2564153446)) for easy validation. The Optimism Foundation may, from time to time, update this code (e.g. for quality-of-life improvements or other refactors), **so long as it does not change the requirement that these contracts were deployed by OPCM at the canonical address above, which is subject to Governance approval**.
 
 #### "Legacy" chain grace period
 
 The OPCM is a relatively new tool, and "legacy" chains (i.e. chains deployed prior to or near its release) may not have used it during deployment despite best efforts to meet the Onchain Criteria. As such, chains merged into the Superchain Registry before March 1, 2025 will be deemed to still satisfy these Version Criteria, so long as their L1 contracts are functionally equivalent to what the OPCM would create for a new deployment.
 
-If all the other requirements of the Version Criteria are satisfied, the Foundation may extend this March 1 deadline for certain chains on a case-by-case basis. 
+If all the other requirements of the Charter Criteria are satisfied, the Foundation may extend this March 1 deadline for certain chains on a case-by-case basis. 
 
 ### Configuration Check
 Beyond being on a standard version of the OP Stack, all configuration values for the chain must be within high-security, well-tested bounds, and all administrative roles must be  set correctly. There are two main components:

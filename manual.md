@@ -1,6 +1,6 @@
 This document describes the current governance proposal process of the Optimism Collective. It will evolve, with the Collective, over time. The authoritative version is maintained [here](https://github.com/ethereum-optimism/Operating-manual) on the ethereum-optimism Github.
 
-### **Operating Manual v0.4.0:  The Token House and Citizens' House**
+### **Operating Manual v0.4.1:  The Token House and Citizens' House**
 
 The Optimism Collective is governed by two houses, the Token House and the Citizens’ House. 
 

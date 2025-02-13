@@ -53,7 +53,7 @@ The members of these subcommittees exist with the mandate of ensuring that the b
 
 In addition to the subcommittee responsibilities, there are two additional roles that individual Developer Advisory Board members will take on. These roles will be voted on internally by the Developer Advisory Board and include: Ops Lead and Mission Scouts.
 
-- The Ops Lead (1 member) is responsibile for managing the operations of the board, including:
+- The Ops Lead (1 member) is responsible for managing the operations of the board, including:
     - (a) improving the IOPs
     - (b) scheduling meetings
     - (c) interfacing with other Councils

@@ -130,6 +130,10 @@ The `SystemConfigOwner` role is currently able to modify the `ResourceMetering` 
 
 If a `SystemConfigOwner` (either Servicer or Governor) changes this value, the community may submit a vote to Optimism Governance to remove the relevant party and revert the change.
 
+### Deputy Pause Module
+
+Standard Rollups grant the Optimism Foundation Safe the ability to: 1) independently appoint or replace the Pause Deputy; 2) modify the reference to the `DeputyGuardianModule` within the `DeputyPauseModule` should the Security Council introduce a new `DeputyGuardianModule`; 3) extend restricted access to the Pause Deputy's signing key to external entities (such as OP Labs), and 4) engage the pause functionality on Ethereum Mainnet for mock incidents or training exercises.
+
 # Precommitments
 
 This section commits to anticipated changes (or lack thereof) for future upgrades to this Charter.  While by no means an exhaustive description of the Standard Rollup’s full future development path, the following commitments are core to the expectations of existing and future Superchain ecosystem participants.  The Collective should endeavor to do everything in its power to ensure the following commitments are actualized, understanding that non-adherence will fundamentally and irrevocably undermine the legitimacy and trustworthiness of Optimism Governance.     

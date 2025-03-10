@@ -9,6 +9,9 @@
 
 *Governance proposals must fall under a [valid proposal type](https://github.com/ethereum-optimism/OPerating-manual/blob/main/manual.md).*
 
+### **Voting Cycle Type**: _____________________________________
+*("cycle #" or "off-cycle")*
+
 ### **Executive Summary**
 
 *A high level overview of the proposal’s substance. Please include:*

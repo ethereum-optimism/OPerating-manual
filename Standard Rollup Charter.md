@@ -23,7 +23,7 @@ The onchain criteria for Standard Rollups consist of two components: a **version
 ### Version Validation
 The most important onchain criteria is that a chain be on a standard, governance-approved release of the OP Stack. This check is performed by comparing all bytecode for the chain’s L1 smart contracts to the standard bytecode corresponding to a governance-approved release of the OP Stack.
 
-Version validation is a strict, critical requirement. To securely hand over upgradability to the Collective, a chain’s L1 smart contracts must be deployed by the canonical OP Contracts Manager ("OPCM") address on Ethereum, [`0x5269eed89b0d04d909a0973439e2587e815ba932`](https://etherscan.io/address/0x5269eed89b0d04d909a0973439e2587e815ba932). This is an automated L1 deployment contract which deploys chains based on `op-contracts@v1.8.0`.
+Version validation is a strict, critical requirement. To securely hand over upgradability to the Collective, a chain’s L1 smart contracts must be deployed by the canonical OP Contracts Manager ("OPCM") address on Ethereum, [`0x026b2f158255beac46c1e7c6b8bbf29a4b6a7b76`](https://etherscan.io/address/0x026b2f158255beac46c1e7c6b8bbf29a4b6a7b76). This is an automated L1 deployment contract which deploys chains based on `op-contracts@v2.0.0`.
 
 For those interested, the code currently used in the Superchain Registry to perform version (and configuration) checks can be found [here](https://github.com/ethereum-optimism/superchain-registry/tree/main/ops/internal/report). These checks generate a simple-to-read "report" ([example](https://github.com/ethereum-optimism/superchain-registry/pull/816#issuecomment-2564153446)) for easy validation. The Optimism Foundation may, from time to time, update this code (e.g. for quality-of-life improvements or other refactors), **so long as it does not change the requirement that these contracts were deployed by OPCM at the canonical address above, which is subject to Governance approval**.
 
@@ -129,6 +129,10 @@ The Standard Rollup should allow a maximum fee margin of 100% (i.e., the average
 The `SystemConfigOwner` role is currently able to modify the `ResourceMetering` struct, a low-level set of values which set certain properties of L1→L2 message rules. This is a low-level variable with no reason to be changed outside of a protocol upgrade.
 
 If a `SystemConfigOwner` (either Servicer or Governor) changes this value, the community may submit a vote to Optimism Governance to remove the relevant party and revert the change.
+
+### Deputy Pause Module
+
+Standard Rollups grant the Optimism Foundation Safe the ability to: 1) independently appoint or replace the Pause Deputy; 2) modify the reference to the `DeputyGuardianModule` within the `DeputyPauseModule` should the Security Council introduce a new `DeputyGuardianModule`; 3) extend restricted access to the Pause Deputy's signing key to external entities (such as OP Labs), and 4) engage the pause functionality on Ethereum Mainnet for mock incidents or training exercises.
 
 # Precommitments
 

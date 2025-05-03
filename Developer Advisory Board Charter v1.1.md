@@ -18,7 +18,7 @@ The Developer Advisory Board exists to provide technical expertise across the Op
 ### Cohorts and Election Terms
 
 - The members of each Developer Advisory Board subcommittee will be elected by the Token House at the start of each Season.
-- After the election is complete, the members of the Devleoper Advisory Board will perform an internal vote to assign the additional internal roles.
+- After the election is complete, the members of the Developer Advisory Board will perform an internal vote to assign the additional internal roles.
 - Representatives may serve on one subcommittee and have up to two additional internal roles per Season.
 - There are no term limits for representatives, but they may be implemented in the future if the need arises.
 
@@ -53,14 +53,14 @@ The members of these subcommittees exist with the mandate of ensuring that the b
 
 In addition to the subcommittee responsibilities, there are two additional roles that individual Developer Advisory Board members will take on. These roles will be voted on internally by the Developer Advisory Board and include: Ops Lead and Mission Scouts.
 
-- The Ops Lead (1 member) is responsibile for managing the operations of the board, including:
+- The Ops Lead (1 member) is responsible for managing the operations of the board, including:
     - (a) improving the IOPs
     - (b) scheduling meetings
     - (c) interfacing with other Councils
     - (d) organizing tools and processes for the DAB to perform its duties
     - (e) looking for any other opportunities to make changes that will keep the DAB’s efforts focused and effective
 - The Mission Scouts (2 members) fill the additional responsibility of crafting Missions, which requires:
-    - (a) deeply understand the OP Labs roadmap, and thinking creatively about missing gaps that Missions could fill,
+    - (a) deeply understanding the OP Labs roadmap, and thinking creatively about missing gaps that Missions could fill,
     - (b) specifically, stay closely on top of interop developments, including protocol level changes and products being built,
     - (c) conceptualizing, getting consensus on, drafting, and posting the ongoing Foundation Missions, and
     - (d) working with the Grants Council to ensure their Mission process takes into account the specific technical outcomes that would most support the Collective.

@@ -49,7 +49,7 @@ Proposals should be:
 
 - Submitted as a new discussion thread on the [Governance Forum](http://gov.optimism.io/) in the appropriate category.
 - Marked with [Draft] in the title.
-- Formatted and contain information consistent with the [standard proposal template.](https://gov.optimism.io/t/standard-proposal-template-optimism-token-house/5443)
+- Formatted and contains information consistent with the [standard proposal template.](https://gov.optimism.io/t/standard-proposal-template-optimism-token-house/5443)
 
 For a proposal proposed in the Token House to proceed to a vote, four of the top 100 delegates must give explicit approval on the discussion thread. Proposals initiated by the Foundation and Budget Board do not require delegate approvals. Delegates may not approve their own proposals. Delegates may signal approval by pasting the following comment on the proposal discussion thread: *”I am an Optimism delegate [link to your [delegate commitment](https://vote.optimism.io/delegate/your_address)] with sufficient voting power and I believe this proposal is ready to move to a vote."*
 
@@ -128,7 +128,7 @@ A Citizens’ House governance proposal is **approved** if it satisfies the foll
 
 A Joint House governance proposal is **approved** if it satisfies the following minimum vote thresholds:
 
-- **Joint House Quorum:** The minimum number of votes required to be cast in connection with a Hoint House proposal is 30%. A quorum (calculated as the percentage of votes cast / eligible voters) is calculated for each stakeholder group and then multiplied by the weight of the stakeholder group to arrive at a joint house quorum. Each stakeholder group makes up 16.67% of the weighted Citizens’ House vote. Both the Token House and the Citizens’ House have a 50% weight in a Joint House quorum. 
+- **Joint House Quorum:** The minimum number of votes required to be cast in connection with a Joint House proposal is 30%. A quorum (calculated as the percentage of votes cast / eligible voters) is calculated for each stakeholder group and then multiplied by the weight of the stakeholder group to arrive at a joint house quorum. Each stakeholder group makes up 16.67% of the weighted Citizens’ House vote. Both the Token House and the Citizens’ House have a 50% weight in a Joint House quorum. 
 
 
 - **Joint House approval threshold:** The minimum number of votes required to be cast in favor of approving a proposal. An approval rate (calculated as the percentage of yes/no votes) is calculated for each stakeholder group and then multiplied by the weight of the stakeholder group to arrive at a Joint House approval rate. Each stakeholder group makes up 16.67% of the weighted Citizens’ House vote.  Both the Token House and the Citizens’ House have a 50% weight in a joint house approval. 

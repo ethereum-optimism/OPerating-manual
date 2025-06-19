@@ -1,74 +1,90 @@
+# Seasons 8 & 9 Developer Advisory Board Charter v1.4
+
 This Charter outlines the structure and responsibilities of the Developer Advisory Board and its participants. It is authored and maintained by the Optimism Developer Advisory Board.
 
-This is the Season 7 Charter, which supersedes and replaces the Charters of all previous Seasons.
-
-# Season 7 Devloper Advisory Board Charter v1.3
+This is the Seasons 8 & 9 Charter, which supersedes and replaces the Charters of all previous Seasons.
 
 ---
 
 ## Goals
 
-The Developer Advisory Board exists to provide technical expertise across the Optimism Collective. This leads us to two overarching goals:
+The Developer Advisory Board (DAB) exists to provide independent, expert technical judgment to secure and advance the Optimism Collective. We have three overarching goals:
 
-1. Support the Optimism community through important technical decisions, such as protocol upgrades.
-2. Ensure that funding for technical projects is allocated in a way that best advances the goals of the Collective.
+1.  **Serve as the Collective's primary technical approval body for Protocol Upgrades**, ensuring they are secure, well-reasoned, and aligned with the Collective's long-term interests.
+2.  **Enhance the security of the Superchain ecosystem** by operating a dedicated Audit Grants Program.
+3.  **Provide expert technical guidance** to support other strategic funding and grant-making initiatives within the Collective.
 
 ## Participants
 
-### Cohorts and Election Terms
+### Board Composition and Election Terms
 
-- The members of each Developer Advisory Board subcommittee will be elected by the Token House at the start of each Season.
-- After the election is complete, the members of the Devleoper Advisory Board will perform an internal vote to assign the additional internal roles.
-- Representatives may serve on one subcommittee and have up to two additional internal roles per Season.
+- The Developer Advisory Board shall consist of at least seven (7) members.
+- Members will be elected for a 12-month term (covering Seasons 8 and 9) via a Joint House election, with votes from both the Token House and the Citizens' House.
 - There are no term limits for representatives, but they may be implemented in the future if the need arises.
+
+### Eligibility and Conflicts of Interest
+
+To ensure the board's independence and ability to hold the core development process accountable, candidates may not be affiliated with core development entities. This means candidates may not be affiliates of OP Chains or organizations that have long-term development grants with the Foundation.
 
 ## Responsibilities
 
-### Full Board Responsibilities
+The DAB's responsibilities are divided into primary, secondary, and tertiary functions.
 
-The entire DAB has a shared responsibility to support the community through Protocol Upgrades. Specifically, the DAB is responsible for sharing a response to each protocol upgrade that summarizes their view of the proposal. Note that the DAB _can_ provide one of the four required delegate approvals, but their approval isn’t required for the protocol upgrade to go to a vote.
+### Primary Function: Protocol Upgrade Approval
+
+The DAB's core responsibility is to vote on all Protocol Upgrades on behalf of the Collective. This vote is optimistically approved, meaning an upgrade approved by the DAB will pass unless it is overridden (vetoed) by one of the Collective's stakeholder groups as defined in the Operating Manual.
+
+A **5/7 approval vote** from the DAB is required for a Protocol Upgrade to pass.
+
+When voting, the DAB is responsible for assessing the following characteristics of a protocol upgrade:
+
+1.  **Technical Content:**
+
+    - Does the code do what the proposal says it will do?
+    - Is the proposal complete and does the on-chain calldata match what is described?
+    - Does the proposal follow the established governance process?
+    - _Note: The DAB is not responsible for conducting new audits or identifying novel malicious code, but for verifying the proposal's integrity based on existing information and its expertise._
+
+2.  **Technical Merits:**
+
+    - Is the justification for all changes clear and well-reasoned?
+    - Are the proposal's described benefits accurate?
+    - Does the proposal introduce technical trade-offs that are not mentioned or that may outweigh the benefits?
+    - Are there other technical considerations the proposal author has omitted?
+
+3.  **Collective Impact:**
+    - Does the upgrade violate the values laid out in the Collective’s Working Constitution or the Law of Chains?
+    - Does the upgrade meaningfully and negatively impact or disadvantage any of the Collective’s stakeholder groups?
+
+### Secondary Function: Audit Grants Program
+
+To enhance the security of the Superchain, the DAB will take full ownership of and operate the Collective's Audit Grants Program. This program is decoupled from other seasonal intents (e.g., TVL) and focuses on reducing the risk of smart contract exploits within the ecosystem. The DAB is responsible for:
+
+- Proposing and managing a dedicated budget to provide subsidized audits to qualifying projects.
+- Defining and managing the application process, review criteria, and selection of recipients for the Audit Grants Program.
+
+### Tertiary Functions: Collective Advisory
+
+In addition to its primary and secondary duties, board members are expected to contribute to the Collective's health through other advisory functions as needed. These may include:
+
+- Collaborating with the Optimism Foundation on strategic technical initiatives.
+- Providing technical feedback and diligence to the Grants Council.
+- Supporting builders in the ecosystem through initiatives like technical office hours.
 
 ### Lead Responsibilities
 
-The Lead is responsible for ensuring that the Developer Advisory Board is both meeting its current objectives and finding opportunities to further support the Collective. This includes:
-- (a) leading all board meetings and internal decisions.
-- (b) overseeing the decisions and feedback of all subcommittees.
-- (c) leading board discussions on approving protocol upgrades, and communicating these decisions (along with helpful voting context) to the community.
-- (d) act as the tiebreaker for the Audit subcommittee and Foundation Mission subcommittee if the members disagree.
-- (e) collaborating with other Council Leads to find opportunities to provide support across the collective.
-- (f) tracking KPIs and drafting the Season 7 retrospective at the end of the season.
+The Lead is responsible for ensuring the board operates effectively and meets its objectives. This includes:
 
-### Members
+- (a) leading all board meetings and facilitating internal decisions.
+- (b) ensuring the Protocol Upgrade voting process is conducted efficiently and transparently.
+- (c) overseeing the board's primary, secondary, and tertiary functions.
+- (d) acting as the primary point of contact for the board and communicating its decisions to the Collective.
+- (e) tracking performance and drafting the end-of-term retrospective.
 
-Members are elected into one of three subcommittees. Each subcommittee is responsible for working on a different type of Mission (Foundation, Governance, Audit). The Token House will elect the members to each of these subcommittees based on their expertise and skills.
-
-- The Audit Mission subcommittee (2 members) is responsible for selecting applicants to provide subsidized audits for.
-- The Governance Mission subcommittee (3 members) works with the Grants Council to provide technical feedback on all Mission applicants.
-- The Foundation Mission subcommittee (2 members, plus the Lead) is responsible for selecting which teams are chosen to fulfill the Foundation Missions.
-- The OP Labs Representative (1 member) floats between these teams, providing support and insight into OP Labs' roadmap and perspective.
-
-The members of these subcommittees exist with the mandate of ensuring that the best possible applicants are selected for each Mission. This means they are responsible for:
-- (a) providing support to potential applicants to drive more high quality applications,
-- (b) supporting the evaluation of applications as requires by their subcommittee (either making selections or providing feedback).
-
-In addition to the subcommittee responsibilities, there are two additional roles that individual Developer Advisory Board members will take on. These roles will be voted on internally by the Developer Advisory Board and include: Ops Lead and Mission Scouts.
-
-- The Ops Lead (1 member) is responsibile for managing the operations of the board, including:
-    - (a) improving the IOPs
-    - (b) scheduling meetings
-    - (c) interfacing with other Councils
-    - (d) organizing tools and processes for the DAB to perform its duties
-    - (e) looking for any other opportunities to make changes that will keep the DAB’s efforts focused and effective
-- The Mission Scouts (2 members) fill the additional responsibility of crafting Missions, which requires:
-    - (a) deeply understand the OP Labs roadmap, and thinking creatively about missing gaps that Missions could fill,
-    - (b) specifically, stay closely on top of interop developments, including protocol level changes and products being built,
-    - (c) conceptualizing, getting consensus on, drafting, and posting the ongoing Foundation Missions, and
-    - (d) working with the Grants Council to ensure their Mission process takes into account the specific technical outcomes that would most support the Collective.
-
-### Resignation process
+### Resignation Process
 
 1. If a member wishes to resign before the end of their term, they must communicate this change to the Lead at least 7 days prior to this change taking effect.
-2. Their position will be offered to the non-elected candidate who received the most votes in the Token House election. If this individual is no longer available or interested, we will continue down the list of candidates in order of votes received. If no suitable candidate can be found, the Lead may appoint a replacement for the remainder of the term.
+2. Their position will be offered to the non-elected candidate who received the most votes in the Joint House election. If this individual is no longer available or interested, we will continue down the list of candidates in order of votes received. If no suitable candidate can be found, the Lead may appoint a replacement for the remainder of the term.
 3. The Lead will then adjust quorum as needed and communicate the change through the structure’s Communication Thread.
 
 ### Accountability
@@ -80,7 +96,7 @@ In addition to the subcommittee responsibilities, there are two additional roles
 
 ### Budget
 
-A Proposed Budget, linking to this Charter, will be proposed by each prospective Lead, subject to approval by governance. The Lead may propose a budget that contains variable rewards for members, provided that the evaluation algorithm for rewards is approved by a simple majority of members by the end of the first month of the term.
+An Operating Budget will be proposed by the Lead after this Charter amendment is approved by Optimism Governance. The budget will include a separate allocation for the Audit Grants Program. The Lead may propose a budget that contains variable rewards for members, provided that the evaluation algorithm for rewards is approved by a simple majority of members by the end of the first month of the term.
 
 ### Iteration
 

@@ -11,8 +11,8 @@ This is the Seasons 8 & 9 Charter, which supersedes and replaces the Charters of
 The Developer Advisory Board (DAB) exists to provide independent, expert technical judgment to secure and advance the Optimism Collective. We have three overarching goals:
 
 1.  **Serve as the Collective's primary technical approval body for Protocol Upgrades**, ensuring they are secure, well-reasoned, and aligned with the Collective's long-term interests.
-2.  **Enhance the security of the Superchain ecosystem** by operating a dedicated Audit Grants Program.
-3.  **Provide expert technical guidance** to support other strategic funding and grant-making initiatives within the Collective.
+2.  **Drive developer adoption and enhance ecosystem security** by operating dedicated grant programs.
+3.  **Provide expert technical guidance** to support other strategic initiatives within the Collective.
 
 ## Participants
 
@@ -28,7 +28,7 @@ To ensure the board's independence and ability to hold the core development proc
 
 ## Responsibilities
 
-The DAB's responsibilities are divided into primary, secondary, and tertiary functions.
+The DAB's responsibilities are divided into primary and secondary functions.
 
 ### Primary Function: Protocol Upgrade Approval
 
@@ -56,14 +56,17 @@ When voting, the DAB is responsible for assessing the following characteristics 
     - Does the upgrade violate the values laid out in the Collective’s Working Constitution or the Law of Chains?
     - Does the upgrade meaningfully and negatively impact or disadvantage any of the Collective’s stakeholder groups?
 
-### Secondary Function: Audit Grants Program
+### Secondary Functions
 
-To enhance the security of the Superchain, the DAB will take full ownership of and operate the Collective's Audit Grants Program. This program is decoupled from other seasonal intents (e.g., TVL) and focuses on reducing the risk of smart contract exploits within the ecosystem. The DAB is responsible for:
+#### Secondary Function: Developer Adoption Grants
 
-- Proposing and managing a dedicated budget to provide subsidized audits to qualifying projects.
-- Defining and managing the application process, review criteria, and selection of recipients for the Audit Grants Program.
+The DAB makes grants on behalf of the Token House to drive developer adoption and advance the Collective's technical intents. This includes operating grant programs such as, but not limited to, Audit Grants and strategic Mission Requests. The DAB is responsible for:
 
-### Tertiary Functions: Collective Advisory
+- Proposing and managing a dedicated budget for its grant-making activities.
+- Defining and operating its grant programs to best achieve the Collective's current technical objectives.
+- Establishing the application processes, public review criteria, and selection algorithms for its grant programs at its discretion.
+
+#### Secondary Function: Collective Advisory
 
 In addition to its primary and secondary duties, board members are expected to contribute to the Collective's health through other advisory functions as needed. These may include:
 
@@ -77,7 +80,7 @@ The Lead is responsible for ensuring the board operates effectively and meets it
 
 - (a) leading all board meetings and facilitating internal decisions.
 - (b) ensuring the Protocol Upgrade voting process is conducted efficiently and transparently.
-- (c) overseeing the board's primary, secondary, and tertiary functions.
+- (c) overseeing the board's primary and secondary functions.
 - (d) acting as the primary point of contact for the board and communicating its decisions to the Collective.
 - (e) tracking performance and drafting the end-of-term retrospective.
 

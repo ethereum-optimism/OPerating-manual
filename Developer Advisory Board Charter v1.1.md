@@ -24,6 +24,12 @@ The Developer Advisory Board (DAB) exists to provide independent, expert technic
 
 ### Eligibility and Conflicts of Interest
 
+Ideal candidates for the Developer Advisory Board are expected to meet the following criteria. Voters should evaluate candidates based on their ability to demonstrate:
+
+- **Deep Technical Expertise:** Demonstrated expertise in smart contract development, protocol architecture, and blockchain security. Candidates should have a strong understanding of the EVM, and experience evaluating the technical quality and security posture of the OP Stack.
+- **Strategic Ecosystem Understanding:** A strong understanding of the Optimism ecosystem, the Superchain vision, and the current developer landscape. Candidates should be able to assess how technical proposals and grants align with the Collective's strategic goals.
+- **Impartial Judgment and Diligence:** The ability to act with objectivity and to communicate complex technical concepts clearly. Candidates are expected to perform thorough, independent diligence and contribute constructively to board deliberations.
+
 To ensure the board's independence and ability to hold the core development process accountable, candidates may not be affiliated with core development entities. This means candidates may not be affiliates of OP Chains or organizations that have long-term development grants with the Foundation.
 
 ## Responsibilities
@@ -32,7 +38,7 @@ The DAB's responsibilities are divided into primary and secondary functions.
 
 ### Primary Function: Protocol Upgrade Approval
 
-The DAB's core responsibility is to vote on all Protocol Upgrades on behalf of the Collective. This vote is optimistically approved, meaning an upgrade approved by the DAB will pass unless it is overridden (vetoed) by one of the Collective's stakeholder groups as defined in the Operating Manual.
+The DAB's core responsibility is to vote on all Protocol Upgrades on behalf of the Collective. A decision made by the DAB may be overridden (vetoed) by one of the stakeholder groups as defined in the Operating Manual.
 
 A **5/7 approval vote** from the DAB is required for a Protocol Upgrade to pass.
 

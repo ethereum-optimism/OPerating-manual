@@ -67,7 +67,7 @@ The Grants Council will allocate funds from the Governance Fund to support proje
 - Ensures smooth execution of logistics.
 - Supports the Lead in maintaining transparency and compliance.
 
-### Final Reviewers (5 Members)
+### Final Reviewers (4 Members)
 
 **Responsibilities:**
 

@@ -111,7 +111,7 @@ Depending on the Proposal Type, exact approval and veto threshold requirements m
 
 A Token House governance proposal is **approved** if it satisfies the following minimum vote thresholds:
 
-- **Quorum:** The minimum number of total OP votes required to be cast in connection with a proposal is 30%. Here, a quorum is measured as a % of the total votable OP supply, as of the start of the voting period. “Votable supply” is the total amount of OP that has been delegated, and therefore can participate in voting. An illustrative chart of the total votable OP supply can be found [here](https://dune.com/optimismfnd/optimism-op-token-house). This does not include abstain votes.
+- **Quorum:** The minimum number of total OP votes required to be cast in connection with a proposal is 30%. Here, a quorum is measured as a % of the total votable OP supply, as of the start of the voting period. “Votable supply” is the total amount of OP that has been delegated, and therefore can participate in voting. An illustrative chart of the total votable OP supply can be found [here](https://dune.com/optimismfnd/optimism-op-token-house). This includes abstain votes.
 
 - **Approval threshold:** The minimum number of OP votes required to be cast in favor of approving a proposal. The approval threshold varies by proposal type, as outlined in the table above. The approval threshold is measured as % of votes cast to approve relative to the total number of yes/no votes cast in connection with a proposal. This does not include abstain votes.
 

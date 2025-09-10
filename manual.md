@@ -61,6 +61,11 @@ After a proposal has received the required approvals, the proposal author should
 
 If a proposal author does not get explicit approval or wants more time for feedback, they should continue to seek feedback from the community and submit an updated proposal in the next Voting Cycle.
 
+If we are going forward with Committees in Season 3 then the I would recommend committee to take the decision whether to include the changed proposal or not. They must provide their reasoning. 
+Pros:- Make process more flexible. A committee has 5 delegates which is enough member to make a judgement call. 
+Cons:- For some, this means giving little too much power to Committee but I think final decision on proposal depends on Token house so that mitigate the abuse of power from committee. 
+
+
 
 ### **Voting**
 

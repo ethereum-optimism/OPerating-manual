@@ -103,6 +103,7 @@ Depending on the Proposal Type, exact approval and veto threshold requirements m
 | Elections | Electing representatives to Councils or Boards. | All qualified candidates | Either or Joint House | Approval voting | Approval voting | No veto | N/A | Two week review period; one week voting period |
 | Reflection Period | Experiments with new governance structures, programs, and/or processes. | Foundation | Either or Joint House | Active approval | 51% Single House, 60% Joint House | No veto | N/A | Two week review period; one week voting period |
 | Inflation | Changes to the inflation rate of newly minted OP (currently capped at 2% annually) | Permissionless | Token House | Active approval | 76% | Citizens’ House veto | N/A | Two week review period; one week voting period; one week veto period |
+
 *The Maintenance Upgrade Proposal Type is needed because L1 releases may not align with Optimism’s standard voting cycles. 
 
 ** Veto thresholds are expressed as a percentage of all eligible votes (quorum * threshold.) Approval thresholds are expressed as a percentage of quorum.

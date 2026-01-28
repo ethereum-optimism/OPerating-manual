@@ -1,12 +1,12 @@
 This document describes the current governance proposal process of the Optimism Collective. It will evolve, with the Collective, over time. The authoritative version is maintained [here](https://github.com/ethereum-optimism/Operating-manual) on the ethereum-optimism Github.
 
-### **Operating Manual v1.0.0:  The Token House and Citizens' House**
+### **Operating Manual v1.0.1:  The Token House and Citizens' House**
 
 The Optimism Collective is governed by two houses, the Token House and the Citizens’ House. 
 
-In the Token House, OP holders are responsible for submitting, deliberating, and voting on various types of Optimism Collective governance proposals. They may do so by either voting their OP directly (after delegating their OP voting power to their own address), or by delegating their OP voting power to an eligible third party. Addresses with delegated OP voting power are called “delegates.” 
+In the Token House, OP holders are responsible for voting on various types of Optimism Collective governance proposals. They may do so by either voting their OP directly (after delegating their OP voting power to their own address), or by delegating their OP voting power to an eligible third party. Addresses with delegated OP voting power are called “delegates.” 
 
-In the Citizens’ House, Optimism Citizens are also responsible for submitting, deliberating, and voting on various types of Optimism Collective governance proposals. Citizens can be identified via the [Citizen attestation.](https://optimism.easscan.org/schema/view/0xc35634c4ca8a54dce0a2af61a9a9a5a3067398cb3916b133238c4f6ba721bc8a) The Citizens’ House is divided into three sub-categories (End Users, Apps, and Chains.) Sub-categories of the Citizens’ House can be identified in the following manner. If the Citizen attestation references another attestation in the refUID field, the referenced attestation is the project / organization identifier for the chain or app. If there is no referenced attestation, the Citizen belongs to the end user category.
+In the Citizens’ House, Optimism Citizens are also responsible for voting on various types of Optimism Collective governance proposals. Citizens can be identified via the [Citizen attestation.](https://optimism.easscan.org/schema/view/0xc35634c4ca8a54dce0a2af61a9a9a5a3067398cb3916b133238c4f6ba721bc8a) The Citizens’ House is divided into three sub-categories (End Users, Apps, and Chains.) Sub-categories of the Citizens’ House can be identified in the following manner. If the Citizen attestation references another attestation in the refUID field, the referenced attestation is the project / organization identifier for the chain or app. If there is no referenced attestation, the Citizen belongs to the end user category.
 
 All Token and Citizens’ House representatives are expected to exercise their authority responsibly and in accordance with the [Rules of Engagement](https://gov.optimism.io/t/rules-of-engagement-2-0/5728) and [Optimist Expectations](https://gov.optimism.io/t/optimist-expectations/7241). 
 
@@ -20,16 +20,15 @@ The primary tools for Optimism governance are currently:
 - [Optimism Governance Portal:](https://vote.optimism.io/) A front-end interface that enables Token House members to delegate and vote their OP on-chain.
 - [OP Atlas:](https://atlas.optimism.io) A platform for Superchain stakeholders to create profiles, projects and organizations to represent their work, discover and apply for missions and participate in governance. Optimism Citizens are able to vote on proposals in OP Atlas.
 - [The Optimism Forum:](http://gov.optimism.io/) A platform for discussion and deliberation about governance proposals.
-- [Discord:](https://discord-gateway.optimism.io/) For informal governance discussion and feedback.
-- [Github:](https://github.com/ethereum-optimism/ecosystem-contributions/issues) Grants (Foundation Missions) are managed via issues in this public github repo 
+- [Snapshot:](https://snapshot.org/#/s:developeradvisoryboard.eth) The Developer Advisory Board votes on Protocol Upgrades on Snapshot. 
 
 These tools or their uses may change over time as governance evolves. While voting in the Token House currently takes place on-chain through the Governance Contract, some successful votes are administered and implemented by the Optimism Foundation (see below), which should not be the case indefinitely. 
 
 ### **Proposal Process**
 
-Both Houses make decisions through governance proposals. Proposals are accepted or rejected using a voting process. Anyone can submit a proposal to governance. The proposal must be one of the valid proposal types listed in the table below, and it must follow the voting process described here.
+Both Houses make decisions through governance proposals. Proposals are accepted or rejected using a voting process. The proposal must be one of the valid proposal types listed in the table below, and it must follow the voting process described here.
 
-Governance proposals typically undergo a three-week cycle, with exceptions for those during a Reflection Period or Maintenance Upgrades, which may follow an adjusted schedule. All voting periods last 7 days.
+Governance proposals typically undergo a three-week cycle, with some exceptions as outlined below. All public voting periods last 7 days.
 
 Each “Voting Cycle” runs from Thursday at 19:00p GMT (12p PST) until Wednesday at 19:00 GMT (12p PST). All governance votes correspond to regular Voting Cycles, which you can reference [here](https://calendar.google.com/calendar/embed?src=c_4hui70itm089e7t8q50heh1kno%40group.calendar.google.com&ctz=Europe%2FBerlin), with the exception of Protocol Upgrades which may begin the process described below at any point in time. Once a valid Protocol Upgrade draft has been posted to the forum, a governance administrator will add a comment with the date the proposal will move to a vote, subject to the required approvals.  
 
@@ -51,9 +50,9 @@ Proposals should be:
 - Marked with [Draft] in the title.
 - Formatted and contains information consistent with the [standard proposal template.](https://gov.optimism.io/t/standard-proposal-template-optimism-token-house/5443)
 
-For a proposal proposed in the Token House to proceed to a vote, four of the top 100 delegates must give explicit approval on the discussion thread. Proposals initiated by the Foundation and Budget Board do not require delegate approvals. Delegates may not approve their own proposals. Delegates may signal approval by pasting the following comment on the proposal discussion thread: *”I am an Optimism delegate [link to your [delegate commitment](https://vote.optimism.io/delegate/your_address)] with sufficient voting power and I believe this proposal is ready to move to a vote."*
+For a proposal proposed in the Token House to proceed to a vote, four of the top 100 delegates must give explicit approval on the discussion thread. Proposals initiated by the Foundation do not require delegate approvals. Delegates may not approve their own proposals. Delegates may signal approval by pasting the following comment on the proposal discussion thread: *”I am an Optimism delegate [link to your [delegate commitment](https://vote.optimism.io/delegate/your_address)] with sufficient voting power and I believe this proposal is ready to move to a vote."*
 
-For a proposal proposed in the Citizens’ House to proceed to a vote, four Citizens must give explicit approval on the discussion thread. Proposals initiated by the Foundation and Budget Board do not require Citizen approvals. Citizens may not approve their own proposals. Citizens may signal approval by pasting the following comment on the proposal discussion thread: *”I am an Optimism Citizen [link to your [attestation](https://optimism.easscan.org/schema/view/0xfdcfdad2dbe7489e0ce56b260348b7f14e8365a8a325aef9834818c00d46b31b)] and I believe this proposal is ready to move to a vote."*
+For a proposal proposed in the Citizens’ House to proceed to a vote, four Citizens must give explicit approval on the discussion thread. Proposals initiated by the Foundation do not require Citizen approvals. Citizens may not approve their own proposals. Citizens may signal approval by pasting the following comment on the proposal discussion thread: *”I am an Optimism Citizen [link to your [attestation](https://optimism.easscan.org/schema/view/0xfdcfdad2dbe7489e0ce56b260348b7f14e8365a8a325aef9834818c00d46b31b)] and I believe this proposal is ready to move to a vote."*
 
 If a delegate or a Citizen approves a proposal to move to a vote, it is not an endorsement of that proposal.  It simply signifies that they believe the proposal is ready to move to a vote.
 
@@ -82,7 +81,7 @@ The different requirements for submission and approval of each Proposal Type are
 **Duration:** Most proposals go through a two-week review period and a one week voting or veto period. Exceptions:
 
 - Maintenance upgrades do not go through a review period, but move straight to one-week veto period.
-- The Protocol Upgrade process is two weeks, with a one week voting period for the Developer Advisory Board, and a one week stakeholder veto period. 
+- The Protocol Upgrade process is up to two weeks, with an up to one week voting period for the Developer Advisory Board, and a one week stakeholder veto period. 
 
 **Quorum:** All votes require 30% quorum. 
 
@@ -91,7 +90,7 @@ Depending on the Proposal Type, exact approval and veto threshold requirements m
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Maintenance Upgrade Proposals* | Protocol maintenance required to continue network operations on a shorter timescale than voting periods, e.g. to react to L1 hard forks or to perform bugfixes and maintenance on a shorter timeframe. Must not materially change the behavior of the protocol for end users, infra providers, or chain governors. | Permissionless | None | Optimistic approval | N/A | Stakeholder veto + Appeal | Dynamic threshold | One week veto period |
 | Code of Conduct Violation | Code of Conduct enforcement actions (including grant policy violations) will be subject to veto by the corresponding House. | Enforcing party outlining actions | Either House | Optimistic approval | N/A | Single House veto | 20% | One week veto period |
-| Protocol and Governor Upgrades | Scheduled changes to the  mainnet Optimism protocol (smart contracts and/or hardforks) or governance contract. | Permissionless | Developer Advisory Board | Active Approval | N/A | Stakeholder veto + Appeal | Dynamic threshold | One week voting period for the Developer Advisory Board to vote; one week veto period  |
+| Protocol and Governor Upgrades | Scheduled changes to the  mainnet Optimism protocol (smart contracts and/or hardforks) or governance contract. | Permissionless | Developer Advisory Board | Active Approval | N/A | Stakeholder veto + Appeal | Dynamic threshold | Up to one week voting period for the Developer Advisory Board to vote; one week veto period***  |
 | Token Allocations | Token Allocations within the Mission framework. | Budget Board | None | Optimistic approval | N/A | Single House veto | 20% | Two week review period; one week veto period |
 | Treasury Appropriations | The amount of OP the Optimism Foundation may spend or distribute annually beyond the 30% of the initial total OP supply | Foundation | Token House | Active approval | 51% | No veto | N/A | Two week review period; one week voting period |
 | Ratification | Ratification of governance documents. | Foundation | Either or Joint House | Active approval | 51% Single House, 60% Joint House | No veto | N/A | Two week review period; one week voting period |
@@ -107,6 +106,8 @@ Depending on the Proposal Type, exact approval and veto threshold requirements m
 *The Maintenance Upgrade Proposal Type is needed because L1 releases may not align with Optimism’s standard voting cycles. 
 
 ** Veto thresholds are expressed as a percentage of all eligible votes (quorum * threshold.) Approval thresholds are expressed as a percentage of quorum.
+
+*** A Protocol Upgrade will move to one-week veto period as soon as fully approved by the Developer Advisory Board. While the Developer Advisory Board has a 7 day voting window, they may approve a proposal in less time as appropriate and feasible.  
 
 
 ## **Thresholds** 
@@ -178,15 +179,7 @@ Vetoed proposals will enter a one-week discussion period after which they may be
 The third time a proposal is vetoed it will enter a three week pause period during which the proposal cannot be re-submitted. 
 
 ### **Retro Funding**
-Citizens’ House governance may allocate tokens from the Retroactive Public Goods Funding tokens to support Retroactive Public Goods Funding (Retro Funding). For each Retro Funding Mission, the Citizens’ House may optimistically approve budget and scope used to retroactively reward projects that have provided substantial impact. 
-
-Retro Funding occurs at regular intervals and according to a predefined process, which currently includes the following elements:
-
-
-- **Application creation:**  Projects are invited to create an Application in the [OP Atlas]((https://atlas.optimism.io/)) 
-- **Application Review:** Applications are reviewed for adherence to the application rules
-- **Disbursement:**  Based on impact measurement, the overall reward amount for the Mission is divided among the winning projects.
-- **Compliance:** The Foundation will collect information from projects in order to distribute the grant in a legally compliant manner (including completing KYC).
+Citizens’ House governance may allocate tokens from the Retroactive Public Goods Funding tokens to support Retroactive Public Goods Funding (Retro Funding). For each Retro Funding Mission, the Citizens’ House may optimistically approve budget and scope used to retroactively reward projects that have provided substantial impact. Retro Funding is currently paused through the end of 2026. 
 
 
 ## **Implementation and Administration**
@@ -221,8 +214,8 @@ The procedures described in this Operating Manual will go into effect as release
 ## Process TLDR
 - Proposals are reviewed over a three week voting cycle (some exceptions apply). For example, Protocol or Governor Upgrades do not need to occur during regular Voting Cycles. 
 - If you’re submitting a grant application, you’ll need to submit your application as outlined on each Mission. 
-- For most other proposal types, you may draft a proposal based on [this](https://gov.optimism.io/t/standard-proposal-template-optimism-token-house/5443) template and post it on the Forum with [Draft] in the title for feedback. Delegates and/or Citizens will provide feedback on your proposal in the forum. Use your judgment to incorporate feedback.
-- Once your proposal has been approved by four top 100 delegates or four Citizens, tag a governance administrator to add your proposal to the nearest Voting Cycle. Proposals initiated by the Foundation do not require approvals.
+- For other permissionless proposal types, you may draft a proposal based on [this](https://gov.optimism.io/t/standard-proposal-template-optimism-token-house/5443) template and post it on the Forum with [Draft] in the title for feedback. Delegates and/or Citizens will provide feedback on your proposal in the forum. Use your judgment to incorporate feedback.
+- Once a valid proposal has been approved by four top 100 delegates or four Citizens, tag a governance administrator to add your proposal to the nearest Voting Cycle. Proposals initiated by the Foundation do not require approvals.
 - If your proposal is passed, the Optimism Foundation will facilitate its administration. The Foundation will be in touch to collect additional information from your project in order to execute the proposal or grant, including information to perform KYC.
 - If your proposal fails, you can make a new proposal in the next cycle specifying how you have incorporated significant changes from your first proposal.
 

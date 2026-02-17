@@ -158,11 +158,11 @@ Stakeholder vetoes utilize a dynamic threshold. No stakeholder group may unilate
 
 **Dynamic thresholds:** 
 
-- For 2 groups to veto, 17% of the votes cast by each group must be in favor of veto
+- For 2 groups to veto, 17% of eligible voters in each group must be in favor of veto
 
-- For 3 groups to veto, 14% of the votes cast by each group must be in favor of veto
+- For 3 groups to veto, 14% of eligible voters in each group must be in favor of veto
 
-- For all 4 groups to veto, 11% of the votes cast by each group must be in favor of veto
+- For all 4 groups to veto, 11% of eligible voters in each group must be in favor of veto
 
 
 In the case of a veto, proposals will proceed through the Appeals process. 
@@ -172,9 +172,9 @@ In the case of a veto, proposals will proceed through the Appeals process.
 Vetoed proposals will enter a one-week discussion period after which they may be re-submitted to vote. To encourage both sides to come to a compromise and prevent gridlock, re-submissions will require higher veto thresholds. 
 
 **Subsequent dynamic thresholds:**  
-- If 2 groups veto, 23% of the votes cast by each group must be in favor of veto
-- If 3 groups veto, 20% of the votes cast by each group must be in favor of veto
-- If all 4 groups veto, 17% of the votes cast by each group must be in favor of veto
+- If 2 groups veto, 23% of eligible voters in each group must be in favor of veto
+- If 3 groups veto, 20% of eligible voters in each group must be in favor of veto
+- If all 4 groups veto, 17% of eligible voters in each group must be in favor of veto
 
 The third time a proposal is vetoed it will enter a three week pause period during which the proposal cannot be re-submitted. 
 

@@ -1,6 +1,6 @@
 # OPerating Manual of the Optimism Collective
 
-This repository contains the OPerating Manual of the [Optimism Collective](http://optimism.io/vision)--our large-scale experiment in digital democratic governance.
+This repository contains the OPerating Manual of the [Optimism Collective](http://optimism.io/)--our large-scale experiment in digital democratic governance.
 
 The OPerating Manual describes the current set of rules for the Optimism Collective's governance, as stewarded by the Optimism Foundation and empowered by the [Working Constitution of the Optimism Collective](https://gov.optimism.io/t/working-constitution-of-the-optimism-collective/55).
 

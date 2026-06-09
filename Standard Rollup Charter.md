@@ -23,7 +23,7 @@ The onchain criteria for Standard Rollups consist of two components: a **version
 ### Version Validation
 The most important onchain criteria is that a chain be on a standard, governance-approved release of the OP Stack. This check is performed by comparing all bytecode for the chain’s L1 smart contracts to the standard bytecode corresponding to a governance-approved release of the OP Stack.
 
-Version validation is a strict, critical requirement. To securely hand over upgradability to the Collective, a chain’s L1 smart contracts must be deployed by the canonical OP Contracts Manager ("OPCM") address on Ethereum, [`0x50f47b43c24f40b92c873fa0704d4207586d0c9f`](https://etherscan.io/address/0x50f47b43c24f40b92c873fa0704d4207586d0c9f). This is an automated L1 deployment contract which deploys chains based on `op-contracts@v6.0.0`.
+Version validation is a strict, critical requirement. To securely hand over upgradability to the Collective, a chain’s L1 smart contracts must be deployed by the canonical OP Contracts Manager ("OPCM") address on Ethereum, [`0x9ce712ff84e02659846dc6450bb9b7642fe8be5d`](https://etherscan.io/address/0x9ce712ff84e02659846dc6450bb9b7642fe8be5d). This is an automated L1 deployment contract which deploys chains based on `op-contracts@v7.0.0`.
 
 For those interested, the code currently used in the Superchain Registry to perform version (and configuration) checks can be found [here](https://github.com/ethereum-optimism/superchain-registry/tree/main/ops/internal/report). These checks generate a simple-to-read "report" ([example](https://github.com/ethereum-optimism/superchain-registry/pull/816#issuecomment-2564153446)) for easy validation. The Optimism Foundation may, from time to time, update this code (e.g. for quality-of-life improvements or other refactors), **so long as it does not change the requirement that these contracts were deployed by OPCM at the canonical address above, which is subject to Governance approval**.
 
@@ -157,3 +157,4 @@ Because the OP Stack’s performance is rapidly improving, the onchain GasLimit 
 ### Direct Fee Margin Controls
 
 Today, the “fee margin” discussed in the relevant Governing Policy above is only indirectly influenceable via the control of multiple other configuration variables. In the future, the Collective should implement a protocol improvement which allows the margin to be set more directly, and which imposes a strict upper bound of 100%, to remove the ability to perform economic censorship even temporarily.
+

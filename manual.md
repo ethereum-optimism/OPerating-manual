@@ -71,7 +71,7 @@ The different requirements for submission and approval of each Proposal Type are
 **Duration:** Most proposals go through a one-week review period and a one week voting or veto period. Exceptions:
 
 - Maintenance upgrades do not go through a review period, but move straight to one-week veto period.
-- The Protocol Upgrade process has a one week stakeholder veto period.
+- The Protocol Upgrade process has a one week stakeholder veto period. 
 - Council Appointment proposals go through a one-week review period and a one-week veto period.
 - The Security Council Lead election runs a one-week nomination period followed by a one-week vote.
 
@@ -121,7 +121,7 @@ Elections works as described below:
 
 ## **Veto Procedure**
 
-Casting a veto is a serious decision. In cases, when an approved proposal is vetoed, it will not be enacted and instead will enter into an appeals process. The appeals process consists of a one-week discussion period after which proposals may be re-submitted to vote. In the case of Protocol Upgrades, vetoing an approved proposal may have serious consequences on engineering timelines and milestones.
+Casting a veto is a serious decision. In cases, when an approved proposal is vetoed, it will not be enacted and instead will enter into an appeals process. The appeals process consists of a one-week discussion period after which proposals may be re-submitted to vote. In the case of Protocol Upgrades, vetoing an approved proposal may have serious consequences on engineering timelines and milestones.  
 
 Council Appointment proposals: When an appointee is vetoed, that appointee is not seated and the appeals process above does not apply. The Council Lead nominates a replacement through a new Council Appointment proposal. Vetoing one appointee does not affect other appointees.
 

@@ -4,7 +4,7 @@ This Charter outlines the structure and responsibilities of the Security Council
 
 The exact number of participants depends upon candidate outreach, which is ongoing. This Charter will be updated with exact participant numbers and signing thresholds according to the change process outlined below before the Security Council is implemented.
 
-# **Security Council Charter v0.1** 
+# **Security Council Charter v0.2** 
 
 ## **Goals**
 In short, the goal of the Security Council is to turn admin keys for OP Mainnet, and eventually, all OP Chains in the Superchain, over to a public, decentralized set of individual actors (“participants”) accountable to Optimism Governance. Executed correctly:
@@ -23,11 +23,11 @@ The structure of the Security Council is designed to satisfy the multisig requir
 
 The Security Council will operate a Gnosis Safe multisig wallet. The multisig will have a 75% threshold. Each participant will control one key, with the exception of the Council Lead (who is not a key holder).
 
-The Council Lead will coordinate the ongoing operations of the key holding Council participants. The Council Lead’s role is procedural, communicative, and ministerial. It has no ability to influence the substantive signing decisions of key holders.
+The Council Lead will coordinate the ongoing operations of the key holding Council participants. The Council Lead is elected by the Token House and appoints the key holding participants, subject to confirmation veto by the Token House (see “Participants – Lead Election, Appointment, and Terms,” below). The Council Lead’s role is procedural, communicative, and includes recruiting and nominating key holders. It has no ability to influence the substantive signing decisions of key holders.
 
 ### **Normal Operation**
 
-During normal operation, the Security Council is intended to act as an oracle for the Optimism Governance process: initiating protocol upgrades and changing role designations (such as designations for the Sequencer, Proposer, and Challenger roles, as well as designating the composition of the participants on the Security Council multisig), solely as directed by Optimism Collective governance outcomes.
+During normal operation, the Security Council is intended to act as an oracle for the Optimism Governance process: initiating protocol upgrades and changing role designations (such as designations for the Sequencer, Proposer, and Challenger roles, as well as designating the composition of the participants on the Security Council multisig), solely as directed by Optimism Collective governance outcomes. Changes to the composition of the Security Council multisig follow the Council Lead’s appointment and the Token House’s confirmation process described below.
 
 Council participants are expected to verify that a proposed protocol upgrade or role designation decision has been approved by Optimism Governance. They are not expected to directly evaluate the “merit” of the accompanying proposed code (e.g., for security purposes).
 
@@ -78,25 +78,17 @@ The Council’s responsibility to perform a Challenger role is intended to be re
 ## **Participants**
 This section describes the expectations for Security Council participants, including both key holders and the Council Lead.
 
-### **Cohorts and Election Terms**
+### **Lead Election, Appointment, and Terms**
 
-Security Council participants will serve in two cohorts, subject to recurring, staggered re-election periods. The initial Cohort 1 (at least 50% of the total number of participants) will serve for 12 months. The initial Cohort 2 (the remaining participants) will serve for 18 months. These initial cohorts of Security Council participants will be proposed by the Optimism Foundation, subject to ratification by the Token House.
+**Lead election:** The Council Lead is elected by the Token House through an Elections proposal using approval voting, with one seat. The election runs a one-week nomination period followed by a one-week vote.
 
-Six months prior to the expiration of the cohorts’ respective terms, there will be elections to replace or renew the signers in that cohort. All subsequently elected cohorts will serve a 12 month term. Elections are expected to follow the standard election format used for all Councils in the Collective.
+**Appointment:** The Council Lead nominates the key holding participants, applying the requirements defined in the Security Council Member Selection Criteria. Before a nomination is posted, the Optimism Foundation completes eligibility screening for the nominee. Each nominee is submitted as a separate Council Appointment proposal with a one-week review period and a one-week veto period. An appointment is vetoed if veto votes reach 20% of active votable OP supply. A vetoed nominee is not seated, and the Council Lead nominates a replacement.
 
 Participants are subject to eligibility screening prior to joining the Council and receiving signing authorization on the multisig (see “Participants – Eligibility,” below). There is no limit to the number of terms a Security Council participant may serve.
 
 ### **Eligibility**
 
-Participants on the Security Council should be selected in accordance with the following criteria:
-
-- **Technical competency.** Baseline proficiency with the OP Stack and secure key management and signing standards.
-- **Reputation.** Known, trusted individuals or entities that have demonstrated consistent alignment with the Optimistic Vision.
-- **Geographic diversity.** The number of participants that reside in any country should be less than the quorum required for multisig action. To avoid requiring participants to publicly disclose their physical locations, this requirement will be enforced by the Optimism Foundation as part of the eligibility screening process.
-- **Diversity of interests.** No more than 1 participant is associated with a particular entity, or that entity’s employees or affiliates.
-- **Alignment.** Participants should not possess conflicts of interest that will regularly impact their ability to make impartial decisions in the performance of their role.
-
-In addition, all participants will be required to pass an eligibility screening process before being added to the Council. This process may include KYC/AML and sanctions screening and a requirement that the member sign a standard contract, which will be implemented at the discretion of the Optimism Foundation.
+Participants on the Security Council need to be selected in accordance with the criteria outlined in the [Security Council Member Selection Criteria](./Security%20Council%20Member%20Selection%20Criteria%20v0.1.md) document. The Council Lead may not nominate a candidate whose appointment would breach the Security Council Member Selection Criteria.
 
 ### **Responsibilities**
 
@@ -116,7 +108,8 @@ The Council Lead, meanwhile, is responsible for supporting the implementation an
 - Managing required timelines;
 - Scheduling, setting agendas, and hosting Council meetings and facilitating discussions;
 - Monitoring compliance with the procedures;
-- Onboarding new Council participants; and
+- Onboarding new Council participants;
+- Recruiting and nominating key holding participants, and nominating replacements when seats become vacant; and
 - Communicating with external stakeholders, including Optimism Governance, as to Council operations.
 All Security Council participants are expected to perform these responsibilities with the awareness that OP Chains, the OP Stack, the developing Superchain, and the associated products, tools, and documentation are in a rapidly evolving nascent state. To the extent that unforeseeable circumstances or ambiguities arise (including in connection with potential responses to Exception Events), the participants will work in good faith to resolve them consistent with this Charter and the Law of Chains.
 
@@ -124,21 +117,21 @@ Finally, all Security Council participants are also responsible for complying wi
 
 ### **Accountability**
 
-The Security Council is accountable to Optimism Governance. The Token House may vote to remove Security Council members at any time for severe violations of the Code of Conduct.
+The Security Council is accountable to Optimism Governance. The Token House may vote to remove Security Council members at any time for severe violations of the Code of Conduct. The Token House may also remove the Council Lead through a Representative Removal proposal, in which case a new Lead election is held.
 
 The Security Council can also act unilaterally to remove a participant who fails to satisfy the requirements of this Charter if such failure falls within the defined scope of the Council’s emergency powers (see “Structure – Emergency Response” above).
 
-Governance votes for removal of a Security Council participant for violation of the Code of Conduct will occur before the end of the next voting cycle (a delay of 3 weeks maximum). A contingent vote for their replacement on the Council will run in the same voting cycle.
+Governance votes for removal of a Security Council participant for violation of the Code of Conduct will occur before the end of the next voting cycle. The Council Lead will nominate a replacement through a Council Appointment proposal.
 
-Security Council members may be removed for failure to satisfy the requirements of this Charter immediately via an Emergency Response. A vote for their replacement on the Council would run in the next nearest voting cycle.
+Security Council members may be removed for failure to satisfy the requirements of this Charter immediately via an Emergency Response. The Council Lead will nominate a replacement through a Council Appointment proposal.
 
-Additionally, if a Security Council key holder fails to prove access to their keys by satisfying the requirements of a scheduled liveness check (see “Participants – Responsibilities,” above), that participant will be automatically removed from the Council. A vote for their replacement on the Council would run in the next nearest voting cycle.
+Additionally, if a Security Council key holder fails to prove access to their keys by satisfying the requirements of a scheduled liveness check (see “Participants – Responsibilities,” above), that participant will be automatically removed from the Council. The Council Lead will nominate a replacement through a Council Appointment proposal.
 
 Any time a key holder is removed from the Council, the threshold may also be reduced to as long as the ratio of the threshold to the number of signers remains above 75%. If the number of signers is reduced below 8, then a safety mechanism is activated which hands control of the Security Council to the Foundation.
 
 ### **Budget**
 
-Initially, the Optimism Foundation will cover member expenses and may provide members with a stipend. The Security Council will not request a budget from the Governance Fund at this time.
+The Council Lead is expected to propose operating budgets for the Security Council every 12 months, with the opportunity for a re-adjustment proposal after 6 months. The Security Council operates a dedicated budget multisig managed by the Council Lead, from which Council compensation is paid. Recipients must complete KYC/KYB before payment.
 
 ## **Iteration**
 The canonical version of the Charter will be published to GitHub. Any material updates to the Charter will be reflected with a new version number at the top of this document, at which point the updated version will go into effect.

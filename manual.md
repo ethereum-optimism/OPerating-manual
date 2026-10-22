@@ -1,6 +1,6 @@
 This document describes the current governance proposal process of the Optimism Collective. It will evolve, with the Collective, over time. The authoritative version is maintained [here](https://github.com/ethereum-optimism/Operating-manual) on the ethereum-optimism Github.
 
-### **Operating Manual v2.0.0**
+### **Operating Manual v2.1.0**
 
 The Optimism Collective is governed by the Token House.
 
@@ -24,9 +24,9 @@ These tools or their uses may change over time as governance evolves. While voti
 
 The Collective makes decisions through governance proposals. Proposals are accepted or rejected using a voting process. The proposal must be one of the valid proposal types listed in the table below, and it must follow the voting process described here.
 
-Governance proposals typically undergo a three-week cycle, with some exceptions as outlined below. All public voting periods last 7 days.
+Governance proposals typically undergo a two-week cycle, with some exceptions as outlined below. All public voting periods last 7 days.
 
-Each “Voting Cycle” runs from Thursday at 19:00p GMT (12p PST) until Wednesday at 19:00 GMT (12p PST). All governance votes correspond to regular Voting Cycles, which you can reference [here](https://calendar.google.com/calendar/embed?src=c_4hui70itm089e7t8q50heh1kno%40group.calendar.google.com&ctz=Europe%2FBerlin), with the exception of Protocol Upgrades which may begin the process described below at any point in time. Once a valid Protocol Upgrade draft has been posted to the forum, a governance administrator will add a comment with the date the proposal will move to a vote, subject to the required approvals.  
+Each “Voting Cycle” runs from Thursday at 19:00p GMT (12p PST) until Wednesday at 19:00 GMT (12p PST). All governance votes correspond to regular Voting Cycles, which you can reference [here](https://calendar.google.com/calendar/embed?src=c_4hui70itm089e7t8q50heh1kno%40group.calendar.google.com&ctz=Europe%2FBerlin), with the exception of Protocol Upgrades which may begin the process described below at any point in time.
 
 
 ### **All Other Proposal Types**
@@ -68,28 +68,31 @@ If a proposal is submitted for a vote and does not pass, but is not vetoed, the 
 
 The different requirements for submission and approval of each Proposal Type are summarized below.  If a specific template is not specified below, proposals should follow this [standard proposal template.](https://gov.optimism.io/t/standard-proposal-template-optimism-token-house/5443) All governance proposals must fall within one of the following categories. Additional proposal types may be added in future Seasons, according to the Change Process outlined below. 
 
-**Duration:** Most proposals go through a two-week review period and a one week voting or veto period. Exceptions:
+**Duration:** Most proposals go through a one-week review period and a one week voting or veto period. Exceptions:
 
 - Maintenance upgrades do not go through a review period, but move straight to one-week veto period.
-- The Protocol Upgrade process has a one week stakeholder veto period. 
+- The Protocol Upgrade process has a one week stakeholder veto period.
+- Council Appointment proposals go through a one-week review period and a one-week veto period.
+- The Security Council Lead election runs a one-week nomination period followed by a one-week vote.
 
-**Quorum:** All votes require 30% quorum. 
+**Quorum:** All votes require 30% quorum, except for veto proposals.
 
 Depending on the Proposal Type, exact approval and veto threshold requirements may vary. Please note all thresholds may be adjusted iteratively. 
 | **Proposal Type** | **Description** | **Proposer** | **Voting Type** | **Approval Threshold** | **Veto Threshold**** | Duration |
 | --- | --- | --- | --- | --- | --- | --- |
 | Maintenance Upgrade Proposals* | Protocol maintenance required to continue network operations on a shorter timescale than voting periods, e.g. to react to L1 hard forks or to perform bugfixes and maintenance on a shorter timeframe. Must not materially change the behavior of the protocol for end users, infra providers, or chain governors. | Permissionless | Optimistic approval | N/A | 20% | One week veto period |
 | Code of Conduct Violation | Code of Conduct enforcement actions (including grant policy violations) will be subject to veto | Enforcing party outlining actions | Optimistic approval | N/A | 20% | One week veto period |
+| Council Appointment | Confirmation of an individual Security Council participant appointed by the Council Lead. | Security Council Lead | Optimistic approval | N/A | 20% | One week review period; one week veto period |
 | Protocol and Governor Upgrades | Scheduled changes to the  mainnet Optimism protocol (smart contracts and/or hardforks) or governance contract. | Permissionless | N/A | Veto | N/A | One week veto period |
-| Treasury Appropriations | The amount of OP the Optimism Foundation may spend or distribute annually beyond the 30% of the initial total OP supply | Foundation | Active approval | 51% | No veto | Two week review period; one week voting period |
-| Ratification | Ratification of governance documents. | Foundation | Active approval | 51% | No veto | Two week review period; one week voting period |
-| Council Dissolution | A Council may be dissolved if it is no longer fulfilling its Charter | Permissionless | Active approval | 51% | No veto | Two week review period; one week voting period |
-| Representative Removal | Council members may be removed from their position for failing to uphold the responsibilities outlined in the relevant Charter or to act with honesty and transparency, in accordance with the [Rules of Engagement](https://gov.optimism.io/t/rules-of-engagement-2-0/5728), including by refraining from engaging in self-dealing. | Permissionless | Active approval | 51% | No veto | Two week review period; one week voting period |
-| Director Removal | Removal of a director of the Optimism Foundation. | Permissionless | Active approval | 76% | No veto | Two week review period; one week voting period |
-| Rights Protections | OP holders must consent to any changes to the founding documents of the Optimism Foundation, if those changes would materially reduce their rights. | Foundation | Active approval | 51% | No veto | Two week review period; one week voting period |
-| Sequencer ETH: Passive Management | Passive management of sequencer ETH accruing to the Collective treasury. | Foundation | Active approval | 51% | No veto | Two week review period; one week voting period |
-| Elections | Electing representatives to Councils or Boards. | All qualified candidates | Approval voting | N/A | No veto | Two week review period; one week voting period |
-| Inflation | Changes to the inflation rate of newly minted OP (currently capped at 2% annually) | Permissionless | Active approval | 76% | N/A | Two week review period; one week voting period; one week veto period |
+| Treasury Appropriations | The amount of OP the Optimism Foundation may spend or distribute annually beyond the 30% of the initial total OP supply | Foundation | Active approval | 51% | No veto | One week review period; one week voting period |
+| Ratification | Ratification of governance documents. | Foundation | Active approval | 51% | No veto | One week review period; one week voting period |
+| Council Dissolution | A Council may be dissolved if it is no longer fulfilling its Charter | Permissionless | Active approval | 51% | No veto | One week review period; one week voting period |
+| Representative Removal | Council members may be removed from their position for failing to uphold the responsibilities outlined in the relevant Charter or to act with honesty and transparency, in accordance with the [Rules of Engagement](https://gov.optimism.io/t/rules-of-engagement-2-0/5728), including by refraining from engaging in self-dealing. | Permissionless | Active approval | 51% | No veto | One week review period; one week voting period |
+| Director Removal | Removal of a director of the Optimism Foundation. | Permissionless | Active approval | 76% | No veto | One week review period; one week voting period |
+| Rights Protections | OP holders must consent to any changes to the founding documents of the Optimism Foundation, if those changes would materially reduce their rights. | Foundation | Active approval | 51% | No veto | One week review period; one week voting period |
+| Sequencer ETH: Passive Management | Passive management of sequencer ETH accruing to the Collective treasury. | Foundation | Active approval | 51% | No veto | One week review period; one week voting period |
+| Elections | Electing representatives to Councils or Boards. For the Security Council, only the Council Lead is elected. Key holding participants are appointed by the Lead (see Council Appointment). | All qualified candidates | Approval voting | N/A | No veto | One week review period; one week voting period |
+| Inflation | Changes to the inflation rate of newly minted OP (currently capped at 2% annually) | Permissionless | Active approval | 76% | N/A | One week review period; one week voting period; one week veto period |
 
 *The Maintenance Upgrade Proposal Type is needed because L1 releases may not align with Optimism’s standard voting cycles. 
 
@@ -109,16 +112,18 @@ A snapshot to determine voting power for each delegate will be taken at the comm
 
 Elections works as described below:  
 
-- All Elections utilize approval voting. Approval voting is a voting method in which each voter can cast their full voting power for as many candidates as they chose. The top [X] candidates, by number of votes, will be elected, so long as they meet quorum requirements. 
-- In the case an elected member declines their position before the start of a term, the runner-up will be offered their place. 
-- If a member wishes to resign before the end of their term, they must appoint a replacement and communicate this change on the forum at least 7 days prior to this change taking effect.
-- If there is a vote to remove a member, the Lead, or a simple majority of the remaining membership, may appoint a replacement for the remainder of the term.
+- All Elections utilize approval voting. Approval voting is a voting method in which each voter can cast their full voting power for as many candidates as they chose. The top [X] candidates, by number of votes, will be elected, so long as they meet quorum requirements. For the Security Council, X = 1: only the Council Lead is elected.
+- In the case an elected member declines their position before the start of a term, the runner-up will be offered their place. For the Security Council, this applies to the Council Lead.
+- If a member wishes to resign before the end of their term, they must appoint a replacement and communicate this change on the forum at least 7 days prior to this change taking effect. For Security Council key holding participants, the resigning participant notifies the Council Lead, who nominates a replacement through a Council Appointment proposal.
+- If there is a vote to remove a member, the Lead, or a simple majority of the remaining membership, may appoint a replacement for the remainder of the term. For the Security Council, the Council Lead nominates the replacement, subject to a Council Appointment proposal. If the Council Lead is removed, a new Lead election is held.
 - Unless otherwise specified in a Charter, in the event membership falls below a pre-determined threshold, or to half of the original membership, operations will temporarily cease, or be transferred to the Foundation. In this case, the Foundation will facilitate a process with the community to assess the best way to proceed.
 - Members should only serve in one position per Season. There are no term limits for members, but they may be implemented in the future if the need arises.
 
 ## **Veto Procedure**
 
-Casting a veto is a serious decision. In cases, when an approved proposal is vetoed, it will not be enacted and instead will enter into an appeals process. The appeals process consists of a one-week discussion period after which proposals may be re-submitted to vote. In the case of Protocol Upgrades, vetoing an approved proposal may have serious consequences on engineering timelines and milestones.  
+Casting a veto is a serious decision. In cases, when an approved proposal is vetoed, it will not be enacted and instead will enter into an appeals process. The appeals process consists of a one-week discussion period after which proposals may be re-submitted to vote. In the case of Protocol Upgrades, vetoing an approved proposal may have serious consequences on engineering timelines and milestones.
+
+Council Appointment proposals: When an appointee is vetoed, that appointee is not seated and the appeals process above does not apply. The Council Lead nominates a replacement through a new Council Appointment proposal. Vetoing one appointee does not affect other appointees.
 
 ## **Implementation and Administration**
 
@@ -136,7 +141,7 @@ The Optimism Foundation will facilitate the administration of the governance pro
 - Such other things as the Foundation deems appropriate in connection with the above.
 
 **Implementation**
-Valid Token Allocation Proposals related to the Governance Fund are automatically implemented via onchain execution. The Security Council will enact officially approved Upgrades. All other approved governance proposals will be routed to the Optimism Foundation for implementation.
+Valid Token Allocation Proposals related to the Governance Fund are automatically implemented via onchain execution. The Security Council will enact officially approved Upgrades. Confirmed changes to Security Council membership are executed by the Security Council as designation changes after the veto period of the relevant Council Appointment proposal closes without a successful veto. All other approved governance proposals will be routed to the Optimism Foundation for implementation.
 
 Upon receipt of an approved proposal, the Optimism Foundation will determine whether the proposal is safe, secure, consistent with the purposes of the Foundation and the Collective, and capable of being implemented in a legally compliant manner (including completing KYC).
 
@@ -147,12 +152,12 @@ The Optimism Foundation will undertake this ministerial work with a view towards
 
 ### **Change Process**
 
-The procedures described in this Operating Manual will go into effect as releases are published on GitHub. Major releases to the manual will be made in connection with a series of governance experiments (“Seasons”). These changes include but are not limited to the reduction or expansion of the Citizens’ House or adding and modifying Proposal Types and rules relating to voting processes. Only the removal of a proposal type requires a governance vote. Any non-clerical updates to the Operating Manual will be reflected with a new version number at the top of this document, at which point the updated version will go into effect.
+The procedures described in this Operating Manual will go into effect as releases are published on GitHub. Major releases to the manual will be made in connection with a series of governance experiments (“Seasons”). These changes include adding and modifying Proposal Types and rules relating to voting processes. Only the removal of a proposal type requires a governance vote. Any non-clerical updates to the Operating Manual will be reflected with a new version number at the top of this document, at which point the updated version will go into effect.
 
 ## Process TLDR
-- Proposals are reviewed over a three week voting cycle (some exceptions apply). For example, Protocol or Governor Upgrades do not need to occur during regular Voting Cycles. 
-- For other permissionless proposal types, you may draft a proposal based on [this](https://gov.optimism.io/t/standard-proposal-template-optimism-token-house/5443) template and post it on the Forum with [Draft] in the title for feedback. Delegates and/or Citizens will provide feedback on your proposal in the forum. Use your judgment to incorporate feedback.
-- Once a valid proposal has been approved by four top 100 delegates or four Citizens, tag a governance administrator to add your proposal to the nearest Voting Cycle. Proposals initiated by the Foundation do not require approvals.
+- Proposals are reviewed over a two week voting cycle (some exceptions apply). For example, Protocol or Governor Upgrades do not need to occur during regular Voting Cycles. 
+- For other permissionless proposal types, you may draft a proposal based on [this](https://gov.optimism.io/t/standard-proposal-template-optimism-token-house/5443) template and post it on the Forum with [Draft] in the title for feedback. Delegates will provide feedback on your proposal in the forum. Use your judgment to incorporate feedback.
+- Once a valid proposal has been approved by four top 100 delegates, tag a governance administrator to add your proposal to the nearest Voting Cycle. Proposals initiated by the Foundation do not require approvals.
 - If your proposal is passed, the Optimism Foundation will facilitate its administration. The Foundation will be in touch to collect additional information from your project in order to execute the proposal or grant, including information to perform KYC.
 - If your proposal fails, you can make a new proposal in the next cycle specifying how you have incorporated significant changes from your first proposal.
 

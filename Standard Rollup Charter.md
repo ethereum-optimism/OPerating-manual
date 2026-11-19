@@ -101,6 +101,19 @@ For convenience, the Configuration Check in the above criteria permits either th
 
 In the event that a Chain Servicer stops fulfilling the wishes of the Chain Governor for those values which the Law of Chains states they should be able to control, or refuses to transfer control of the `SystemConfigOwner` role in the event that the Chain Governor desires to switch to a different servicer, then the Chain Governor may submit a vote to Optimism Governance to have the Security Council recover the role to an account they control.
 
+### Upgrade Authority Transfer
+As further set forth herein, a Chain Governor may request that upgrade authority for its chain be transferred from the Security Council to an address specified by the Chain Governor. Given the significant potential risks and impact on a chain’s security model, the mechanics, notice requirements, and procedures may be further agreed to between the Chain Governor and the Optimism Foundation, including via a legal agreement, and nothing herein should be construed as superseding or modifying such arrangements or any limitations on when a Chain Governor may request a transfer.   
+
+The Optimism Foundation shall publish notice of a valid request on the Optimism Governance Forum. Such notice should identify the relevant chain, Chain ID, and material L1 contract address or addresses. The notice should also state that, if the transfer is effectuated, the chain will cease to be a Standard Rollup under this Charter.
+Following publication of such notice, the Security Council shall wait no less than 30 days before effectuating the transfer. After the 30-day period has elapsed, the Security Council is hereby directed and authorized to promptly enact the transaction to transfer the upgrade authority, and cooperate with the Optimism Foundation and the Chain Governor as appropriate. The Security Council should verify that:
+1. The notice was published by the Optimism Foundation
+2. No less than 30 days have elapsed since publication of the notice
+3. The transfer is made to the recipient address specified by the Optimism Foundation on behalf of the Chain Governor
+
+Upon effectuation of the transfer, the chain ceases to be a Standard Rollup under this Charter. From that point forward, Optimism Governance and the Security Council no longer retain the same practical ability to enforce the governing policies of this Charter through the relevant upgrade authority.
+No additional Optimism Governance approval is required to effectuate a transfer under this section once the Optimism Foundation has published the required notice and the 30-day notice period has elapsed.
+
+
 ### Sequencer Censorship
 In the event that a sequencer is determined to be maliciously censoring valid user transactions, or experiencing unreasonable downtime impacting applications on the chain, they are violating the User Protection of[ Security, Uptime, and Liveness](https://github.com/ethereum-optimism/OPerating-manual/blob/main/Law%20of%20Chains.md#:~:text=a%20timely%20manner.-,Security%2C%20Uptime%2C%20and%20Liveness,-%3A%20Block%20production) in the Law of Chains.
 
